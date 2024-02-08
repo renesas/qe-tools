@@ -6,7 +6,6 @@
 	<SampleProject>
 		<DeviceName>RA6T1</DeviceName>
 		<ProjectFolderName>RA6T1_ESB_SPM_LESS_FOC_E2S_V101</ProjectFolderName>
-		<ProjectDescriptionName>RA6T1_ESB_SPM_LESS_FOC_E2S_V101</ProjectDescriptionName>
 		<ProjectName 
 		en="Sensorless Vector Control for Permanent Magnet Synchronous Motor" 
 		jp="永久磁石同期モータのセンサレスベクトル制御" />
