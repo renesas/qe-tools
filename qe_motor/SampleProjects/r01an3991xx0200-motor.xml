@@ -6,6 +6,7 @@
 	<SampleProject>
 		<DeviceName>RL78/G1F</DeviceName>
 		<ProjectFolderName>RL78G1F_MRSSK_LESS_FOC_E2S_CC_V200</ProjectFolderName>
+		<ProjectDescriptionName>RL78G1F_MRSSK_LESS_FOC_E2S_V200</ProjectDescriptionName>
 		<ProjectName 
 		en="RL78/G1F Sensorless vector control for permanent magnetic synchronous motor" 
 		jp="RL78/G1F 永久磁石同期モータのセンサレスベクトル制御"/>
