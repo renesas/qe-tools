@@ -6,6 +6,7 @@
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>
 		<ProjectFolderName>RA4T1_MCILV1_SPM_HALL_FOC_E2S_V100</ProjectFolderName>
+		<ProjectDescriptionName>RA4T1_MCILV1_SPM_HALL_FOC_E2S_V100</ProjectDescriptionName>
 		<ProjectName 
 		en="Vector control for permanent magnetic synchronous motor with hall sensors" 
 		jp="永久磁石同期モータのホールセンサベクトル制御" />
