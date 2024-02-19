@@ -3,6 +3,7 @@
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
 	<Category en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/rl78g1f-sensorless-vector-control-permanent-magnetic-synchronous-motor-using-high-voltage-inverter/r01an6419xx0220-rl78g1f-motor.zip</ZipDownloadUrl>
+	<Date>2022-06-01</Date>
 	<SampleProject>
 		<DeviceName>RL78/G1F</DeviceName>
 		<ProjectFolderName>RL78G1F_T1003_1S_LESS_FOC_E2S_CC_V220</ProjectFolderName>
