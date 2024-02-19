@@ -4,6 +4,7 @@
 	<Category en="Vector control" jp="ベクトル制御" />
 	<Category en="1-shunt current detection method" jp="1シャント抵抗電流検出方式" />
 	<ZipDownloadUrl>/document/scd/vector-control-magnetic-synchronous-motor-hall-sensors-1shunt-current-detection-motor-flexible/r01an6979xx0100-ra-motor.zip</ZipDownloadUrl>
+	<Date>2023-08-04</Date>
 	<SampleProject>
 		<DeviceName>RA6T2</DeviceName>
 		<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_FOC_1SHUNT_E2S_V100</ProjectFolderName>
