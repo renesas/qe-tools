@@ -3,6 +3,7 @@
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
 	<Category en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev110/r01an6858xx0110-rx-sensorlessFOC.zip</ZipDownloadUrl>
+	<Date>2023-08-29</Date>
 	<SampleProject>
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_E2S_V110</ProjectFolderName>
