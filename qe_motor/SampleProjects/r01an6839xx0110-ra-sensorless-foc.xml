@@ -3,6 +3,7 @@
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
 	<Category en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/sensorless-vector-control-permanent-magnet-synchronous-motor-mckmcb-ra-family-sample-code/r01an6839xx0110-ra-sensorless-foc.zip</ZipDownloadUrl>
+	<Date>2024-01-23</Date>
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>
 		<ProjectFolderName>RA4T1_MCILV1_SPM_LESS_FOC_E2S_V100</ProjectFolderName>
