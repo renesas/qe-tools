@@ -3,6 +3,7 @@
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
 	<Category en="120-degree conduction control" jp="120度通電制御" />
 	<ZipDownloadUrl>/document/scd/rl78g1f-sensorless-120-degree-conducting-control-permanent-magnetic-synchronous-motor-high-speed/r01an5630xx0100-rl78g1f-motor.zip</ZipDownloadUrl>
+	<Date>2020-10-20</Date>
 	<SampleProject>
 		<DeviceName>RL78/G1F</DeviceName>
 		<ProjectFolderName>RL78G1F_GB_SPM_120HS_E2S_CC_V100</ProjectFolderName>
