@@ -4,6 +4,7 @@
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
 	<Category en="Hall sensor feedback" jp="ホールセンサフィードバック" />
 	<ZipDownloadUrl>/document/scd/rl78g1f-120-degree-conducting-control-permanent-magnetic-synchronous-motor-implementation-sample/r01an5114xx0200-rl78g1f-motor.zip</ZipDownloadUrl>
+	<Date>2020-04-01</Date>
 	<SampleProject>
 		<DeviceName>RL78/G1F</DeviceName>
 		<ProjectFolderName>RL78G1F_MRSSK_120_E2S_CC_V200</ProjectFolderName>
