@@ -3,6 +3,7 @@
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
 	<Category en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/ra6t1-sensorless-vector-control-permanent-magnetic-synchronous-motor-implementation-sample-code/r01an5558xx0111-motor.zip</ZipDownloadUrl>
+	<Date>2022-10-18</Date>
 	<SampleProject>
 		<DeviceName>RA6T1</DeviceName>
 		<ProjectFolderName>RA6T1_ESB_SPM_LESS_FOC_E2S_V101</ProjectFolderName>
