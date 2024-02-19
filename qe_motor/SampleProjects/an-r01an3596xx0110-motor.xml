@@ -3,6 +3,7 @@
 	<Category en="Initial position detection" jp="初期位置検出" />
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
 	<ZipDownloadUrl>/document/scd/sensorless-detection-initial-position-rotor-rev110-sample-code/an-r01an3596jj0110-motor.zip</ZipDownloadUrl>
+	<Date>2017-10-02</Date>
 	<SampleProject>
 		<DeviceName>RL78/G1F</DeviceName>
 		<ProjectFolderName>RL78G1F_MRSSK_SPM_DETECT_INIT_POSI_E2S_CC_V110</ProjectFolderName>
