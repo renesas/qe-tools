@@ -4,6 +4,7 @@
 	<Category en="Vector control" jp="ベクトル制御" />
 	<Category en="1-shunt current detection method" jp="1シャント抵抗電流検出方式" />
 	<ZipDownloadUrl>/document/scd/sensorless-vector-control-one-shunt-permanent-magnet-synchronous-motor-mckmcb-ra-family-sample-code/r01an6840xx0110-ra-sensorless-foc-1shunt.zip</ZipDownloadUrl>
+	<Date>2024-01-23</Date>
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>
 		<ProjectFolderName>RA4T1_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
