@@ -192,8 +192,8 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_E2S_V100</ProjectFolderName>
 		<ProjectName
-		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK"
-		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用"
+		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK(RAM48KB)"
+		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK(RAM48KB)用"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev110</ApplicationNoteUrl>
 		<Description
@@ -254,8 +254,8 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_TUNER_E2S_V100</ProjectFolderName>
 		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
 		<ProjectName
-		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK (for tuning program generation)"
-		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用 (チューニングプログラム作成用)"
+		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK(RAM48KB) (for tuning program generation)"
+		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK(RAM48KB)用 (チューニングプログラム作成用)"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev110</ApplicationNoteUrl>
 		<Description
@@ -319,8 +319,8 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
 		<ProjectName
-		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK (1-shunt)"
-		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用 (1シャント)"
+		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK(RAM48KB) (1-shunt)"
+		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK(RAM48KB)用 (1シャント)"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev110</ApplicationNoteUrl>
 		<Description
