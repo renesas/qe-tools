@@ -16,8 +16,8 @@
       "installSize": 1000,
       "downloadInfo": {
         "uri": "http://tool-support.renesas.com/e2studio/qe/tools/fsp-visu-resources-v510.zip",
-        "size": 1050050,
-        "hash": "53fca3a4d585f8c65dd54618ea6b9160ef3de64db14067fdf63d1ed94dfe928cc17b26b18f158feee6d9d883931e42063c89686b8c518396dcbc599baf277601"
+        "size": 117775,
+        "hash": "f5c26b2cf90d90a5c2ce035c256d509887a5b60e1b74ff2662b5312faf0986e28fe40502e5f2ead07baedf3911239af33543b471b8976791e5a698feb2e7df5c"
       },
       "filter": "(|(family=*ra;*))",
       "extractSteps": [
