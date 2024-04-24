@@ -1,0 +1,46 @@
+body.light {
+	--body-background-color: #fff;
+	--body-color: black;
+}
+
+body.dark {
+	--body-background-color: #333333;
+	--body-color: white;
+}
+
+body {
+	background-color: var(--body-background-color);
+	font-family: "Arial", "メイリオ";
+	font-style: normal;
+	font-size: 10pt;
+	color: var(--body-color);
+}
+
+h4 {
+	font-style: bold;
+	color: white;
+	background-color: #2a289d;
+	padding: 5px;
+	margin: 0.5em 0;
+}
+
+h5 {
+	font-style: bold;
+	color: var(--body-color);
+	font-size: 95%;
+	margin: 0 0;
+	padding: 2px;
+}
+
+ul {
+	margin: 0 0 1px 5px;
+	padding-left: 10px;
+}
+
+ul li {
+	font-weight: bold;
+}
+
+ul li.cls-highlight {
+	color: red;
+}
