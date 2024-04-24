@@ -29,7 +29,7 @@
             <Function>Analyzer</Function>
         </Functions>
         <DcoumentNumber>R01AN6980EJ0100</DcoumentNumber>
-		<Description 
+	<Description 
 		en="
 [Description]&#10;
 This project is the software for hall sensor/sensorless vector control that drives dual permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller.&#10;
