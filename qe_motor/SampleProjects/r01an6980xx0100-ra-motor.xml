@@ -14,19 +14,19 @@
 		<ApplicationNoteUrl>/document/apn/hall-sensorsensorless-vector-control-dual-permanent-magnetic-synchronous-motor-motor-flexible/</ApplicationNoteUrl>
         <ProjectDescription>This project is the software for hall sensor/sensorless vector control that drives dual permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller.</ProjectDescription>
         <Features>
-            <Feature>Sensorless feedback</Feature>
-            <Feature>Hall sensor feedback</Feature>
-            <Feature>Vector control</Feature>
+            <Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+            <Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+            <Feature en="Vector control" jp="ベクトル制御"/>
         </Features>
         <Setups>
-            <Setup>CPU board :RA6T2(R7FA6T2BD3CFP) CPU board (RTK0EMA270C00000BJ)</Setup>
-            <Setup>Inverter board : MCI-LV-1 x2</Setup>
-            <Setup>Communication board : MC-COM</Setup>
-            <Setup>Motor : R42BLD30L3 x2</Setup>
+            <Setup en="CPU board :RA6T2(R7FA6T2BD3CFP) CPU board (RTK0EMA270C00000BJ)" jp="CPUボード : RA6T2(R7FA6T2BD3CFP) CPUボード (RTK0EMA270C00000BJ)"/>
+            <Setup en="Inverter board : MCI-LV-1 x2" jp="インバータボード : MCI-LV-1 x2&#10"></Setup>
+            <Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+	    <Setup en="Motor : R42BLD30L3 x2" jp="永久磁石同期モーター : R42BLD30L3 x2"></Setup>
         </Setups>
         <Functions>
-            <Function>SW configuration</Function>
-            <Function>Analyzer</Function>
+            <Function en="SW configuration" jp="SW configuration"/>
+	    <Function en="Analyzer" jp="Analyzer"/>
         </Functions>
         <DocumentNumber>R01AN6980EJ0100</DocumentNumber>
 	<Description 
