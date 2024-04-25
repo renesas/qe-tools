@@ -11,6 +11,21 @@
 		en="Sensorless Vector Control for Permanent Magnet Synchronous Motor" 
 		jp="永久磁石同期モータのセンサレスベクトル制御" />
 		<ApplicationNoteUrl>/document/apn/ra6t1-sensorless-vector-control-permanent-magnet-synchronous-motor-implementation/</ApplicationNoteUrl>
+        	<ProjectDescription en="This project is the sample program for a permanent magnetic synchronous motor drive with sensorless vector control based on Renesas RA6T1 microcontroller." 
+         	jp="RA6T1マイクロコントローラで永久磁石同期モータ(PMSM)を駆動するセンサレスベクトル制御ソフトウェアのサンプルプログラムです。"/>
+	    	<Features>
+		        <Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+		        <Feature en="Vector control" jp="ベクトル制御"/>
+	    	</Features>
+	    	<Setups>
+	       	 	<Setup en="CPU card : RA6T1(R7FA6T1AD3CFP) CPU card (RTK0EMA170C00000BJ)" jp="CPUカード : RA6T1(R7FA6T1AD3CFP) CPUカード (RTK0EMA170C00000BJ)"/>
+	        	<Setup en="Inverter board : 48V inverter board (RTK0EM0000B10020BJ)" jp="インバータボード : 48V系インバータボード (RTK0EM0000B10020BJ)"/>
+		    	<Setup en="Motor : TG-55L-KA" jp="永久磁石同期モーター : TG-55L-KA"/>
+	    	</Setups>
+	    	<Functions>
+		    	<Function en="Analyzer" jp="Analyzer"/>
+	    	</Functions>
+	    	<DocumentNumber en="R01AN5558EJ0111" jp="R01AN5558JJ0111"/>
 		<Description 
 		en="
 [Description]&#10;
