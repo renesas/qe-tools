@@ -12,6 +12,20 @@
 		jp="永久磁石同期モータのセンサレス初期位置検出"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-detection-initial-position-rotor-rev110</ApplicationNoteUrl>
+		<ProjectDescription>This project is the sample programs of sensorless detection of initial position of the rotor in a permanent magnetic synchronous motor using the RL78/G1F microcontroller.</ProjectDescription>
+        	<Features>
+            		<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+            		<Feature en="Initial rotor position detection" jp="初期位置検出"/>
+        	</Features>
+        	<Setups>
+           		<Setup en="CPU card : RL78/G1F(R5F11BLEAFB) CPU card (RTK0EML240C03000BJ) or RL78/G1F CPU card T5103" jp="CPUボード : RL78/G1F(R5F11BLEAFB) CPUカード(RTK0EML240C03000BJ) または RL78/G1F CPUカード T5103"/>
+            		<Setup en="Inverter board : 24V Inverter board(RTK0EM0001B00012BJ)" jp="インバータボード : 24V系インバータボード(RTK0EM0001B00012BJ)"></Setup>
+	    		<Setup en="Permanent magnet synchronous motor : TG-55L" jp="永久磁石同期モータ : TG-55L"></Setup>
+        	</Setups>
+        	<Functions>
+	    		<Function en="Analyzer" jp="Analyzer"/>
+        	</Functions>
+        	<DocumentNumber>R01AN3596JJ0110</DocumentNumber>
 		<Description
 		en="
 [Description]&#10;
@@ -30,7 +44,7 @@ This project is the sample programs of sensorless detection of initial position 
  -Analyzer&#10;
 &#10;
 [Document Number]&#10;
- R01AN3596EJ0110&#10;
+ R01AN3596JJ0110&#10;
 "
 		jp="
 [概要]&#10;
