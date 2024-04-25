@@ -20,9 +20,9 @@
         </Features>
         <Setups>
             <Setup en="CPU board :RA6T2(R7FA6T2BD3CFP) CPU board (RTK0EMA270C00000BJ)" jp="CPUボード : RA6T2(R7FA6T2BD3CFP) CPUボード (RTK0EMA270C00000BJ)"/>
-            <Setup en="Inverter board : MCI-LV-1 x2" jp="インバータボード : MCI-LV-1 x2"></Setup>
+            <Setup en="Inverter board : MCI-LV-1 x2" jp="インバータボード : MCI-LV-1 x2"/>
             <Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
-	    <Setup en="Motor : R42BLD30L3 x2" jp="永久磁石同期モーター : R42BLD30L3 x2"></Setup>
+	    <Setup en="Motor : R42BLD30L3 x2" jp="永久磁石同期モーター : R42BLD30L3 x2"/>
         </Setups>
         <Functions>
             <Function en="SW configuration" jp="SW configuration"/>
