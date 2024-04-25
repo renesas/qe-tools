@@ -12,6 +12,21 @@
 		en="Sensorless vector control for dual permanent magnetic synchronous motor" 
 		jp="永久磁石同期モータのセンサレスベクトル制御 - 2モータ駆動" />
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-dual-permanent-magnetic-synchronous-motor-evaluation-system-bldc-motor-ra/</ApplicationNoteUrl>
+        <ProjectDescription en="This project is the sensorless vector control software that drives dual permanent magnetic synchronous motor (PMSM) using the RA6T1 microcontroller." jp="RA6T1マイクロコントローラ(MCU)を使用し、2個の永久磁石同期モータをベクトル制御で駆動するサンプルプログラムです。"/>
+	    <Features>
+	            <Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+	            <Feature en="Vector control" jp="ベクトル制御"/>
+	    </Features>
+	    <Setups>
+	            <Setup en="CPU card : RA6T1(R7FA6T1AD3CFP) CPU card (RTK0EMA170C00000BJ)" jp="CPUカード : RA6T1(R7FA6T1AD3CFP) CPUカード (RTK0EMA170C00000BJ)"/>
+	            <Setup en="Inverter board : 48V inverter board (RTK0EM0000B10020BJ) x2" jp="インバータボード : 48V系インバータボード (RTK0EM0000B10020BJ) x2"/>
+	            <Setup en="Motor : TG-55L-KA x2" jp="永久磁石同期モーター : TG-55L-KA x2"/>
+	    </Setups>
+	    <Functions>
+	            <Function en="SW configuration" jp="SW configuration"/>
+                <Function en="Analyzer" jp="Analyzer"/>
+	    </Functions>
+	    <DocumentNumber en="R01AN5905EJ0110" jp="R01AN5905JJ0110"/>
 		<Description 
 		en="
 [Description]&#10;
