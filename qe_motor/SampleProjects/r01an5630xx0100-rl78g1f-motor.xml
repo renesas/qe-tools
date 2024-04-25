@@ -12,6 +12,22 @@
 		jp="RL78/G1F 永久磁石同期モータのセンサレス120度通電制御 (高速回転)"
 		/>
 		<ApplicationNoteUrl>/document/apn/rl78g1f-sensorless-120-degree-conducting-control-permanent-magnetic-synchronous-motor-high-speed</ApplicationNoteUrl>
+        	<ProjectDescription en="This project is the sample programs for RL78/G1F microcontroller to drive a permanent magnet synchronous motor using high-speed rotation control by sensorless 120-degree conducting." 
+         	jp="RL78/G1Fマイクロコントローラを使用し、永久磁石同期モータをセンサレス120度通電による高速回転制御で駆動するサンプルプログラムです。"/>
+	    	<Features>
+	        	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+		    	<Feature en="120-degree conducting control" jp="120 度通電制御"/>
+            		<Feature en="High-speed rotation" jp="高速回転制御"/>
+	    	</Features>
+	    	<Setups>
+	       		<Setup en="Inverter board : RL78/G1F Motor Driver Board GB01" jp="インバータボード : RL78/G1F Motor Driver Board GB01"/>
+	        	<Setup en="Communication board : RTK0EMX6B0Z00000BJ or In Circuit Scope plus" jp="通信ボード : RTK0EMX6B0Z00000BJ または In Circuit Scope plus"/>
+		    	<Setup en="Motor : TF037C-2000-F" jp="モータ : TF037C-2000-F"/>
+	    	</Setups>
+	    	<Functions>
+		    	<Function en="Analyzer" jp="Analyzer"/>
+	    	</Functions>
+	    	<DocumentNumber en="R01AN5630EJ0100" jp="R01AN5630JJ0100"/>
 		<Description 
 		en="
 [Description]&#10;
