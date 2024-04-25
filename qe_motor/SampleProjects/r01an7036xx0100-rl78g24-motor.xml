@@ -12,6 +12,25 @@
 		en="RL78/G24 Sensorless vector control for permanent magnetic synchronous motor (1-shunt)" 
 		jp="RL78/G24 永久磁石同期モータのセンサレスベクトル制御 (1シャント)"/>
 		<ApplicationNoteUrl>/document/apn/rl78g24-sensorless-vector-control-permanent-magnetic-synchronous-motor</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sensorless vector control sample programs of the permanent magnetic synchronous motor (PMSM) using the RL78/G24 microcontroller.\nThe Current detection method is 1-shunt mode that detects DC link current."
+			jp="RL78/G24マイクロコントローラを使用した永久磁石同期モータ(PMSM)のセンサレスベクトル制御サンプルプログラムです。\n電流検出方式はDCリンク電流を検出する1シャントモードです。"/>
+			<Note en="The tuning function is not supported for this sample project even though the tuning function on the Workflow view of QE for Motor is enable when selecting this project as a target project." 
+			jp="QE for Motorのワークフロービューでは本プロジェクト選択時にチューニング機能が有効になりますが、本サンプルプログラムはチューニング機能に対応していません。"/>
+	        <Features>
+	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+			<Feature en="1-shunt current detection method" jp="1シャント抵抗電流検出方式"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU card : RL78/G24(R7F101GLG2DFB) CPU card (RTK0EMG240C00000BJ)" jp="CPUカード : RL78/G24(R7F101GLG2DFB) CPUカード (RTK0EMG240C00000BJ)"/>
+	            	<Setup en="Inverter board : LVI400 (RTK0EMGPLVB00000BJ)" jp="インバータボード : LVI400 (RTK0EMGPLVB00000BJ)"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Permanent magnet synchronous motor : TG-55L" jp="永久磁石同期モータ : TG-55L"/>
+	        </Setups>
+	        <Functions>
+		    	<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN7036EJ0100" jp="R01AN7036JJ0100"/>
 		<Description 
 		en="
 [Description]&#10;
@@ -70,6 +89,25 @@ RL78/G24マイクロコントローラを使用した永久磁石同期モータ
 		en="RL78/G24 Sensorless vector control for permanent magnetic synchronous motor (3-shunt)" 
 		jp="RL78/G24 永久磁石同期モータのセンサレスベクトル制御 (3シャント)"/>
 		<ApplicationNoteUrl>/document/apn/rl78g24-sensorless-vector-control-permanent-magnetic-synchronous-motor</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sensorless vector control sample programs of the permanent magnetic synchronous motor (PMSM) using the RL78/G24 microcontroller.\nThe Current detection method is 3-shunt mode that detects 3-phase current."
+			jp="RL78/G24マイクロコントローラを使用した永久磁石同期モータ(PMSM)のセンサレスベクトル制御サンプルプログラムです。\n電流検出方式は3相電流を検出する3シャントモードです。"/>
+			<Note en="The tuning function is not supported for this sample project even though the tuning function on the Workflow view of QE for Motor is enable when selecting this project as a target project." 
+			jp="QE for Motorのワークフロービューでは本プロジェクト選択時にチューニング機能が有効になりますが、本サンプルプログラムはチューニング機能に対応していません。"/>
+	        <Features>
+	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+			<Feature en="3-shunt current detection method" jp="3シャント抵抗電流検出方式"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU card : RL78/G24(R7F101GLG2DFB) CPU card (RTK0EMG240C00000BJ)" jp="CPUカード : RL78/G24(R7F101GLG2DFB) CPUカード (RTK0EMG240C00000BJ)"/>
+	            	<Setup en="Inverter board : LVI400 (RTK0EMGPLVB00000BJ)" jp="インバータボード : LVI400 (RTK0EMGPLVB00000BJ)"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Permanent magnet synchronous motor : TG-55L" jp="永久磁石同期モータ : TG-55L"/>
+	        </Setups>
+	        <Functions>
+		    	<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN7036EJ0100" jp="R01AN7036JJ0100"/>
 		<Description 
 		en="
 [Description]&#10;
