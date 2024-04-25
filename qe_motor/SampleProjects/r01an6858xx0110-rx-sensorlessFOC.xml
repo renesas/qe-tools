@@ -12,6 +12,27 @@
 		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev110</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control."
+			jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。"/>
+	        <Features>
+	            	<Feature en="For RX26T RAM64KB Version" jp="RX26T RAM64KBバージョン対応"/>
+	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+			<Feature en="Vector control" jp="ベクトル制御"/>
+	                <Feature en="2-shunt current detection method" jp="2シャント抵抗電流検出方式"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A (RTK0EMXE70C00000BJ)" jp="CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP)CPUボード MCB-RX26T Type A (RTK0EMXE70C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Permanent magnet synchronous motor : R42BLD30L3" jp="永久磁石同期モータ : R42BLD30L3"/>
+	                <Setup en="Sensor : Not used" jp="センサ : なし"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+	                <Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6858EJ0110" jp="R01AN6858JJ0110"/>
 		<Description
 		en="
 [Description]&#10;
@@ -74,6 +95,28 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用 (チューニングプログラム作成用)"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev110</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control.\nThis project supports tuning program generation."
+			jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。\n本プロジェクトはチューニングプログラムの作成に対応しています。"/>
+	        <Features>
+	            	<Feature en="For RX26T RAM64KB Version" jp="RX26T RAM64KBバージョン対応"/>
+	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+			<Feature en="Vector control" jp="ベクトル制御"/>
+	                <Feature en="2-shunt current detection method" jp="2シャント抵抗電流検出方式"/>
+	                <Feature en="Supports tuning program generation" jp="チューニングプログラム作成対応"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A (RTK0EMXE70C00000BJ)" jp="CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP)CPUボード MCB-RX26T Type A (RTK0EMXE70C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Permanent magnet synchronous motor : R42BLD30L3" jp="永久磁石同期モータ : R42BLD30L3"/>
+	                <Setup en="Sensor : Not used" jp="センサ : なし"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+	                <Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6858EJ0110" jp="R01AN6858JJ0110"/>
 		<Description
 		en="
 [Description]&#10;
@@ -135,6 +178,27 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用 (1シャント)"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev110</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control. "
+			jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。"/>
+	        <Features>
+	            	<Feature en="For RX26T RAM64KB Version" jp="RX26T RAM64KBバージョン対応"/>
+	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+			<Feature en="Vector control" jp="ベクトル制御"/>
+	                <Feature en="1-shunt current detection method" jp="1シャント抵抗電流検出方式"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A (RTK0EMXE70C00000BJ)" jp="CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP)CPUボード MCB-RX26T Type A (RTK0EMXE70C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Permanent magnet synchronous motor : R42BLD30L3" jp="永久磁石同期モータ : R42BLD30L3"/>
+	                <Setup en="Sensor : Not used" jp="センサ : なし"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+	                <Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6858EJ0110" jp="R01AN6858JJ0110"/>
 		<Description
 		en="
 [Description]&#10;
@@ -196,6 +260,27 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK(RAM48KB)用"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev110</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control. "
+			jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。"/>
+	        <Features>
+	            	<Feature en="For RX26T RAM48KB Version" jp="RX26T RAM48KBバージョ対応"/>
+	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+			<Feature en="Vector control" jp="ベクトル制御"/>
+	                <Feature en="2-shunt current detection method" jp="2シャント抵抗電流検出方式"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RX26T RAM48KB version (R5F526TACDFM) CPU board MCB-RX26T Type C (RTK0EMXE30C00000BJ)" jp="CPUボード : RX26T RAM48KBバージョン(R5F526TACDFM)CPUボード MCB-RX26T Type C (RTK0EMXE30C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Permanent magnet synchronous motor : R42BLD30L3" jp="永久磁石同期モータ : R42BLD30L3"/>
+	                <Setup en="Sensor : Not used" jp="センサ : なし"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+	                <Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6858EJ0110" jp="R01AN6858JJ0110"/>
 		<Description
 		en="
 [Description]&#10;
@@ -258,6 +343,28 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK(RAM48KB)用 (チューニングプログラム作成用)"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev110</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control.\nThis project supports tuning program generation."
+			jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。\n本プロジェクトはチューニングプログラムの作成に対応しています。"/>
+	        <Features>
+	            	<Feature en="For RX26T RAM48KB Version" jp="RX26T RAM48KBバージョン対応"/>
+	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+			<Feature en="Vector control" jp="ベクトル制御"/>
+	                <Feature en="2-shunt current detection method" jp="2シャント抵抗電流検出方式"/>
+	                <Feature en="Supports tuning program generation" jp="チューニングプログラム作成対応"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RX26T RAM48KB version (R5F526TACDFM) CPU board MCB-RX26T Type C (RTK0EMXE30C00000BJ)" jp="CPUボード : RX26T RAM48KBバージョン(R5F526TACDFM) CPUボード MCB-RX26T Type C (RTK0EMXE30C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Permanent magnet synchronous motor : R42BLD30L3" jp="永久磁石同期モータ : R42BLD30L3"/>
+	                <Setup en="Sensor : Not used" jp="センサ : なし"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+	                <Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6858EJ0110" jp="R01AN6858JJ0110"/>
 		<Description
 		en="
 [Description]&#10;
@@ -323,6 +430,27 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK(RAM48KB)用 (1シャント)"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev110</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control. "
+			jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。"/>
+	        <Features>
+	            	<Feature en="For RX26T RAM48KB Version" jp="RX26T RAM48KBバージョ対応"/>
+	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+			<Feature en="Vector control" jp="ベクトル制御"/>
+	                <Feature en="1-shunt current detection method" jp="1シャント抵抗電流検出方式"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RX26T RAM48KB version (R5F526TACDFM) CPU board MCB-RX26T Type C (RTK0EMXE30C00000BJ)" jp="CPUボード : RX26T RAM48KBバージョン(R5F526TACDFM)CPUボード MCB-RX26T Type C (RTK0EMXE30C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Permanent magnet synchronous motor : R42BLD30L3" jp="永久磁石同期モータ : R42BLD30L3"/>
+	                <Setup en="Sensor : Not used" jp="センサ : なし"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+	                <Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6858EJ0110" jp="R01AN6858JJ0110"/>
 		<Description
 		en="
 [Description]&#10;
