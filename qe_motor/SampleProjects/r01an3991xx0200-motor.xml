@@ -12,7 +12,7 @@
 		en="RL78/G1F Sensorless vector control for permanent magnetic synchronous motor" 
 		jp="RL78/G1F 永久磁石同期モータのセンサレスベクトル制御"/>
 		<ApplicationNoteUrl>/document/apn/rl78g1f-sensorless-vector-control-permanent-magnetic-synchronous-motor-rev200</ApplicationNoteUrl>
-	        <ProjectDescription en="This project is the software for hall sensor/sensorless vector control that drives dual permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller." jp="RL78/G1Fマイクロコントローラを使用し、永久磁石同期モータをセンサレスベクトル方式で駆動するサンプルプログラムです。"/>
+	        <ProjectDescription en="This project is the sample programs for driving a permanent magnet synchronous motor in the sensorless vector method using the RL78/G1F microcontroller." jp="RL78/G1Fマイクロコントローラを使用し、永久磁石同期モータをセンサレスベクトル方式で駆動するサンプルプログラムです。"/>
 	        <Features>
 	            <Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
 	            <Feature en="Vector control" jp="ベクトル制御"/>
