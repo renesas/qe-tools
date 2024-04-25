@@ -11,6 +11,23 @@
 		en="Sensorless vector control for dual permanent magnetic synchronous motor" 
 		jp="永久磁石同期モータのセンサレスベクトル制御 - 2モータ駆動" />
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-dual-permanent-magnetic-synchronous-motor-mckmcb-ra-family/</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sensorless vector control software that drives dual permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller."
+			jp="RA6T2マイクロコントローラ(MCU)を使用し、2個の永久磁石同期モータをセンサレスベクトル制御で駆動するサンプルプログラムです。"/>
+	        <Features>
+	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RA6T2(R7FA6T2BD3CFP) CPU board (RTK0EMA270C00000BJ)" jp="CPUボード : RA6T2(R7FA6T2BD3CFP) CPUボード (RTK0EMA270C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1 x2" jp="インバータボード : MCI-LV-1 x2"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Motor : R42BLD30L3 x2" jp="永久磁石同期モーター : R42BLD30L3 x2"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6421EJ0120" jp="R01AN6421JJ0120"/>
 		<Description 
 		en="
 [Description]&#10;
@@ -63,6 +80,23 @@ RA6T2マイクロコントローラ(MCU)を使用し、2個の永久磁石同期
 		en="Sensorless vector control for dual permanent magnetic synchronous motor" 
 		jp="永久磁石同期モータのセンサレスベクトル制御 - 2モータ駆動" />
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-dual-permanent-magnetic-synchronous-motor-mckmcb-ra-family/</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sensorless vector control software that drives dual permanent magnetic synchronous motor (PMSM) using the RA8T1 microcontroller."
+			jp="RA8T1マイクロコントローラ(MCU)を使用し、2個の永久磁石同期モータをセンサレスベクトル制御で駆動するサンプルプログラムです。"/>
+	        <Features>
+	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RA8T1(R7FA8T1AHECBD) CPU board (RTK0EMA5K0C00000BJ)" jp="CPUボード : RA8T1(R7FA8T1AHECBD) CPUボード (RTK0EMA5K0C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1 x2" jp="インバータボード : MCI-LV-1 x2"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Motor : R42BLD30L3 x2" jp="永久磁石同期モーター : R42BLD30L3 x2"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6421EJ0120" jp="R01AN6421JJ0120"/>
 		<Description 
 		en="
 [Description]&#10;
