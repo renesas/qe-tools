@@ -12,7 +12,7 @@
 		en="Hall Sensor/Sensorless vector control for dual permanent magnetic synchronous motor" 
 		jp="永久磁石同期モータのホール/センサレスベクトル制御 - 2モータ駆動" />
 		<ApplicationNoteUrl>/document/apn/hall-sensorsensorless-vector-control-dual-permanent-magnetic-synchronous-motor-motor-flexible/</ApplicationNoteUrl>
-        <ProjectDescription>This project is the software for hall sensor/sensorless vector control that drives dual permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller.</ProjectDescription>
+        <ProjectDescription en="This project is the software for hall sensor/sensorless vector control that drives dual permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller." jp="RA6T2マイクロコントローラを使用し、2個の永久磁石同期モータ(PMSM)をホールセンサ及びセンサレスベクトル制御で駆動するサンプルプログラムです。"/>
         <Features>
             <Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
             <Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
@@ -28,7 +28,7 @@
             <Function en="SW configuration" jp="SW configuration"/>
 	    <Function en="Analyzer" jp="Analyzer"/>
         </Functions>
-        <DocumentNumber>R01AN6980EJ0100</DocumentNumber>
+        <DocumentNumber en="R01AN6980EJ0100" jp="R01AN6980JJ0100"/>
 	<Description 
 		en="
 [Description]&#10;
