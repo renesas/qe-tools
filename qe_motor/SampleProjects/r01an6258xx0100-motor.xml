@@ -11,6 +11,22 @@
 		en="120-degree conducting control of permanent magnetic synchronous motor using hall sensors" 
 		jp="永久磁石同期モータのホールセンサ利用120度通電制御" />
 		<ApplicationNoteUrl>/document/apn/ra6t1-120-degree-conducting-control-permanent-magnetic-synchronous-motor-using-hall-sensors/</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sample program for a permanent magnetic synchronous motor drive with 120- degree conducting method using hall sensors based on Renesas RA6T1 microcontroller."
+			jp="RA6T1マイクロコントローラで、永久磁石同期モータ(PMSM)を駆動するホールセンサ利用120度通電制御ソフトウェアのサンプルプログラムです。"/>
+	        <Features>
+	            	<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+	            	<Feature en="120-degree conducting control" jp="120度通電制御"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU card : RA6T1(R7FA6T1AD3CFP) CPU card (RTK0EMA170C00000BJ)" jp="CPUカード : RA6T1(R7FA6T1AD3CFP) CPUカード (RTK0EMA170C00000BJ)"/>
+	            	<Setup en="Inverter board : 48V inverter board (RTK0EM0000B10020BJ)" jp="インバータボード : 48V系インバータボード (RTK0EM0000B10020BJ)"/>
+		    	<Setup en="Motor : TG-55L-KA" jp="永久磁石同期モーター : TG-55L-KA"/>
+	        </Setups>
+	        <Functions>
+	            	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6258EJ0100" jp="R01AN6258JJ0100"/>
 		<Description 
 		en="
 [Description]&#10;
