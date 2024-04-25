@@ -12,7 +12,7 @@
 		jp="永久磁石同期モータのセンサレス初期位置検出"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-detection-initial-position-rotor-rev110</ApplicationNoteUrl>
-		<ProjectDescription>This project is the sample programs of sensorless detection of initial position of the rotor in a permanent magnetic synchronous motor using the RL78/G1F microcontroller.</ProjectDescription>
+		<ProjectDescription en="This project is the sample programs of sensorless detection of initial position of the rotor in a permanent magnetic synchronous motor using the RL78/G1F microcontroller." jp="RL78/G1F マイクロコントローラを使用し、永久磁石同期モータの回転子初期位置を検出するサンプルプログラムです。"/>
         	<Features>
             		<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
             		<Feature en="Initial rotor position detection" jp="初期位置検出"/>
@@ -25,7 +25,7 @@
         	<Functions>
 	    		<Function en="Analyzer" jp="Analyzer"/>
         	</Functions>
-        	<DocumentNumber>R01AN3596JJ0110</DocumentNumber>
+        	<DocumentNumber en="R01AN3596EJ0110" jp="R01AN3596JJ0110"/>
 		<Description
 		en="
 [Description]&#10;
