@@ -13,6 +13,20 @@
 		jp="RL78/G1F 永久磁石同期モータの120度通電制御"
 		/>
 		<ApplicationNoteUrl>/document/apn/rl78g1f-120-degree-conducting-control-permanent-magnetic-synchronous-motor-implementation-rev200</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sample programs driving a permanent magnetic synchronous motor in the 120-degree conducting method with sensorless control or hall sensor using the RL78/G1F microcontroller." jp="RL78/G1Fマイクロコントローラを使用し、永久磁石同期モータをセンサレスまたはホールセンサにより120度通電方式で駆動するサンプルプログラムです。"/>
+	        <Features>
+	            	<Feature en="Sensorless contro or use hall sensor" jp="センサレス または ホールセンサ使用"/>
+	            	<Feature en="120-degree conducting control" jp="120 度通電制御"/>
+	        </Features>
+	        <Setups>
+	           	<Setup en="CPU card : RL78/G1F(R5F11BLEAFB) CPU card (RTK0EML240C03000BJ) or RL78/G1F CPU card T5103" jp="CPUボード : RL78/G1F(R5F11BLEAFB) CPUカード(RTK0EML240C03000BJ) または RL78/G1F CPUカード T5103"/>
+	            	<Setup en="Inverter board : 24V Inverter board(RTK0EM0001B00012BJ)" jp="インバータボード : 24V系インバータボード(RTK0EM0001B00012BJ)"/>
+		    	<Setup en="Permanent magnet synchronous motor : TG-55L" jp="永久磁石同期モータ : TG-55L"/>
+	        </Setups>
+	        <Functions>
+		    	<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN5114EJ0200" jp="R01AN5114JJ0200"/>
 		<Description
 		en="
 [Description]&#10;
