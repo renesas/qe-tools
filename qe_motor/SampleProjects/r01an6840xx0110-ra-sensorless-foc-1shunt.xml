@@ -12,31 +12,31 @@
 		en="Sensorless Vector Control with one shunt for Permanent Magnet Synchronous Motor" 
 		jp="永久磁石同期モータの1シャントセンサレスベクトル制御" />
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-one-shunt-permanent-magnet-synchronous-motor-mckmcb-ra-family/</ApplicationNoteUrl>
-        <ProjectDescription en="This project is the sensorless vector control software that drives a permanent magnetic synchronous motor (PMSM) using the RA4T1 microcontroller." 
-        jp="RA4T1マイクロコントローラ(MCU)を使用し、永久磁石同期モータをベクトル制御で駆動するサンプルプログラムです。"/>
-        <Note en="The tuning program for this sample project is not provided. However, the motor parameters can be measured by Tuning function.\n
-        To measure the motor parameters using Tuning function, please select 2/3-shunt current detection by the jumper connection on the board and use the tuning program for the sensorless vector control (2/ 3 shunts) sample program (RA4T1_MCILV1_SPM_LESS_FOC_TUNER_Vxxx.hex).\n 
-        Please refer to the application note of this sample project for how to change the board setting." 
-        jp="本サンプルプログラムに対応したチューニングプログラムは提供されていませんが、チューニング機能を使用してモータパラメータを測定することは可能です。\n
-        チューニング機能を使用してモータパラメータを測定する場合は、ボードのジャンパ接続で2/3シャント電流検出を選択し、センサレスベクトル制御(2/3シャント)サンプルプログラム用チューニングプログラム(RA4T1_MCILV1_SPM_LESS_FOC_TUNER_Vxxx.hex)を使用してください。\n
-        ボード設定の変更方法についてはアプリケーションノートを参照してください。" />
-        <Features>
-            <Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
-            <Feature en="Vector control" jp="ベクトル制御"/>
-            <Feature en="1-shunt current detection method" jp="1シャント抵抗電流検出方式"/>
-        </Features>
-        <Setups>
-            <Setup en="CPU board :RA4T1(R7FA4T1BB3CFM) CPU board (RTK0EMA430C00000BJ)" jp="CPUボード : RA4T1(R7FA4T1BB3CFM) CPUボード (RTK0EMA430C00000BJ)"/>
-            <Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
-            <Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
-            <Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
-        </Setups>
-        <Functions>
-            <Function en="SW configuration" jp="Analyzer"/>
-            <Function en="Tuner" jp="Analyzer"/>
-            <Function en="Analyzer" jp="Analyzer"/>
-        </Functions>
-        <DocumentNumber en="R01AN6840EJ0110" jp="R01AN6840JJ0110"/>
+	        <ProjectDescription en="This project is the sensorless vector control software that drives a permanent magnetic synchronous motor (PMSM) using the RA4T1 microcontroller." 
+	        jp="RA4T1マイクロコントローラ(MCU)を使用し、永久磁石同期モータをベクトル制御で駆動するサンプルプログラムです。"/>
+	        <Note en="The tuning program for this sample project is not provided. However, the motor parameters can be measured by Tuning function.\n
+	        To measure the motor parameters using Tuning function, please select 2/3-shunt current detection by the jumper connection on the board and use the tuning program for the sensorless vector control (2/ 3 shunts) sample program (RA4T1_MCILV1_SPM_LESS_FOC_TUNER_Vxxx.hex).\n 
+	        Please refer to the application note of this sample project for how to change the board setting." 
+	        jp="本サンプルプログラムに対応したチューニングプログラムは提供されていませんが、チューニング機能を使用してモータパラメータを測定することは可能です。\n
+	        チューニング機能を使用してモータパラメータを測定する場合は、ボードのジャンパ接続で2/3シャント電流検出を選択し、センサレスベクトル制御(2/3シャント)サンプルプログラム用チューニングプログラム(RA4T1_MCILV1_SPM_LESS_FOC_TUNER_Vxxx.hex)を使用してください。\n
+	        ボード設定の変更方法についてはアプリケーションノートを参照してください。" />
+	        <Features>
+	            <Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+	            <Feature en="Vector control" jp="ベクトル制御"/>
+	            <Feature en="1-shunt current detection method" jp="1シャント抵抗電流検出方式"/>
+	        </Features>
+	        <Setups>
+	            <Setup en="CPU board :RA4T1(R7FA4T1BB3CFM) CPU board (RTK0EMA430C00000BJ)" jp="CPUボード : RA4T1(R7FA4T1BB3CFM) CPUボード (RTK0EMA430C00000BJ)"/>
+	            <Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+	            <Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+	            <Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+	            <Function en="SW configuration" jp="Analyzer"/>
+	            <Function en="Tuner" jp="Analyzer"/>
+	            <Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6840EJ0110" jp="R01AN6840JJ0110"/>
 		<Description 
 		en="
 [Description]&#10;
