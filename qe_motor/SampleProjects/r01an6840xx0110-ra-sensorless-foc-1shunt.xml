@@ -101,11 +101,11 @@ RA4T1マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-one-shunt-permanent-magnet-synchronous-motor-mckmcb-ra-family/</ApplicationNoteUrl>
 	        <ProjectDescription en="This project is the sensorless vector control software that drives a permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller." 
 	        jp="RA6T2マイクロコントローラ(MCU)を使用し、永久磁石同期モータをベクトル制御で駆動するサンプルプログラムです。"/>
-	        <Note en="The tuning program for this sample project is not provided. However, the motor parameters can be measured by Tuning function.
-	        To measure the motor parameters using Tuning function, please select 2/3-shunt current detection by the jumper connection on the board and use the tuning program for the sensorless vector control (2/ 3 shunts) sample program (RA6T2_MCILV1_SPM_LESS_FOC_TUNER_E2S_Vxxx.hex). 
+	        <Note en="The tuning program for this sample project is not provided. However, the motor parameters can be measured by Tuning function.\n
+	        To measure the motor parameters using Tuning function, please select 2/3-shunt current detection by the jumper connection on the board and use the tuning program for the sensorless vector control (2/ 3 shunts) sample program (RA6T2_MCILV1_SPM_LESS_FOC_TUNER_E2S_Vxxx.hex).\n 
 	        Please refer to the application note of this sample project for how to change the board setting." 
-	        jp="本サンプルプログラムに対応したチューニングプログラムは提供されていませんが、チューニング機能を使用してモータパラメータを測定することは可能です。
-	        チューニング機能を使用してモータパラメータを測定する場合は、ボードのジャンパ接続で2/3シャント電流検出を選択し、センサレスベクトル制御(2/3シャント)サンプルプログラム用チューニングプログラム(RA6T2_MCILV1_SPM_LESS_FOC_TUNER_E2S_Vxxx.hex)を使用してください。
+	        jp="本サンプルプログラムに対応したチューニングプログラムは提供されていませんが、チューニング機能を使用してモータパラメータを測定することは可能です。\n
+	        チューニング機能を使用してモータパラメータを測定する場合は、ボードのジャンパ接続で2/3シャント電流検出を選択し、センサレスベクトル制御(2/3シャント)サンプルプログラム用チューニングプログラム(RA6T2_MCILV1_SPM_LESS_FOC_TUNER_E2S_Vxxx.hex)を使用してください。\n
 	        ボード設定の変更方法についてはアプリケーションノートを参照してください。" />
 	        <Features>
 	            <Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
@@ -188,11 +188,11 @@ RA6T2マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-one-shunt-permanent-magnet-synchronous-motor-mckmcb-ra-family/</ApplicationNoteUrl>
 	        <ProjectDescription en="This project is the sensorless vector control software that drives a permanent magnetic synchronous motor (PMSM) using the RA6T3 microcontroller." 
 	        jp="RA6T3マイクロコントローラ(MCU)を使用し、永久磁石同期モータをベクトル制御で駆動するサンプルプログラムです。"/>
-	        <Note en="The tuning program for this sample project is not provided. However, the motor parameters can be measured by Tuning function.
-	        To measure the motor parameters using Tuning function, please select 2/3-shunt current detection by the jumper connection on the board and use the tuning program for the sensorless vector control (2/ 3 shunts) sample program (RA6T3_MCILV1_SPM_LESS_FOC_TUNER_Vxxx.hex). 
+	        <Note en="The tuning program for this sample project is not provided. However, the motor parameters can be measured by Tuning function.\n
+	        To measure the motor parameters using Tuning function, please select 2/3-shunt current detection by the jumper connection on the board and use the tuning program for the sensorless vector control (2/ 3 shunts) sample program (RA6T3_MCILV1_SPM_LESS_FOC_TUNER_Vxxx.hex).\n
 	        Please refer to the application note of this sample project for how to change the board setting." 
-	        jp="本サンプルプログラムに対応したチューニングプログラムは提供されていませんが、チューニング機能を使用してモータパラメータを測定することは可能です。
-	        チューニング機能を使用してモータパラメータを測定する場合は、ボードのジャンパ接続で2/3シャント電流検出を選択し、センサレスベクトル制御(2/3シャント)サンプルプログラム用チューニングプログラム(RA6T3_MCILV1_SPM_LESS_FOC_TUNER_Vxxx.hex)を使用してください。
+	        jp="本サンプルプログラムに対応したチューニングプログラムは提供されていませんが、チューニング機能を使用してモータパラメータを測定することは可能です。\n
+	        チューニング機能を使用してモータパラメータを測定する場合は、ボードのジャンパ接続で2/3シャント電流検出を選択し、センサレスベクトル制御(2/3シャント)サンプルプログラム用チューニングプログラム(RA6T3_MCILV1_SPM_LESS_FOC_TUNER_Vxxx.hex)を使用してください。\n
 	        ボード設定の変更方法についてはアプリケーションノートを参照してください。" />
 	        <Features>
 	            <Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
@@ -275,11 +275,11 @@ RA6T3マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-one-shunt-permanent-magnet-synchronous-motor-mckmcb-ra-family/</ApplicationNoteUrl>
 	        <ProjectDescription en="This project is the sensorless vector control software that drives a permanent magnetic synchronous motor (PMSM) using the RA8T1 microcontroller." 
 	        jp="RA8T1マイクロコントローラ(MCU)を使用し、永久磁石同期モータをベクトル制御で駆動するサンプルプログラムです。"/>
-	        <Note en="The tuning program for this sample project is not provided. However, the motor parameters can be measured by Tuning function.
-	        To measure the motor parameters using Tuning function, please select 2/3-shunt current detection by the jumper connection on the board and use the tuning program for the sensorless vector control (2/ 3 shunts) sample program (RA8T1_MCILV1_SPM_LESS_FOC_TUNER_Vxxx.hex). 
+	        <Note en="The tuning program for this sample project is not provided. However, the motor parameters can be measured by Tuning function.\n
+	        To measure the motor parameters using Tuning function, please select 2/3-shunt current detection by the jumper connection on the board and use the tuning program for the sensorless vector control (2/ 3 shunts) sample program (RA8T1_MCILV1_SPM_LESS_FOC_TUNER_Vxxx.hex).\n
 	        Please refer to the application note of this sample project for how to change the board setting." 
-	        jp="本サンプルプログラムに対応したチューニングプログラムは提供されていませんが、チューニング機能を使用してモータパラメータを測定することは可能です。
-	        チューニング機能を使用してモータパラメータを測定する場合は、ボードのジャンパ接続で2/3シャント電流検出を選択し、センサレスベクトル制御(2/3シャント)サンプルプログラム用チューニングプログラム(RA8T1_MCILV1_SPM_LESS_FOC_TUNER_Vxxx.hex)を使用してください。
+	        jp="本サンプルプログラムに対応したチューニングプログラムは提供されていませんが、チューニング機能を使用してモータパラメータを測定することは可能です。\n
+	        チューニング機能を使用してモータパラメータを測定する場合は、ボードのジャンパ接続で2/3シャント電流検出を選択し、センサレスベクトル制御(2/3シャント)サンプルプログラム用チューニングプログラム(RA8T1_MCILV1_SPM_LESS_FOC_TUNER_Vxxx.hex)を使用してください。\n
 	        ボード設定の変更方法についてはアプリケーションノートを参照してください。" />
 	        <Features>
 	            <Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
