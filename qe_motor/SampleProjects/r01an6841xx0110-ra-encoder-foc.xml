@@ -400,7 +400,7 @@ RA6T3マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 		jp="永久磁石同期モータのエンコーダベクトル制御 (チューニングプログラム作成用)" />
 		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mckmcb-ra-family/</ApplicationNoteUrl>
 	        <ProjectDescription en="This project is the vector control with encoder software that drives permanent magnetic synchronous motor (PMSM) using the RA6T3 microcontroller.\nThis project supports tuning program generation."
-			jp="RA6T2マイクロコントローラ(MCU)を使用し、永久磁石同期モータをエンコーダベクトル制御で駆動するサンプルプログラムです。\n本プロジェクトはチューニングプログラムの作成に対応しています。"/>
+			jp="RA6T3マイクロコントローラ(MCU)を使用し、永久磁石同期モータをエンコーダベクトル制御で駆動するサンプルプログラムです。\n本プロジェクトはチューニングプログラムの作成に対応しています。"/>
 	        <Features>
 	            	<Feature en="Encoder feedback" jp="エンコーダフィードバック"/>
 	            	<Feature en="Vector control" jp="ベクトル制御"/>
