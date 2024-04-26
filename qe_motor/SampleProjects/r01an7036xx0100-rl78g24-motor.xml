@@ -14,7 +14,7 @@
 		<ApplicationNoteUrl>/document/apn/rl78g24-sensorless-vector-control-permanent-magnetic-synchronous-motor</ApplicationNoteUrl>
 	        <ProjectDescription en="This project is the sensorless vector control sample programs of the permanent magnetic synchronous motor (PMSM) using the RL78/G24 microcontroller.\nThe Current detection method is 1-shunt mode that detects DC link current."
 			jp="RL78/G24マイクロコントローラを使用した永久磁石同期モータ(PMSM)のセンサレスベクトル制御サンプルプログラムです。\n電流検出方式はDCリンク電流を検出する1シャントモードです。"/>
-			<Note en="The tuning function is not supported for this sample project even though the tuning function on the Workflow view of QE for Motor is enable when selecting this project as a target project." 
+		<Note en="The tuning function is not supported for this sample project even though the tuning function on the Workflow view of QE for Motor is enable when selecting this project as a target project." 
 			jp="QE for Motorのワークフロービューでは本プロジェクト選択時にチューニング機能が有効になりますが、本サンプルプログラムはチューニング機能に対応していません。"/>
 	        <Features>
 	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
@@ -91,7 +91,7 @@ RL78/G24マイクロコントローラを使用した永久磁石同期モータ
 		<ApplicationNoteUrl>/document/apn/rl78g24-sensorless-vector-control-permanent-magnetic-synchronous-motor</ApplicationNoteUrl>
 	        <ProjectDescription en="This project is the sensorless vector control sample programs of the permanent magnetic synchronous motor (PMSM) using the RL78/G24 microcontroller.\nThe Current detection method is 3-shunt mode that detects 3-phase current."
 			jp="RL78/G24マイクロコントローラを使用した永久磁石同期モータ(PMSM)のセンサレスベクトル制御サンプルプログラムです。\n電流検出方式は3相電流を検出する3シャントモードです。"/>
-			<Note en="The tuning function is not supported for this sample project even though the tuning function on the Workflow view of QE for Motor is enable when selecting this project as a target project." 
+		<Note en="The tuning function is not supported for this sample project even though the tuning function on the Workflow view of QE for Motor is enable when selecting this project as a target project." 
 			jp="QE for Motorのワークフロービューでは本プロジェクト選択時にチューニング機能が有効になりますが、本サンプルプログラムはチューニング機能に対応していません。"/>
 	        <Features>
 	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
