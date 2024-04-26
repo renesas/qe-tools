@@ -24,7 +24,7 @@
 	    	</Setups>
 	    	<Functions>
 	            <Function en="SW configuration" jp="SW configuration"/>
-                <Function en="Analyzer" jp="Analyzer"/>
+                    <Function en="Analyzer" jp="Analyzer"/>
 	    	</Functions>
 	    	<DocumentNumber en="R01AN5905EJ0110" jp="R01AN5905JJ0110"/>
 		<Description 
