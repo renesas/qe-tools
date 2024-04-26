@@ -273,8 +273,8 @@ RA6T3マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 		en="Sensorless Vector Control with one shunt for Permanent Magnet Synchronous Motor" 
 		jp="永久磁石同期モータの1シャントセンサレスベクトル制御" />
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-one-shunt-permanent-magnet-synchronous-motor-mckmcb-ra-family/</ApplicationNoteUrl>
-	        <ProjectDescription en="This project is the sensorless vector control software that drives a permanent magnetic synchronous motor (PMSM) using the RA4T1 microcontroller." 
-	        jp="RA4T1マイクロコントローラ(MCU)を使用し、永久磁石同期モータをベクトル制御で駆動するサンプルプログラムです。"/>
+	        <ProjectDescription en="This project is the sensorless vector control software that drives a permanent magnetic synchronous motor (PMSM) using the RA8T1 microcontroller." 
+	        jp="RA8T1マイクロコントローラ(MCU)を使用し、永久磁石同期モータをベクトル制御で駆動するサンプルプログラムです。"/>
 	        <Note en="The tuning program for this sample project is not provided. However, the motor parameters can be measured by Tuning function.
 	        To measure the motor parameters using Tuning function, please select 2/3-shunt current detection by the jumper connection on the board and use the tuning program for the sensorless vector control (2/ 3 shunts) sample program (RA8T1_MCILV1_SPM_LESS_FOC_TUNER_Vxxx.hex). 
 	        Please refer to the application note of this sample project for how to change the board setting." 
