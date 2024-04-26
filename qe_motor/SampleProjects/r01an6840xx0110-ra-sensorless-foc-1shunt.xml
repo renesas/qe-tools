@@ -32,7 +32,7 @@
 	            <Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
 	        </Setups>
 	        <Functions>
-	            <Function en="SW configuration" jp="Analyzer"/>
+	            <Function en="SW configuration" jp="SW configuration"/>
 	            <Function en="Tuner" jp="Analyzer"/>
 	            <Function en="Analyzer" jp="Analyzer"/>
 	        </Functions>
