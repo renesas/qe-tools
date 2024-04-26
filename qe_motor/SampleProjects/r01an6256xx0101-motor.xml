@@ -12,7 +12,7 @@
 		en="Sensorless vector control for permanent magnetic synchronous motor - 1shunt current detection" 
 		jp="永久磁石同期モータのセンサレスベクトル制御 - 1 シャント抵抗電流検出方式" />
 		<ApplicationNoteUrl>/document/apn/ra6t1-sensorless-vector-control-one-shunt-permanent-magnet-synchronous-motor-implementation/</ApplicationNoteUrl>
-		 <ProjectDescription en="This project is the sample program for a permanent magnetic synchronous motor drive with sensorless vector control based on Renesas RA6T1 microcontroller."
+		<ProjectDescription en="This project is the sample program for a permanent magnetic synchronous motor drive with sensorless vector control based on Renesas RA6T1 microcontroller."
 		jp="RA6T1マイクロコントローラで永久磁石同期モータ(PMSM)を駆動するセンサレスベクトル制御ソフトウェアのサンプルプログラムです。"/>
 		<Note en="The tuning function is not supported for this sample project even though the tuning function on the Workflow view of QE for Motor is enable when selecting this project as a target project."
 		 jp="QE for Motorのワークフロービューでは本プロジェクト選択時にチューニング機能が有効になりますが、本サンプルプログラムはチューニング機能に対応していません。" />
