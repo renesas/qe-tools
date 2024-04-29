@@ -28,8 +28,6 @@ p {
 	font-style: bold;
 	color: var(--body-color);
 	font-size: 95%;
-	margin: 0 0;
-	padding: 2px;
 	font-weight: bold;
 }
 
@@ -42,7 +40,7 @@ ul li {
 	font-weight: bold;
 }
 
-p.cls-highlight {
+h4.cls-highlight {
 	font-style: bold;
 	color: white;
 	background-color: red;
