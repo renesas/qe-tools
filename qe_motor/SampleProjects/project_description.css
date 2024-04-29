@@ -24,12 +24,13 @@ h4 {
 	margin: 0.5em 0;
 }
 
-h5 {
+p {
 	font-style: bold;
 	color: var(--body-color);
 	font-size: 95%;
 	margin: 0 0;
 	padding: 2px;
+	font-weight: bold;
 }
 
 ul {
@@ -41,7 +42,7 @@ ul li {
 	font-weight: bold;
 }
 
-h4.cls-highlight {
+p.cls-highlight {
 	font-style: bold;
 	color: white;
 	background-color: red;
