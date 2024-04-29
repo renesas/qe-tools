@@ -26,7 +26,7 @@ function insertNote(textContent) {
   <header>
     <h4 class="cls-highlight">Note</h4>
   </header>
-  <h5 id="txt-note"></h5>
+  <p id="txt-note"></p>
 </article>
 `;
   // Insert the new <article> section before the reference element
