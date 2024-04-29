@@ -14,7 +14,7 @@ function updateTextContent(id, textContent) {
   var textWithNewLines = textContent.replace(/\n/g, "<br>");
 
   // Set the text content of the h5 element
-  element.textContent = textWithNewLines;
+  element.innerHTML = textWithNewLines;
 }
 
 function insertNote(textContent) {
