@@ -41,6 +41,10 @@ ul li {
 	font-weight: bold;
 }
 
-ul li.cls-highlight {
-	color: red;
+h4.cls-highlight {
+	font-style: bold;
+	color: white;
+	background-color: red;
+	padding: 5px;
+	margin: 0.5em 0;
 }
