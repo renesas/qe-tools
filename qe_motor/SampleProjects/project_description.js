@@ -19,7 +19,7 @@ function updateTextContent(id, textContent) {
 
 function insertNote(textContent) {
   // Get the element before which you want to insert the new <article> section
-  var referenceElement = document.getElementById('list-features');
+  var referenceElement = document.getElementById('id-article-features');
   // Define the HTML content for the new <article> section
   var newArticleHTML = `
 <article>
