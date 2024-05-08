@@ -33,7 +33,7 @@
 	        </Setups>
 	        <Functions>
 	            <Function en="SW configuration" jp="SW configuration"/>
-	            <Function en="Tuner" jp="Analyzer"/>
+	            <Function en="Tuner" jp="Tuner"/>
 	            <Function en="Analyzer" jp="Analyzer"/>
 	        </Functions>
 	        <DocumentNumber en="R01AN6840EJ0110" jp="R01AN6840JJ0110"/>
