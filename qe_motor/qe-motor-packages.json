@@ -32,5 +32,31 @@
         }
       ]
     }
+    "com.renesas.qe.tool.configurator-visu-package-v100": {
+      "type": "extractable",
+      "name": "Configurator Visualization package",
+      "description": "Configurator Visualization for Motor",
+      "category": "com.renesas.qe.tool",
+      "versionString": "1.0.0",
+      "file": "configurator-visu-package-v100.zip",
+      "installSize": 1000,
+      "downloadInfo": {
+        "uri": "http://tool-support.renesas.com/e2studio/qe/tools/fsp-visu-resources-v530.zip",
+        "size": 1051501,
+        "hash": "2829e49b3bacda08d2fb161bdc8a2d22cd1da147d6c2b984759d95829b51377f41173f657cda6dbebc72f25fae9ae5904dff870433a60ea1a56bd5aead17ff00"
+      },
+      "filter": "(|(family=*rx;*))",
+      "extractSteps": [
+        {
+          "function": "EXTRACT",
+          "args": [
+            "zip",
+            "${packageFile}",
+            "${installDir}/QE_Motor/Configurator/"
+          ],
+          "outVarName": "qeExtractLoc"
+        }
+      ]
+    }
   }
 }
