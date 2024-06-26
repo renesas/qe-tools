@@ -42,8 +42,8 @@
       "installSize": 1000,
       "downloadInfo": {
         "uri": "http://tool-support.renesas.com/e2studio/qe/tools/configurator-visu-package-v11.zip",
-        "size": 456378,
-        "hash": "6b02a0bdcab532d1c359921f9a7290ed89669d82bbecb27bfb59f5072d16c18f33422342854eea8518300bfe587d137419b4423719b9be731c3aa9aa5a4551aa"
+        "size": 346947,
+        "hash": "74cc210232d11e8365f07d1d00ea34d63f9ba666a7622e20e96874c0c17cf32fe8ad23e1784b3c41c47fdc761867381f37d4ab4b31b60b862bcbed7089c20991"
       },
       "filter": "(|(family=*rx;*))",
       "extractSteps": [
