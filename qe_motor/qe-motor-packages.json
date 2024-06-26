@@ -31,7 +31,7 @@
           "outVarName": "qeExtractLoc"
         }
       ]
-    }
+    },
     "com.renesas.qe.tool.configurator-visu-package-v11": {
       "type": "extractable",
       "name": "Configurator Visualization package",
