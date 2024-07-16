@@ -284,6 +284,11 @@
 			<ProjectFolderName>RL78G24_MCEK_3S_LESS_FOC_E2S_CC_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7036xx0100-rl78g24-motor.xml</ProjectUrl>
 		</Project>
+		<Project>
+			<ProjectFolderName>RL78G24_FAA_MCEK_1S_LESS_FOC_E2S_CC_V110</ProjectFolderName>
+			<ProjectFolderName>RL78G24_FAA_MCEK_3S_LESS_FOC_E2S_CC_V110</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7267xx0110-rl78g24-motor.xml</ProjectUrl>
+		</Project>
 	</Kit>
 	<Kit>
 		<KitName en="MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group" jp="MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group"/>
