@@ -70,6 +70,7 @@
 				<DeviceName>RL78/G24</DeviceName>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7036xx0110-rl78g24-motor.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7267xx0110-rl78g24-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7386xx0110-rl78g24-motor.xml</ProjectUrl>
 			</Device>
 		</DeviceSeries>
 		<DeviceSeries>
