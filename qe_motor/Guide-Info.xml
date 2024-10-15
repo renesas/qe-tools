@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <guide>
-       <version>1.2</version>
-       <downloadLink>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/GuideInfo/guide-info-v1.2.zip</downloadLink>
+       <version>1.3</version>
+       <downloadLink>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/GuideInfo/guide-info-v1.3.zip</downloadLink>
        <video name="prepare-project" link=""/>
        <video name="introduce-related-tool" link=""/>
        <video name="tuning" link=""/>
