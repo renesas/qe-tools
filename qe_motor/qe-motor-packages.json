@@ -1,0 +1,62 @@
+{
+  "categories": {
+    "com.renesas.qe.tool": {
+      "name": "QE tool",
+      "description": "Tool used in QE."
+    }
+  },
+  "packages": {
+    "com.renesas.qe.tool.fsp-visu-package-v530": {
+      "type": "extractable",
+      "name": "FSP Visualization package",
+      "description": "FSP Visualization for Motor",
+      "category": "com.renesas.qe.tool",
+      "versionString": "1.0.0",
+      "file": "fsp-visu-resources-v530.zip",
+      "installSize": 1000,
+      "downloadInfo": {
+        "uri": "http://tool-support.renesas.com/e2studio/qe/tools/fsp-visu-resources-v530.zip",
+        "size": 1089051,
+        "hash": "7d2155ad5e196fab76b420b7feed49a22b69875c16f40e9f5ec3fccc6823739d6541b37077c1695c56fd4096c514162af829f2e197b911eb22104b4a476cda05"
+      },
+      "filter": "(|(family=*ra;*))",
+      "extractSteps": [
+        {
+          "function": "EXTRACT",
+          "args": [
+            "zip",
+            "${packageFile}",
+            "${installDir}/QE_Motor/FSP/"
+          ],
+          "outVarName": "qeExtractLoc"
+        }
+      ]
+    },
+    "com.renesas.qe.tool.configurator-visu-package-v11": {
+      "type": "extractable",
+      "name": "Configurator Visualization package",
+      "description": "Configurator Visualization for Motor",
+      "category": "com.renesas.qe.tool",
+      "versionString": "1.1",
+      "file": "configurator-visu-package-v11.zip",
+      "installSize": 1000,
+      "downloadInfo": {
+        "uri": "http://tool-support.renesas.com/e2studio/qe/tools/configurator-visu-package-v11.zip",
+        "size": 348271,
+        "hash": "cceeab602b0cfcc92274d9576830ff589bf33a78a0e017f093001667a9be577a55a3d242a7041f588715ac73d6d7df1d86f26c9209aa7959ac2330e331ee281c"
+      },
+      "filter": "(|(family=*rx;*))",
+      "extractSteps": [
+        {
+          "function": "EXTRACT",
+          "args": [
+            "zip",
+            "${packageFile}",
+            "${installDir}/QE_Motor/Configurator/"
+          ],
+          "outVarName": "qeExtractLoc"
+        }
+      ]
+    }
+  }
+}
