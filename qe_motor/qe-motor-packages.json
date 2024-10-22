@@ -11,7 +11,7 @@
       "name": "FSP Visualization package",
       "description": "FSP Visualization for Motor",
       "category": "com.renesas.qe.tool",
-      "versionString": "5.3.0",
+      "versionString": "1.0.0",
       "file": "fsp-visu-resources-v530.zip",
       "installSize": 1000,
       "downloadInfo": {
