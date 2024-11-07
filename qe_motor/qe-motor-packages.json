@@ -9,7 +9,7 @@
     "com.renesas.qe.tool.fsp-visu-package-v100": {
       "type": "extractable",
       "name": "FSP Visualization package",
-      "description": "FSP Visualization for Motor"
+      "description": "FSP Visualization for Motor",
       "category": "com.renesas.qe.tool",
       "versionString": "1.1.0",
       "file": "fsp-visu-resources-v530.zip",
@@ -61,7 +61,7 @@
     "com.renesas.qe.tool.tuning-package": {
       "type": "extractable",
       "name": "Tuning Program Package",
-      "description": "Tuning Program"
+      "description": "Tuning Program",
       "category": "com.renesas.qe.tool",
       "versionString": "1.0",
       "file": "rmw-tuning-resources.zip",
