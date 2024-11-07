@@ -78,7 +78,7 @@
           "args": [
             "zip",
             "${packageFile}",
-            "${installDir}/QE_Motor/FSP/"
+            "${installDir}/QE_Motor/RMW/"
           ],
           "outVarName": "qeExtractLoc"
         }
