@@ -64,12 +64,12 @@
       "description": "Tuning Program",
       "category": "com.renesas.qe.tool",
       "versionString": "1.0",
-      "file": "rmw-tuning-resources.zip",
+      "file": "rmw-tuning-resources-test-v2.zip",
       "installSize": 1000,
       "downloadInfo": {
-        "uri": "https://renesas.github.io/qe-tools/qe_motor/RmwTuning/rmw-tuning-resources.zip",
+        "uri": "http://tool-support.renesas.com/e2studio/qe/tools/rmw-tuning-resources-test-v2.zip",
         "size": 18768314,
-        "hash": "467f58dc906dbe98052544b36291fff4b96b9c621b7602971ec033c7d7659a8ae2df7b2db12d1b354773c10d78c4f9505f72403ed5606992b5a0cdcb6e95eb81"
+        "hash": "f1a47a03d33b1861134278ecb3e46a4776737f0dbfe54af9b46fa7a0fd24be0846fe277b3f9ace18b68ab67cca4ff485ac2e442f7e6fcc1c97bc478146ea13c4"
       },
       "filter": "(|(family=*rx;*)(family=*ra;*)(family=*rl78;*))",
       "extractSteps": [
