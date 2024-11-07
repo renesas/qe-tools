@@ -57,6 +57,32 @@
           "outVarName": "qeExtractLoc"
         }
       ]
+    },
+    "com.renesas.qe.tool.tuning-package-v15": {
+      "type": "extractable",
+      "name": "Tuning Program Package",
+      "description": "Tuning Program"
+      "category": "com.renesas.qe.tool",
+      "versionString": "1.5",
+      "file": "RMW-v15.zip",
+      "installSize": 1000,
+      "downloadInfo": {
+        "uri": "https://renesas.github.io/qe-tools/qe_motor/RmwTuning/RMW-v15.zip",
+        "size": 18768314,
+        "hash": "de5159e7f014cc3cd6173e8ce77d2d696bcc27a2d1b2fc8eb8e10b70605e24986756e3c757de3cbf1c212b8231d4d42d3ce6d7f0aa1529c8b108f7450e0f0487"
+      },
+      "filter": "(|(family=*rx;*)(family=*ra;*)(family=*rl78;*))",
+      "extractSteps": [
+        {
+          "function": "EXTRACT",
+          "args": [
+            "zip",
+            "${packageFile}",
+            "${installDir}/QE_Motor/FSP/"
+          ],
+          "outVarName": "qeExtractLoc"
+        }
+      ]
     }
   }
 }
