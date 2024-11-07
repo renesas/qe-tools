@@ -63,7 +63,7 @@
       "name": "Tuning Program Package",
       "description": "Tuning Program",
       "category": "com.renesas.qe.tool",
-      "versionString": "1.0",
+      "versionString": "2.0",
       "file": "rmw-tuning-resources-test-v2.zip",
       "installSize": 1000,
       "downloadInfo": {
