@@ -164,7 +164,6 @@ RA4T1マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA6T2</DeviceName>
-		<FspVersion>4.4.0</FspVersion>
 		<ProjectFolderName>RA6T2_MCILV1_SPM_ENCD_FOC_E2S_V110</ProjectFolderName>
 		<ProjectName 
 		en="Vector Control for Permanent Magnet Synchronous Motor with Encoder" 
