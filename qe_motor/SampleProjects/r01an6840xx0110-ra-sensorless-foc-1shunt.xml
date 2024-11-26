@@ -7,6 +7,7 @@
 	<Date>2024-01-23</Date>
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>
+		<FspVersion>4.4.0</FspVersion>
 		<ProjectFolderName>RA4T1_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
 		<ProjectName 
 		en="Sensorless Vector Control with one shunt for Permanent Magnet Synchronous Motor" 
