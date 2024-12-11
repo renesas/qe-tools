@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ZipFile>
-	<Category en="120-degree conduction control" jp="120度通電制御" />
+	<Category en="120-degree conducting control" jp="120 度通電制御" />
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
 	<Category en="Hall sensor feedback" jp="ホールセンサフィードバック" />
 	<ZipDownloadUrl>/document/scd/rl78g1f-120-degree-conducting-control-permanent-magnetic-synchronous-motor-implementation-sample/r01an5114xx0200-rl78g1f-motor.zip</ZipDownloadUrl>
