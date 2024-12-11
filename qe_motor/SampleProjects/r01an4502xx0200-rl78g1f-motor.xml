@@ -2,7 +2,7 @@
 <ZipFile>
 	<Category en="Initial position detection" jp="初期位置検出" />
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
-	<Category en="120-degree conduction control" jp="120度通電制御" />
+	<Category en="120-degree conducting control" jp="120 度通電制御" />
 	<ZipDownloadUrl>/document/scd/rl78g1f-sensorless-speed-control-120-degree-conducting-controlled-permanent-magnetic-synchronous/r01an4502xx0200-rl78g1f-motor.zip</ZipDownloadUrl>
 	<Date>2021-05-26</Date>
 	<SampleProject>
@@ -17,7 +17,7 @@
 	        <Note en="This program requires a modification in the circuit of the 24V inverter board(RTK0EM0001B00012BJ). For details, please refer to the application note." jp="本プログラムを24V系インバータボード(RTK0EM0001B00012BJ)で動作させるには、回路修正が必要となります。詳細はアプリケーションノートを参照してください。"/>
 	        <Features>
 	           	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
-	           	<Feature en="120-degree conducting control" jp="120度通電制御"/>
+	           	<Feature en="120-degree conducting control" jp="120 度通電制御"/>
 	           	<Feature en="Initial rotor position detection" jp="初期位置検出"/>
 	       </Features>
 	       <Setups>
