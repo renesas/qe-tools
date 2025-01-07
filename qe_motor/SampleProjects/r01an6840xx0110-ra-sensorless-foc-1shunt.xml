@@ -8,7 +8,7 @@
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>
 		<FspVersion>4.4.0</FspVersion>
-		<ProjectFolderName>RA4T1_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
+		<ProjectFolderName>RA4T1_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V101</ProjectFolderName>
 		<ProjectName 
 		en="Sensorless Vector Control with one shunt for Permanent Magnet Synchronous Motor" 
 		jp="永久磁石同期モータの1シャントセンサレスベクトル制御" />
@@ -95,7 +95,7 @@ RA4T1マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA6T2</DeviceName>
-		<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V110</ProjectFolderName>
+		<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V111</ProjectFolderName>
 		<ProjectName 
 		en="Sensorless Vector Control with one shunt for Permanent Magnet Synchronous Motor" 
 		jp="永久磁石同期モータの1シャントセンサレスベクトル制御" />
@@ -182,7 +182,7 @@ RA6T2マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA6T3</DeviceName>
-		<ProjectFolderName>RA6T3_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
+		<ProjectFolderName>RA6T3_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V101</ProjectFolderName>
 		<ProjectName 
 		en="Sensorless Vector Control with one shunt for Permanent Magnet Synchronous Motor" 
 		jp="永久磁石同期モータの1シャントセンサレスベクトル制御" />
@@ -269,7 +269,7 @@ RA6T3マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA8T1</DeviceName>
-		<ProjectFolderName>RA8T1_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
+		<ProjectFolderName>RA8T1_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V101</ProjectFolderName>
 		<ProjectName 
 		en="Sensorless Vector Control with one shunt for Permanent Magnet Synchronous Motor" 
 		jp="永久磁石同期モータの1シャントセンサレスベクトル制御" />
