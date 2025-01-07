@@ -85,7 +85,7 @@
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_FOC_E2S_V111</ProjectFolderName>
-			<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_FOC_TUNER_E2S_V110</ProjectFolderName>
+			<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_FOC_TUNER_E2S_V111</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6466xx0120-ra-hall-foc.xml</ProjectUrl>
 		</Project>
 		<Project>
