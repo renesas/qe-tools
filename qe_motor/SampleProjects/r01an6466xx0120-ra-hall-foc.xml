@@ -157,7 +157,6 @@ RA4T1マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 	<SampleProject>
 		<DeviceName>RA6T2</DeviceName>
 		<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_FOC_E2S_V111</ProjectFolderName>
-		<ProjectDescriptionName>RA6T2_MCILV1_SPM_HALL_FOC_E2S_V110_Ver090</ProjectDescriptionName>
 		<ProjectName 
 		en="Vector control for permanent magnetic synchronous motor with hall sensors" 
 		jp="永久磁石同期モータのホールセンサベクトル制御" />
