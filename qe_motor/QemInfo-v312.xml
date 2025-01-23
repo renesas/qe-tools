@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <rmw>
   <qeCommunication>
-    <qeInterface>1.1.0</qeInterface>
+    <qeInterface>3.1.2</qeInterface>
   </qeCommunication>
   <tunerFiles>
     <tuningFile>
