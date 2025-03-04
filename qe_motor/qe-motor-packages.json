@@ -116,12 +116,12 @@
       "description": "Guide Info",
       "category": "com.renesas.qe.tool",
       "versionString": "140",
-      "file": "guide-info-v140.zip",
+      "file": "guide-package-v140.zip",
       "installSize": 1000,
       "downloadInfo": {
-        "uri": "https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/GuideInfo/guide-info-v140.zip",
-        "size": 9607177,
-        "hash": "76a9613468f245972cd78fad4ed0dd723176890f2f65b213e7cbca45c5b793492ff3b5ef2ca2106cf973263751dac3bb9a477cd9b180fd4e0c5c7ba8a46f1524"
+        "uri": "https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/GuideInfo/guide-package-v140.zip",
+        "size": 9156925,
+        "hash": "c5516fc26b5552405ccbfe56046d7489ba566d8f1e79732ef2dd64c2eb1e88fca2df1139639be98a8b917ce8ba8950e31841c8376ebc01ea9bbf56953b96bc7a"
       },
       "filter": "(|(family=*rx;*)(family=*ra;*)(family=*rl78;*))",
       "extractSteps": [
