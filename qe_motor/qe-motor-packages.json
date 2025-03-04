@@ -109,6 +109,32 @@
           "outVarName": "qeExtractLoc"
         }
       ]
+    },
+    "com.renesas.qe.tool.guide-package-v140": {
+      "type": "extractable",
+      "name": "Guide Info Package",
+      "description": "Guide Info",
+      "category": "com.renesas.qe.tool",
+      "versionString": "140",
+      "file": "guide-info-v140.zip",
+      "installSize": 1000,
+      "downloadInfo": {
+        "uri": "https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/GuideInfo/guide-info-v140.zip",
+        "size": 9607177,
+        "hash": "76a9613468f245972cd78fad4ed0dd723176890f2f65b213e7cbca45c5b793492ff3b5ef2ca2106cf973263751dac3bb9a477cd9b180fd4e0c5c7ba8a46f1524"
+      },
+      "filter": "(|(family=*rx;*)(family=*ra;*)(family=*rl78;*))",
+      "extractSteps": [
+        {
+          "function": "EXTRACT",
+          "args": [
+            "zip",
+            "${packageFile}",
+            "${installDir}/QE_Motor/Guide/"
+          ],
+          "outVarName": "qeExtractLoc"
+        }
+      ]
     }
   }
 }
