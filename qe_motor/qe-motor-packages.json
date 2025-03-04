@@ -115,7 +115,7 @@
       "name": "Guide Info Package",
       "description": "Guide Info",
       "category": "com.renesas.qe.tool",
-      "versionString": "140",
+      "versionString": "1.4.0",
       "file": "guide-package-v140.zip",
       "installSize": 1000,
       "downloadInfo": {
