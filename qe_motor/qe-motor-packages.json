@@ -110,12 +110,12 @@
         }
       ]
     },
-    "com.renesas.qe.tool.guide-package-v140": {
+    "com.renesas.qe.tool.guide-package-v100": {
       "type": "extractable",
       "name": "Guide Info Package",
       "description": "Guide Info",
       "category": "com.renesas.qe.tool",
-      "versionString": "1.4.0",
+      "versionString": "1.0.0",
       "file": "guide-package-v140.zip",
       "installSize": 1000,
       "downloadInfo": {
