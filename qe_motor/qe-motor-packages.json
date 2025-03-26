@@ -120,8 +120,8 @@
       "installSize": 1000,
       "downloadInfo": {
         "uri": "https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/GuideInfo/guide-package-v140.zip",
-        "size": 9156933,
-        "hash": "f6a5ef61b9c7111f057b95c8e5cd3c0e1b10697a9c963ddf0adda9ee3b54690c8f1abfa3349d136206415c0e8f067cbdb25bca8d3fee46dfe7222366d9c0b933"
+        "size": 9156840,
+        "hash": "4b6eccc9d36370ef7616d8a5e853d875cb1474f5502e75cbd10ac53b062b0b929fb2b48e2ec0e633ec49d3b1e45299b4dd9d0aef9a3b140a769d9ca0142f6628"
       },
       "filter": "(|(family=*rx;*)(family=*ra;*)(family=*rl78;*))",
       "extractSteps": [
