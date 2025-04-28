@@ -6,6 +6,7 @@
 	<Date>2021-12-17</Date>
 	<SampleProject>
 		<DeviceName>RA6T1</DeviceName>
+		<FspVersion>3.5.0</FspVersion>
 		<ProjectFolderName>RA6T1_ESB_SPM_LESS_120_E2S_V100</ProjectFolderName>
 		<ProjectName 
 		en="Sensorless 120-degree Conducting Control of Permanent Magnet Synchronous Motor" 
