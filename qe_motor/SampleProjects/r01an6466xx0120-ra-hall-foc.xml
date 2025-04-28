@@ -6,7 +6,7 @@
 	<Date>2024-01-23</Date>
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>
-		<FspVersion>5.1.0</FspVersion>
+		<FspVersion>5.6.0</FspVersion>
 		<ProjectFolderName>RA4T1_MCILV1_SPM_HALL_FOC_E2S_V101</ProjectFolderName>
 		<ProjectName 
 		en="Vector control for permanent magnetic synchronous motor with hall sensors" 
@@ -79,7 +79,7 @@ RA4T1マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>
-		<FspVersion>5.1.0</FspVersion>
+		<FspVersion>5.6.0</FspVersion>
 		<ProjectFolderName>RA4T1_MCILV1_SPM_HALL_FOC_TUNER_E2S_V101</ProjectFolderName>
 		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
 		<ProjectName 
@@ -156,6 +156,7 @@ RA4T1マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA6T2</DeviceName>
+		<FspVersion>5.6.0</FspVersion>
 		<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_FOC_E2S_V111</ProjectFolderName>
 		<ProjectName 
 		en="Vector control for permanent magnetic synchronous motor with hall sensors" 
@@ -229,6 +230,7 @@ RA6T2マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 
 	<SampleProject>
 		<DeviceName>RA6T2</DeviceName>
+		<FspVersion>5.6.0</FspVersion>
 		<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_FOC_TUNER_E2S_V111</ProjectFolderName>
 		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
 		<ProjectName 
@@ -305,6 +307,7 @@ RA6T2マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA6T3</DeviceName>
+		<FspVersion>5.6.0</FspVersion>
 		<ProjectFolderName>RA6T3_MCILV1_SPM_HALL_FOC_E2S_V101</ProjectFolderName>
 		<ProjectName 
 		en="Vector control for permanent magnetic synchronous motor with hall sensors" 
@@ -377,6 +380,7 @@ RA6T3マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA6T3</DeviceName>
+		<FspVersion>5.6.0</FspVersion>
 		<ProjectFolderName>RA6T3_MCILV1_SPM_HALL_FOC_TUNER_E2S_V101</ProjectFolderName>
 		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
 		<ProjectName 
@@ -453,6 +457,7 @@ RA6T3マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA8T1</DeviceName>
+		<FspVersion>5.6.0</FspVersion>
 		<ProjectFolderName>RA8T1_MCILV1_SPM_HALL_FOC_E2S_V101</ProjectFolderName>
 		<ProjectName 
 		en="Vector control for permanent magnetic synchronous motor with hall sensors" 
@@ -525,6 +530,7 @@ RA8T1マイクロコントローラ(MCU)を使用し、永久磁石同期モー�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA8T1</DeviceName>
+		<FspVersion>5.6.0</FspVersion>
 		<ProjectFolderName>RA8T1_MCILV1_SPM_HALL_FOC_TUNER_E2S_V101</ProjectFolderName>
 		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
 		<ProjectName 
