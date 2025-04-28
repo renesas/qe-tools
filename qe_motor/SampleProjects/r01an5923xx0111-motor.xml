@@ -6,6 +6,7 @@
 	<Date>2022-10-18</Date>
 	<SampleProject>
 		<DeviceName>RA6T1</DeviceName>
+		<FspVersion>4.1.0</FspVersion>
 		<ProjectFolderName>RA6T1_ESB_SPM_ENCD_FOC_E2S_V101</ProjectFolderName>
 		<ProjectName 
 		en="Vector control for permanent magnetic synchronous motor with encoder - AB incremental type encoder" 
