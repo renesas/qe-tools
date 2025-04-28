@@ -6,8 +6,8 @@
 	<Date>2024-01-23</Date>
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>
-		<FspVersion>4.4.0</FspVersion>
-		<ProjectFolderName>RA4T1_MCILV1_SPM_IS_FOC_E2S_V100</ProjectFolderName>
+		<FspVersion>5.6.0</FspVersion>
+		<ProjectFolderName>RA4T1_MCILV1_SPM_IS_FOC_E2S_V101</ProjectFolderName>
 		<ProjectName 
 		en="Vector Control for Permanent Magnet Synchronous Motor with Inductive Sensor" 
 		jp="永久磁石同期モータの誘導センサベクトル制御" />
@@ -82,8 +82,8 @@ RA4T1マイクロコントローラ(MCU)を使用し、誘導センサ付き永�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>
-		<FspVersion>4.4.0</FspVersion>
-		<ProjectFolderName>RA4T1_MCILV1_SPM_IS_FOC_TUNER_E2S_V100</ProjectFolderName>
+		<FspVersion>5.6.0</FspVersion>
+		<ProjectFolderName>RA4T1_MCILV1_SPM_IS_FOC_TUNER_E2S_V101</ProjectFolderName>
 		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
 		<ProjectName 
 		en="Vector Control for Permanent Magnet Synchronous Motor with Inductive Sensor (for tuning program generation)" 
@@ -164,6 +164,7 @@ RA4T1マイクロコントローラ(MCU)を使用し、誘導センサ付き永�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA6T2</DeviceName>
+		<FspVersion>4.4.0</FspVersion>
 		<ProjectFolderName>RA6T2_MCILV1_SPM_IS_FOC_E2S_V110</ProjectFolderName>
 		<ProjectName 
 		en="Vector Control for Permanent Magnet Synchronous Motor with Inductive Sensor" 
@@ -239,7 +240,8 @@ RA6T2マイクロコントローラ(MCU)を使用し、誘導センサ付き永�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA6T2</DeviceName>
-		<ProjectFolderName>RA6T2_MCILV1_SPM_IS_FOC_TUNER_E2S_V110</ProjectFolderName>
+		<FspVersion>5.6.0</FspVersion>
+		<ProjectFolderName>RA6T2_MCILV1_SPM_IS_FOC_TUNER_E2S_V111</ProjectFolderName>
 		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
 		<ProjectName 
 		en="Vector Control for Permanent Magnet Synchronous Motor with Inductive Sensor (for tuning program generation)" 
@@ -320,7 +322,8 @@ RA6T2マイクロコントローラ(MCU)を使用し、誘導センサ付き永�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA6T3</DeviceName>
-		<ProjectFolderName>RA6T3_MCILV1_SPM_IS_FOC_E2S_V100</ProjectFolderName>
+		<FspVersion>5.6.0</FspVersion>
+		<ProjectFolderName>RA6T3_MCILV1_SPM_IS_FOC_E2S_V101</ProjectFolderName>
 		<ProjectName 
 		en="Vector Control for Permanent Magnet Synchronous Motor with Inductive Sensor" 
 		jp="永久磁石同期モータの誘導センサベクトル制御" />
@@ -395,7 +398,8 @@ RA6T3マイクロコントローラ(MCU)を使用し、誘導センサ付き永�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA6T3</DeviceName>
-		<ProjectFolderName>RA6T3_MCILV1_SPM_IS_FOC_TUNER_E2S_V100</ProjectFolderName>
+		<FspVersion>5.6.0</FspVersion>
+		<ProjectFolderName>RA6T3_MCILV1_SPM_IS_FOC_TUNER_E2S_V101</ProjectFolderName>
 		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
 		<ProjectName 
 		en="Vector Control for Permanent Magnet Synchronous Motor with Inductive Sensor (for tuning program generation)" 
@@ -476,7 +480,8 @@ RA6T3マイクロコントローラ(MCU)を使用し、誘導センサ付き永�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA8T1</DeviceName>
-		<ProjectFolderName>RA8T1_MCILV1_SPM_IS_FOC_E2S_V100</ProjectFolderName>
+		<FspVersion>5.6.0</FspVersion>
+		<ProjectFolderName>RA8T1_MCILV1_SPM_ENCD_FOC_E2S_V101</ProjectFolderName>
 		<ProjectName 
 		en="Vector Control for Permanent Magnet Synchronous Motor with Inductive Sensor" 
 		jp="永久磁石同期モータの誘導センサベクトル制御" />
@@ -551,7 +556,8 @@ RA8T1マイクロコントローラ(MCU)を使用し、誘導センサ付き永�
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA8T1</DeviceName>
-		<ProjectFolderName>RA8T1_MCILV1_SPM_IS_FOC_TUNER_E2S_V100</ProjectFolderName>
+		<FspVersion>5.6.0</FspVersion>
+		<ProjectFolderName>RA8T1_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V101</ProjectFolderName>
 		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
 		<ProjectName 
 		en="Vector Control for Permanent Magnet Synchronous Motor with Inductive Sensor (for tuning program generation)" 
