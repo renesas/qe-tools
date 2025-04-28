@@ -6,6 +6,7 @@
 	<Date>2023-08-30</Date>
 	<SampleProject>
 		<DeviceName>RA6T1</DeviceName>
+		<FspVersion>4.6.0</FspVersion>
 		<ProjectFolderName>RA6T1_ESB_2SPM_LESS_FOC_E2S_V100</ProjectFolderName>
 		<ProjectDescriptionName>RA6T1_2MRSSK_2SPM_LESS_FOC_E2S_RV101_Ver090</ProjectDescriptionName>
 		<ProjectName 
