@@ -6,6 +6,7 @@
 	<Date>2024-01-23</Date>
 	<SampleProject>
 		<DeviceName>RA6T2</DeviceName>
+		<FspVersion>5.1.0</FspVersion>
 		<ProjectFolderName>RA6T2_MCILV1_2SPM_LESS_FOC_E2S_V111</ProjectFolderName>
 		<ProjectName 
 		en="Sensorless vector control for dual permanent magnetic synchronous motor" 
@@ -75,6 +76,7 @@ RA6T2マイクロコントローラ(MCU)を使用し、2個の永久磁石同期
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA8T1</DeviceName>
+		<FspVersion>5.6.0</FspVersion>
 		<ProjectFolderName>RA8T1_MCILV1_2SPM_LESS_FOC_E2S_V100</ProjectFolderName>
 		<ProjectName 
 		en="Sensorless vector control for dual permanent magnetic synchronous motor" 
