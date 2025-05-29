@@ -2,6 +2,8 @@
 <ZipFile>
 	<Category en="Inductive sensor feedback" jp="誘導センサフィードバック" />
 	<Category en="Vector control" jp="ベクトル制御" />
+	<SensorType en="Inductive sensor feedback" jp="誘導センサフィードバック" />
+	<ControlType en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/vector-control-permanent-magnet-synchronous-motor-inductive-sensor-mckmcb-ra-family-sample-code/r01an6842xx0110-ra-inductive-foc.zip</ZipDownloadUrl>
 	<Date>2024-01-23</Date>
 	<SampleProject>
