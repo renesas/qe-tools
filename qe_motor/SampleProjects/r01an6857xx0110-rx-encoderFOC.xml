@@ -2,6 +2,8 @@
 <ZipFile>
 	<Category en="Encoder feedback" jp="エンコーダ―フィードバック" />
 	<Category en="Vector control" jp="ベクトル制御" />
+	<SensorType en="Encoder feedback" jp="エンコーダ―フィードバック" />
+	<ControlType en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rev110/r01an6857xx0110-rx-encoderFOC.zip</ZipDownloadUrl>
 	<Date>2023-08-29</Date>
 	<SampleProject>
