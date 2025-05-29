@@ -2,6 +2,8 @@
 <ZipFile>
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
 	<Category en="Vector control" jp="ベクトル制御" />
+	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
+	<ControlType en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/rl78g24-sensorless-vector-control-permanent-magnetic-synchronous-motor-sample-code/r01an7036xx0100-rl78g24-motor.zip</ZipDownloadUrl>
 	<Date>2023-11-27</Date>
 	<SampleProject>
