@@ -2,6 +2,8 @@
 <ZipFile>
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
 	<Category en="Vector control" jp="ベクトル制御" />
+	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
+	<ControlType en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/rl78g1f-sensorless-vector-control-permanent-magnetic-synchronous-motor-1-shunt-register-current/r01an3992xx0220-rl78g1f-motor.zip</ZipDownloadUrl>
 	<Date>2021-11-29</Date>
 	<SampleProject>
