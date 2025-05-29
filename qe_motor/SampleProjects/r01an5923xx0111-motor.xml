@@ -2,6 +2,8 @@
 <ZipFile>
 	<Category en="Encoder feedback" jp="エンコーダフィードバック" />
 	<Category en="Vector control" jp="ベクトル制御" />
+	<SensorType en="Encoder feedback" jp="エンコーダフィードバック" />
+	<ControlType en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/ra6t1-vector-control-permanent-magnet-synchronous-motor-encoder-implementation-sample-code/r01an5923xx0111-motor.zip</ZipDownloadUrl>
 	<Date>2022-10-18</Date>
 	<SampleProject>
