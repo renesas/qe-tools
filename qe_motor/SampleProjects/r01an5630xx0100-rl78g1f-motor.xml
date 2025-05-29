@@ -2,6 +2,8 @@
 <ZipFile>
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
 	<Category en="120-degree conducting control" jp="120 度通電制御" />
+	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
+	<ControlType en="120-degree conducting control" jp="120 度通電制御" />
 	<ZipDownloadUrl>/document/scd/rl78g1f-sensorless-120-degree-conducting-control-permanent-magnetic-synchronous-motor-high-speed/r01an5630xx0100-rl78g1f-motor.zip</ZipDownloadUrl>
 	<Date>2020-10-20</Date>
 	<SampleProject>
