@@ -2,6 +2,8 @@
 <ZipFile>
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
 	<Category en="120-degree conducting control" jp="120 度通電制御" />
+	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
+	<ControlType en="120-degree conducting control" jp="120 度通電制御" />
 	<ZipDownloadUrl>/document/scd/sensorless-120-degree-conducting-control-permanent-magnet-synchronous-motor-mckmcb-ra-family-sample/r01an6844xx0110-ra-sensorless-120.zip</ZipDownloadUrl>
 	<Date>2024-01-23</Date>
 	<SampleProject>
