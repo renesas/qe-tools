@@ -3,6 +3,8 @@
 	<Category en="Hall sensor feedback" jp="ホールセンサフィードバック" />
 	<Category en="Vector control" jp="ベクトル制御" />
 	<Category en="1-shunt current detection method" jp="1シャント抵抗電流検出方式" />
+	<SensorType en="Hall sensor feedback" jp="ホールセンサフィードバック" />
+	<ControlType en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/vector-control-magnetic-synchronous-motor-hall-sensors-1shunt-current-detection-motor-flexible/r01an6979xx0100-ra-motor.zip</ZipDownloadUrl>
 	<Date>2023-08-04</Date>
 	<SampleProject>
