@@ -3,6 +3,9 @@
 	<Category en="120-degree conducting control" jp="120 度通電制御" />
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
 	<Category en="Hall sensor feedback" jp="ホールセンサフィードバック" />
+	<SensorType en="Sensorless feedback" jp="ホールセンサフィードバック" />
+	<SensorType en="Hall sensor feedback" jp="ホールセンサフィードバック" />
+	<ControlType en="120-degree conducting control" jp="120 度通電制御" />
 	<ZipDownloadUrl>/document/scd/rl78g1f-120-degree-conducting-control-permanent-magnetic-synchronous-motor-implementation-sample/r01an5114xx0200-rl78g1f-motor.zip</ZipDownloadUrl>
 	<Date>2020-04-01</Date>
 	<SampleProject>
