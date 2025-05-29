@@ -2,6 +2,8 @@
 <ZipFile>
 	<Category en="Hall sensor feedback" jp="ホールセンサフィードバック" />
 	<Category en="Vector control" jp="ベクトル制御" />
+	<SensorType en="Hall sensor feedback" jp="ホールセンサフィードバック" />
+	<ControlType en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/r01an6466xx0120-ra-hall-foc.zip</ZipDownloadUrl>
 	<Date>2024-01-23</Date>
 	<SampleProject>
