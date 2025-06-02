@@ -120,8 +120,8 @@
       "installSize": 1000,
       "downloadInfo": {
         "uri": "https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/GuideInfo/guide-package-v150-v1.zip",
-        "size": 9157401,
-        "hash": "ad3d0aaa9bba2edce63d5721480f13e5c82eb21757f7190f8b0d0faca861c4c76ce136bd0fdff2822f6e9e86874dc69d189448dda5a1d9bd35e50929adf7c269"
+        "size": 9157399,
+        "hash": "f83082250eb7f63f43ff270906c215599ed004f6d43ca2df23678865abd05fa279bfa1c1c4b8f6b1e59bbdfb1184ea706292d1ecc6ba48e73cdc6fe0af05ef92"
       },
       "filter": "(|(family=*rx;*)(family=*ra;*)(family=*rl78;*))",
       "extractSteps": [
@@ -147,7 +147,7 @@
       "downloadInfo": {
         "uri": "https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/GuideInfo/guide-package-v150-v3.zip",
         "size": 9157392,
-        "hash": "49882d73ec6ace91f7fecf14d3217155c83ef7e2b1446c8ede68e15e02a8ad033e8ef2491d50b923156ddff8d9abac5de2c84c76425b55e7a833f563c8e55492"
+        "hash": "ca4339235afffc5da8acf962303f83b1015bfe4d6cf5327eacc736cb221079c8dff8c80db5bc4050cb9bff25b6624998c0f1eb90345394d96327ec4777a13f52"
       },
       "filter": "(|(family=*rx;*)(family=*ra;*)(family=*rl78;*))",
       "extractSteps": [
