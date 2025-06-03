@@ -109,7 +109,7 @@
           "outVarName": "qeExtractLoc"
         }
       ]
-    }
+    },
     "com.renesas.qe.tool.guide-package-v110-v3": {
       "type": "extractable",
       "name": "Guide Info Package",
