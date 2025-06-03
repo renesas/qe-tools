@@ -110,16 +110,16 @@
         }
       ]
     },
-    "com.renesas.qe.tool.guide-package-v150-v1": {
+    "com.renesas.qe.tool.guide-package-v150": {
       "type": "extractable",
       "name": "Guide Info Package",
       "description": "Guide Info",
       "category": "com.renesas.qe.tool",
-      "versionString": "1.5.0.1",
-      "file": "guide-package-v150-v1.zip",
+      "versionString": "1.5.0",
+      "file": "guide-package-v150.zip",
       "installSize": 1000,
       "downloadInfo": {
-        "uri": "https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/GuideInfo/guide-package-v150-v1.zip",
+        "uri": "https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/GuideInfo/guide-package-v150.zip",
         "size": 9157399,
         "hash": "f83082250eb7f63f43ff270906c215599ed004f6d43ca2df23678865abd05fa279bfa1c1c4b8f6b1e59bbdfb1184ea706292d1ecc6ba48e73cdc6fe0af05ef92"
       },
