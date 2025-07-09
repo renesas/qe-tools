@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Kits>
 	<Kit>
+		<KitName en="MCK-RA2T1 Renesas Flexible Motor Control Kit for RA2T1 MCU Group" jp="MCK-RA2T1 Renesas Flexible Motor Control Kit for RA2T1 MCU Group"/>
+		<DeviceName>RA2T1</DeviceName>
+		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCK-RA2T1.png</KitImageUrl>
+		<KitDescription en="The MCK-RA2T1 is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="MCK-RA2T1は、永久磁石同期モータ(ブラシレスDCモータ)を用いたモータ制御の評価を簡単に行うことができる開発キットです。"/>
+		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモータ（R42BLD30L3）"/>
+		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/MCK-RA2T1-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/MCK-RA2T1-HardwareInfo.html" />
+		<Project>
+			<ProjectFolderName>RA2T1_MCILV1_PM_LESS_FOC_1S_E2S_V100</ProjectFolderName>
+			<ProjectFolderName>RA2T1_MCILV1_PM_LESS_FOC_3S_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7813xx0100-ra2t1-sensorless-foc.xml</ProjectUrl>
+		</Project>
+	</Kit>
+	<Kit>
 		<KitName en="MCK-RA4T1 Renesas Flexible Motor Control Kit for RA4T1 MCU Group" jp="MCK-RA4T1 Renesas Flexible Motor Control Kit for RA4T1 MCU Group"/>
 		<DeviceName>RA4T1</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCK-RA4T1.png</KitImageUrl>
