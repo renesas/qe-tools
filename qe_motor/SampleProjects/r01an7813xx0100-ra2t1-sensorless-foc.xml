@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />
+	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
+	<ControlType en="Vector control" jp="ベクトル制御" />
+	<ZipDownloadUrl>/document/scd/25574790/r01an7813xx0100-ra2t1-sensorless-foc.zip</ZipDownloadUrl>
+	<Date>2025-07-09</Date>
+	<SampleProject>
+		<DeviceName>RA2T1</DeviceName>
+		<ProjectFolderName>RA2T1_MCILV1_PM_LESS_FOC_1S_E2S_V100</ProjectFolderName>
+	        <Category en="1-shunt current detection method" jp="1シャント抵抗電流検出方式" />
+		<ProjectName 
+		en="RA2T1 Sensorless vector control for permanent magnetic synchronous motor (1-shunt)" 
+		jp="RA2T1 永久磁石同期モータのセンサレスベクトル制御 (1シャント)"/>
+		<ApplicationNoteUrl>/document/apn/rl78g24-sensorless-vector-control-permanent-magnetic-synchronous-motor</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sensorless vector control sample programs of the permanent magnetic synchronous motor (PMSM) using the RA2T1 microcontroller.\nThe Current detection method is 1-shunt mode that detects DC link current."
+			jp="RA2T1マイクロコントローラを使用した永久磁石同期モータ(PMSM)のセンサレスベクトル制御サンプルプログラムです。\n電流検出方式はDCリンク電流を検出する1シャントモードです。"/>
+	        <Features>
+	            <Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+	            <Feature en="Vector control" jp="ベクトル制御"/>
+			<Feature en="1-shunt current detection method" jp="1シャント抵抗電流検出方式"/>
+	        </Features>
+	       	<Setups>
+	            <Setup en="CPU board :RA2T1(R7FA2T1074CFL) CPU board (RTK0EMA810C00000BJ)" jp="CPUボード : RA2T1(R7FA2T1074CFL) CPUボード (RTK0EMA810C00000BJ)"/>
+	            <Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+	            <Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+	            <Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+		    	<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN7813EJ0100" jp="R01AN7813JJ0100"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the sensorless vector control sample programs of the permanent magnetic synchronous motor (PMSM) using the RA2T1 microcontroller.&#10;
+The Current detection method is 1-shunt mode that detects DC link current. &#10;
+&#10;
+[Features, Target System]&#10;
+ -Sensorless feedback&#10;
+ -Vector control&#10;
+ -1-shunt current detection method&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU card : RA2T1(R7FA2T1074CFL) CPU card (RTK0EMA810C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN7813EJ0100
+"
+jp="
+[概要]&#10;
+RA2T1マイクロコントローラを使用した永久磁石同期モータ(PMSM)のセンサレスベクトル制御サンプルプログラムです。&#10;
+電流検出方式はDCリンク電流を検出する1シャントモードです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -センサレスフィードバック&#10;
+ -ベクトル制御&#10;
+ -1シャント抵抗電流検出方式&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUカード : RA2T1(R7FA2T1074CFL) CPUカード (RTK0EMA810C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN7813JJ0100
+"
+		/>
+	</SampleProject>
+
+	<SampleProject>
+		<DeviceName>RA2T1</DeviceName>
+		<ProjectFolderName>RA2T1_MCILV1_PM_LESS_FOC_3S_E2S_V100</ProjectFolderName>
+	    <Category en="3-shunt current detection method" jp="3シャント抵抗電流検出方式" />
+		<ProjectName 
+		en="RA2T1 Sensorless vector control for permanent magnetic synchronous motor (3-shunt)" 
+		jp="RA2T1 永久磁石同期モータのセンサレスベクトル制御 (3シャント)"/>
+		<ApplicationNoteUrl>/document/apn/rl78g24-sensorless-vector-control-permanent-magnetic-synchronous-motor</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sensorless vector control sample programs of the permanent magnetic synchronous motor (PMSM) using the RA2T1 microcontroller.\nThe Current detection method is 3-shunt mode that detects 3-phase current."
+			jp="RA2T1マイクロコントローラを使用した永久磁石同期モータ(PMSM)のセンサレスベクトル制御サンプルプログラムです。\n電流検出方式は3相電流を検出する3シャントモードです。"/>
+	        <Features>
+	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+			<Feature en="3-shunt current detection method" jp="3シャント抵抗電流検出方式"/>
+	        </Features>
+	       	<Setups>
+	            <Setup en="CPU board :RA2T1(R7FA2T1074CFL) CPU board (RTK0EMA810C00000BJ)" jp="CPUボード : RA2T1(R7FA2T1074CFL) CPUボード (RTK0EMA810C00000BJ)"/>
+	            <Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+	            <Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+	            <Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+		    	<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN7813EJ0100" jp="R01AN7813JJ0100"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the sensorless vector control sample programs of the permanent magnetic synchronous motor (PMSM) using the RA2T1 microcontroller.&#10;
+The Current detection method is 3-shunt mode that detects 3-phase current. &#10;
+&#10;
+[Features, Target System]&#10;
+ -Sensorless feedback&#10;
+ -Vector control&#10;
+ -3-shunt current detection method&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU card : RA2T1(R7FA2T1074CFL) CPU card (RTK0EMA810C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN7813EJ0100
+" 
+jp="
+[概要]&#10;
+RA2T1マイクロコントローラを使用した永久磁石同期モータ(PMSM)のセンサレスベクトル制御サンプルプログラムです。&#10;
+電流検出方式は3相電流を検出する3シャントモードです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -センサレスフィードバック&#10;
+ -ベクトル制御&#10;
+ -3シャント抵抗電流検出方式&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUカード : RA2T1(R7FA2T1074CFL) CPUカード (RTK0EMA810C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN7813JJ0100
+"
+		/>
+	</SampleProject>
+
+</ZipFile>
