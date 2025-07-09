@@ -8,6 +8,7 @@
 	<Date>2025-07-09</Date>
 	<SampleProject>
 		<DeviceName>RA2T1</DeviceName>
+		<FspVersion>6.0.0</FspVersion>
 		<ProjectFolderName>RA2T1_MCILV1_PM_LESS_FOC_1S_E2S_V100</ProjectFolderName>
 	        <Category en="1-shunt current detection method" jp="1シャント抵抗電流検出方式" />
 		<ProjectName 
@@ -81,6 +82,7 @@ RA2T1マイクロコントローラを使用した永久磁石同期モータ(PM
 
 	<SampleProject>
 		<DeviceName>RA2T1</DeviceName>
+		<FspVersion>6.0.0</FspVersion>
 		<ProjectFolderName>RA2T1_MCILV1_PM_LESS_FOC_3S_E2S_V100</ProjectFolderName>
 	    <Category en="3-shunt current detection method" jp="3シャント抵抗電流検出方式" />
 		<ProjectName 
