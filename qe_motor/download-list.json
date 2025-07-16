@@ -1,0 +1,11 @@
+{
+    "files": [
+        "QE-Motor-Kit.xml",
+        "QE-Motor-Projects.xml"
+    ],
+    "folders": {
+        "BoardPictures": "ALL",
+        "BoardHardwareInfo": "ALL",
+        "SampleProjects/html": "ALL"
+    }
+}

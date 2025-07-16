@@ -4,6 +4,7 @@
 		<KitName en="MCK-RA2T1 Renesas Flexible Motor Control Kit for RA2T1 MCU Group" jp="MCK-RA2T1 Renesas Flexible Motor Control Kit for RA2T1 MCU Group"/>
 		<DeviceName>RA2T1</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCK-RA2T1.png</KitImageUrl>
+		<Keyword>RA2T1</Keyword>
 		<KitDescription en="The MCK-RA2T1 is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="MCK-RA2T1は、永久磁石同期モータ(ブラシレスDCモータ)を用いたモータ制御の評価を簡単に行うことができる開発キットです。"/>
 		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモータ（R42BLD30L3）"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/MCK-RA2T1-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/MCK-RA2T1-HardwareInfo.html" />
@@ -17,6 +18,7 @@
 		<KitName en="MCK-RA4T1 Renesas Flexible Motor Control Kit for RA4T1 MCU Group" jp="MCK-RA4T1 Renesas Flexible Motor Control Kit for RA4T1 MCU Group"/>
 		<DeviceName>RA4T1</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCK-RA4T1.png</KitImageUrl>
+		<Keyword>RA4T1</Keyword>
 		<KitDescription en="The MCK-RA4T1 is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="MCK-RA4T1は、永久磁石同期モータ(ブラシレスDCモータ)を用いたモータ制御を簡単に評価できる開発キットです。"/>
 		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモータ（R42BLD30L3）"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/MCK-RA4T1-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/MCK-RA4T1-HardwareInfo.html" />
@@ -57,6 +59,7 @@
 		<KitName en="Motor Control Evaluation System for RA Family - RA6T1 Group" jp="RAファミリ用モータ制御評価システム - RA6T1 グループ"/>
 		<DeviceName>RA6T1</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/RSSK-RA6T1.png</KitImageUrl>
+		<Keyword>RA6T1</Keyword>
 		<KitDescription en="The Motor Control Evaluation System for RA Family - RA6T1 Group is a low-voltage permanent magnet synchronous motor (brushless DC motor) solution that allows anyone to easily evaluate motor control." jp="RAファミリ用モータ制御評価システム RA6T1グループは、誰でも簡単にモータ制御を評価できる低電圧永久磁石同期モータ（ブラシレスDCモータ）ソリューションです。"/>
 		<Motor en="Brushless DC Mortor (TG-55L-KA 24V)" jp="ブラシレスDCモータ (TG-55L-KA 24V)"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/RSSK-RA6T1-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/RSSK-RA6T1-HardwareInfo.html" />
@@ -89,6 +92,7 @@
 		<KitName en="MCK-RA6T2 Renesas Flexible Motor Control Kit for RA6T2 MCU Group" jp="MCK-RA6T2 Renesas Flexible Motor Control Kit for RA6T2 MCU Group"/>
 		<DeviceName>RA6T2</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCK-RA6T2.png</KitImageUrl>
+		<Keyword>RA6T2</Keyword>
 		<KitDescription en="The MCK-RA6T2 is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="MCK-RA6T2は、永久磁石同期モータ(ブラシレスDCモータ)を用いたモータ制御を簡単に評価できる開発キットです。"/>
 		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモータ（R42BLD30L3）"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/MCK-RA6T2-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/MCK-RA6T2-HardwareInfo.html" />
@@ -141,6 +145,7 @@
 		<KitName en="MCK-RA6T3 Renesas Flexible Motor Control Kit for RA6T3 MCU Group" jp="MCK-RA6T3 Renesas Flexible Motor Control Kit for RA6T3 MCU Group"/>
 		<DeviceName>RA6T3</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCK-RA6T3.png</KitImageUrl>
+		<Keyword>RA6T3</Keyword>
 		<KitDescription en="The MCK-RA6T3 is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="MCK-RA6T3は、永久磁石同期モータ(ブラシレスDCモータ)を用いたモータ制御を簡単に評価できる開発キットです。"/>
 		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモータ（R42BLD30L3）"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/MCK-RA6T3-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/MCK-RA6T3-HardwareInfo.html" />
@@ -181,6 +186,7 @@
 		<KitName en="MCK-RA8T1 Renesas Flexible Motor Control Kit for RA8T1 MCU Group" jp="MCK-RA8T1 Renesas Flexible Motor Control Kit for RA8T1 MCU Group"/>
 		<DeviceName>RA8T1</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCK-RA8T1.png</KitImageUrl>
+		<Keyword>RA8T1</Keyword>
 		<KitDescription en="The MCK-RA8T1 is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="MCK-RA8T1は、永久磁石同期モータ(ブラシレスDCモータ)を用いたモータ制御を簡単に評価できる開発キットです。"/>
 		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモータ（R42BLD30L3）"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/MCK-RA8T1-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/MCK-RA8T1-HardwareInfo.html" />
@@ -225,6 +231,7 @@
 		<KitName en="RL78/G1F CPU Card and 24V inverter board(RTK0EM0001B00012BJ)" jp="RL78/G1F CPUカード ＋ 24V系インバータボード(RTK0EM0001B00012BJ)" />
 		<DeviceName>RL78/G1F</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/RSSK-RL78G1F.png</KitImageUrl>
+		<Keyword>RSSK-RL78</Keyword>
 		<KitDescription 
 		en="
 		A low-voltage (24V) permanent magnet synchronous motor (brushless DC motor) solution for easy evaluation. Use the RL78/G1F CPU card with the inverter board included in the Renesas Solution Starter Kit 24V Motor Control Evaluation System for RX23T"
@@ -253,6 +260,7 @@
 		<KitName en="GB01 Inverter for Evaluation" jp="評価用インバータ GB01" />
 		<DeviceName>RL78/G1F</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/GB01-RL78G1F.png</KitImageUrl>
+		<Keyword>GB-RL78</Keyword>
 		<KitDescription en="The Evaluation System for BLDC Motor provided by Renesas is a low-voltage permanent magnet synchronous motor (brushless DC motor) solution that allows anyone to easily evaluate the motor." jp="ルネサスが提供するBLDCモータ評価システムは、誰でも簡単にモータを評価できる低電圧永久磁石同期モータ(ブラシレスDCモータ)ソリューションです。"/>
 		<Motor en="Brushless DC Mortor (TG-55L)" jp="ブラシレスDCモータ（TG-55L）"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/GB01-RL78G1F-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/GB01-RL78G1F-HardwareInfo.html" />
@@ -269,6 +277,7 @@
 		<KitName en="Trial series “T1003” 200W 300VA Inverter Unit" jp="Trial series “T1003” 200W 300VA Inverter Unit" />
 		<DeviceName>RL78/G1F</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/T1003-RL78G1F.png</KitImageUrl>
+		<Keyword>T1003-RL78</Keyword>
 		<KitDescription 
 		en="
 		Trial series “T1003” 200W 300VA Inverter Unit is a product of Desk Top Laboratories Inc."
@@ -285,6 +294,7 @@
 		<KitName en="RL78/G24 Motor Control Evaluation Kit" jp="RL78/G24 Motor Control Evaluation Kit" />
 		<DeviceName>RL78/G24</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCEK-RL78G24.png</KitImageUrl>
+		<Keyword>G24-RL78</Keyword>
 		<KitDescription 
 			en="The RL78/G24 Motor Control Evaluation Kit is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors).
                 With this product and the sample code that can be downloaded from the website, you can start evaluating motor control using the RL78/G24 right away." 
@@ -311,6 +321,7 @@
 		<KitName en="MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group" jp="MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group"/>
 		<DeviceName>RX26T</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCK-RX26T.png</KitImageUrl>
+		<Keyword>RX26T</Keyword>
 		<KitDescription 
 			en="The MCK-RX26T is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)."
 			jp="MCK-RX26Tは永久磁石同期モータ(ブラシレスDCモータ)を使ったモータ制御の評価を簡単に行うことができる開発キットです。本製品と、ウェブサイトからダウンロードできるサンプルコードやQE for Motorを使うことで、RX26Tを用いたモータ制御評価をすぐに始めることができます。"

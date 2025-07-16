@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceFamilies>
+	<Device>
+		<Keyword>RA4T1</Keyword>
+		<ProjectDes>Startup demo tutorial for sensorless control with MCK-RA4T1
+			<ProjectName>RA4T1_MCILV1_SPM_LESS_FOC_E2S</ProjectName>
+			<ProjectFileName>r01an6839xx0110-ra-sensorless-foc.zip</ProjectFileName>
+		</ProjectDes>
+		<ProjectDes>Hall sensor control sample software tutorial workflow
+			<ProjectName>RA4T1_MCILV1_SPM_HALL_FOC_E2S</ProjectName>
+			<ProjectFileName>r01an6466xx0120-ra-hall-foc.zip</ProjectFileName>
+		</ProjectDes>
+		<supportIde>
+			<ide>e2 studio</ide>
+		</supportIde>
+	</Device>
+	<Device>
+		<Keyword>RA6T1</Keyword>
+		<ProjectDes>Startup demo tutorial for sensorless control with RA6T1
+			<ProjectName>RA6T1_ESB_SPM_LESS_FOC_E2S</ProjectName>
+			<ProjectFileName>r01an5558xx0111-motor.zip</ProjectFileName>
+		</ProjectDes>
+		<ProjectDes>Hall sensor control sample software tutorial workflow
+			<ProjectName>RA6T1_ESB_SPM_HALL_120_E2S</ProjectName>
+			<ProjectFileName>r01an6258xx0100-motor.zip</ProjectFileName>
+		</ProjectDes>
+		<supportIde>
+			<ide>e2 studio</ide>
+		</supportIde>
+	</Device>
+	<Device>
+		<Keyword>RA6T2</Keyword>
+		<ProjectDes>Startup demo tutorial for sensorless control with MCK-RA6T2
+			<ProjectName>RA6T2_MCILV1_SPM_LESS_FOC_E2S</ProjectName>
+			<ProjectFileName>r01an6839xx0110-ra-sensorless-foc.zip</ProjectFileName>
+		</ProjectDes>
+		<ProjectDes>Hall sensor control sample software tutorial workflow
+			<ProjectName>RA6T2_MCILV1_SPM_HALL_FOC_E2S</ProjectName>
+			<ProjectFileName>r01an6466xx0120-ra-hall-foc.zip</ProjectFileName>
+		</ProjectDes>
+		<supportIde>
+			<ide>e2 studio</ide>
+		</supportIde>
+	</Device>
+	<Device>
+		<Keyword>RA6T3</Keyword>
+		<ProjectDes>Startup demo tutorial for sensorless control with RA6T3
+			<ProjectName>RA6T3_MCILV1_SPM_LESS_FOC_E2S</ProjectName>
+			<ProjectFileName>r01an6839xx0110-ra-sensorless-foc.zip</ProjectFileName>
+		</ProjectDes>
+		<ProjectDes>Hall sensor control sample software tutorial workflow
+			<ProjectName>RA6T3_MCILV1_SPM_HALL_FOC_E2S</ProjectName>
+			<ProjectFileName>r01an6466xx0120-ra-hall-foc.zip</ProjectFileName>
+		</ProjectDes>
+		<supportIde>
+			<ide>e2 studio</ide>
+			<ide>CS+</ide>
+		</supportIde>
+	</Device>
+	<Device>
+		<Keyword>RA8T1</Keyword>
+		<ProjectDes>Startup demo tutorial for sensorless control with RA8T1
+			<ProjectName>RA8T1_MCILV1_SPM_LESS_FOC_E2S</ProjectName>
+			<ProjectFileName>r01an6839xx0110-ra-sensorless-foc.zip</ProjectFileName>
+		</ProjectDes>
+		<ProjectDes>Hall sensor control sample software tutorial workflow
+			<ProjectName>RA8T1_MCILV1_SPM_HALL_FOC_E2S</ProjectName>
+			<ProjectFileName>r01an6466xx0120-ra-hall-foc.zip</ProjectFileName>
+		</ProjectDes>
+		<supportIde>
+			<ide>e2 studio</ide>
+		</supportIde>
+	</Device>
+	<Device>
+		<Keyword>RL78/G24</Keyword>
+		<ProjectDes>SampleProjects/r01an7036xx0110-rl78g24-motor.xml</ProjectDes>
+		<ProjectDes>SampleProjects/r01an7267xx0110-rl78g24-motor.xml</ProjectDes>
+		<ProjectDes>SampleProjects/r01an7386xx0110-rl78g24-motor.xml</ProjectDes>
+	</Device>
+	<Device>
+		<Keyword>RL78/G1F</Keyword>
+		<ProjectDes>SampleProjects/an-r01an3596xx0110-motor.xml</ProjectDes>
+		<ProjectDes>SampleProjects/r01an5114xx0200-rl78g1f-motor.xml</ProjectDes>
+		<ProjectDes>SampleProjects/r01an5630xx0100-rl78g1f-motor.xml</ProjectDes>
+		<ProjectDes>SampleProjects/r01an6419xx0220-rl78g1f-motor.xml</ProjectDes>
+		<ProjectDes>SampleProjects/r01an3992xx0220-rl78g1f-motor.xml</ProjectDes>
+		<ProjectDes>SampleProjects/r01an4502xx0200-rl78g1f-motor.xml</ProjectDes>
+		<ProjectDes>SampleProjects/r01an3991xx0200-motor.xml</ProjectDes>
+	</Device>
+	<Device>
+		<Keyword>RX26T</Keyword>
+		<ProjectDes>SampleProjects/r01an6857xx0110-rx-encoderFOC.xml</ProjectDes>
+		<ProjectDes>SampleProjects/r01an6858xx0110-rx-sensorlessFOC.xml</ProjectDes>
+	</Device>
+</DeviceFamilies>
