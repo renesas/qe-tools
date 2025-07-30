@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Kits>
 	<Kit>
-		<KitName en="MCK-RA2T1 Renesas Flexible Motor Control Kit for RA2T1 MCU Group" jp="MCK-RA2T1 Renesas Flexible Motor Control Kit for RA2T1 MCU Group"/>
+		<KitName en="MCK-RA2T1 Renesas Flexible Motor Control Kit for RA2T1 MCU Group [Test]" jp="MCK-RA2T1 Renesas Flexible Motor Control Kit for RA2T1 MCU Group [Test]"/>
 		<DeviceName>RA2T1</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCK-RA2T1.png</KitImageUrl>
 		<Keyword>RA2T1</Keyword>
