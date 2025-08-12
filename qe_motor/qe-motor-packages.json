@@ -84,18 +84,18 @@
         }
       ]
     },
-    "com.renesas.qe.tool.tuning-package-v3120": {
+    "com.renesas.qe.tool.tuning-package-v3200": {
       "type": "extractable",
       "name": "Tuning Program Package",
       "description": "Tuning Program",
       "category": "com.renesas.qe.tool",
-      "versionString": "3.1.2.0",
-      "file": "rmw-tuning-resources-v3120.zip",
+      "versionString": "3.2.0.0",
+      "file": "rmw-tuning-resources-v3200.zip",
       "installSize": 1000,
       "downloadInfo": {
-        "uri": "https://raw.githubusercontent.com/renesas/qe-tools/refs/heads/main/qe_motor/TuningResources/rmw-tuning-resources-v3120.zip",
-        "size": 15530323,
-        "hash": "778a61b1c72caf53157b739fbf88cc6258418a93f3caa967b3de38cb0bb55a2ceeecc97487d138acfa58e1f5346a1eb35580262f20654ee552beb5ebd2efafe1"
+        "uri": "https://raw.githubusercontent.com/renesas/qe-tools/refs/heads/main/qe_motor/TuningResources/rmw-tuning-resources-v3200.zip",
+        "size": 15527493,
+        "hash": "e82f5c4035dfff8e6d55e1ac1ba553f5b847d7656287277787e2ef1e00e8770c99a99f82d5737419f89313e6c79bd49b5e3de41d02e0f3eab42417d5ec760ae2"
       },
       "filter": "(|(family=*rx;*)(family=*ra;*)(family=*rl78;*))",
       "extractSteps": [
@@ -138,3 +138,4 @@
     }
   }
 }
+
