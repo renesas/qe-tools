@@ -25,11 +25,11 @@
 		<Project>
 			<ProjectFolderName>RA4T1_MCILV1_SPM_HALL_FOC_E2S_V101</ProjectFolderName>
 			<ProjectFolderName>RA4T1_MCILV1_SPM_HALL_FOC_TUNER_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6466xx0120-ra-hall-foc.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6466xx0121-ra-hall-foc.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA4T1_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6840xx0110-ra-sensorless-foc-1shunt.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6840xx0111-ra-sensorless-foc-1shunt.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA4T1_MCILV1_SPM_ENCD_FOC_E2S_V101</ProjectFolderName>
@@ -38,21 +38,21 @@
 		</Project>
 		<Project>
 			<ProjectFolderName>RA4T1_MCILV1_SPM_LESS_120_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6844xx0110-ra-sensorless-120.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6844xx0111-ra-sensorless-120.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA4T1_MCILV1_SPM_LESS_FOC_E2S_V101</ProjectFolderName>
 			<ProjectFolderName>RA4T1_MCILV1_SPM_LESS_FOC_TUNER_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6839xx0110-ra-sensorless-foc.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6839xx0111-ra-sensorless-foc.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA4T1_MCILV1_SPM_HALL_120_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6843xx0110-ra-hall-120.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6843xx0111-ra-hall-120.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA4T1_MCILV1_SPM_IS_FOC_E2S_V100</ProjectFolderName>
 			<ProjectFolderName>RA4T1_MCILV1_SPM_IS_FOC_TUNER_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6842xx0110-ra-inductive-foc.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6842xx0111-ra-inductive-foc.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
@@ -98,12 +98,12 @@
 		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/MCK-RA6T2-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/MCK-RA6T2-HardwareInfo.html" />
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_2SPM_LESS_FOC_E2S_V111</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6421xx0120-ra-sensorless-foc-2motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6421xx0121-ra-sensorless-foc-2motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_FOC_E2S_V111</ProjectFolderName>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_FOC_TUNER_E2S_V111</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6466xx0120-ra-hall-foc.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6466xx0121-ra-hall-foc.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_2SPM_HALL_LESS_FOC_E2S_V100</ProjectFolderName>
@@ -115,7 +115,7 @@
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V111</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6840xx0110-ra-sensorless-foc-1shunt.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6840xx0111-ra-sensorless-foc-1shunt.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_ENCD_FOC_E2S_V111</ProjectFolderName>
@@ -124,21 +124,21 @@
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_120_E2S_V110</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6844xx0110-ra-sensorless-120.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6844xx0111-ra-sensorless-120.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_E2S_V111</ProjectFolderName>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_TUNER_E2S_V111</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6839xx0110-ra-sensorless-foc.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6839xx0111-ra-sensorless-foc.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_120_E2S_V110</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6843xx0110-ra-hall-120.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6843xx0111-ra-hall-120.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_IS_FOC_E2S_V110</ProjectFolderName>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_IS_FOC_TUNER_E2S_V110</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6842xx0110-ra-inductive-foc.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6842xx0111-ra-inductive-foc.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
@@ -152,11 +152,11 @@
 		<Project>
 			<ProjectFolderName>RA6T3_MCILV1_SPM_HALL_FOC_E2S_V101</ProjectFolderName>
 			<ProjectFolderName>RA6T3_MCILV1_SPM_HALL_FOC_TUNER_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6466xx0120-ra-hall-foc.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6466xx0121-ra-hall-foc.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T3_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6840xx0110-ra-sensorless-foc-1shunt.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6840xx0111-ra-sensorless-foc-1shunt.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T3_MCILV1_SPM_ENCD_FOC_E2S_V101</ProjectFolderName>
@@ -165,21 +165,21 @@
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T3_MCILV1_SPM_LESS_120_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6844xx0110-ra-sensorless-120.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6844xx0111-ra-sensorless-120.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T3_MCILV1_SPM_LESS_FOC_E2S_V101</ProjectFolderName>
 			<ProjectFolderName>RA6T3_MCILV1_SPM_LESS_FOC_TUNER_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6839xx0110-ra-sensorless-foc.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6839xx0111-ra-sensorless-foc.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T3_MCILV1_SPM_HALL_120_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6843xx0110-ra-hall-120.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6843xx0111-ra-hall-120.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T3_MCILV1_SPM_IS_FOC_E2S_V100</ProjectFolderName>
 			<ProjectFolderName>RA6T3_MCILV1_SPM_IS_FOC_TUNER_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6842xx0110-ra-inductive-foc.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6842xx0111-ra-inductive-foc.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
@@ -192,16 +192,16 @@
 		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/MCK-RA8T1-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/MCK-RA8T1-HardwareInfo.html" />
 		<Project>
 			<ProjectFolderName>RA8T1_MCILV1_2SPM_LESS_FOC_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6421xx0120-ra-sensorless-foc-2motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6421xx0121-ra-sensorless-foc-2motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA8T1_MCILV1_SPM_HALL_FOC_E2S_V101</ProjectFolderName>
 			<ProjectFolderName>RA8T1_MCILV1_SPM_HALL_FOC_TUNER_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6466xx0120-ra-hall-foc.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6466xx0121-ra-hall-foc.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA8T1_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6840xx0110-ra-sensorless-foc-1shunt.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6840xx0111-ra-sensorless-foc-1shunt.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA8T1_MCILV1_SPM_ENCD_FOC_E2S_V101</ProjectFolderName>
@@ -210,21 +210,21 @@
 		</Project>
 		<Project>
 			<ProjectFolderName>RA8T1_MCILV1_SPM_LESS_120_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6844xx0110-ra-sensorless-120.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6844xx0111-ra-sensorless-120.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA8T1_MCILV1_SPM_LESS_FOC_E2S_V101</ProjectFolderName>
 			<ProjectFolderName>RA8T1_MCILV1_SPM_LESS_FOC_TUNER_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6839xx0110-ra-sensorless-foc.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6839xx0111-ra-sensorless-foc.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA8T1_MCILV1_SPM_HALL_120_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6843xx0110-ra-hall-120.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6843xx0111-ra-hall-120.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA8T1_MCILV1_SPM_IS_FOC_E2S_V100</ProjectFolderName>
 			<ProjectFolderName>RA8T1_MCILV1_SPM_IS_FOC_TUNER_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6842xx0110-ra-inductive-foc.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6842xx0111-ra-inductive-foc.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
