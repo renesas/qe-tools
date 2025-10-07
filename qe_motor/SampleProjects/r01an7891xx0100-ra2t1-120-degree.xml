@@ -4,7 +4,7 @@
 	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
 	<Category en="Hall sensor feedback" jp="ホールセンサフィードバック" />
 	<ControlType en="120-degree conducting control" jp="120 度通電制御" />
-	<ZipDownloadUrl>/document/scd/25573820/r01an7891xx0100-ra2t1-120-degree.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>/document/scd/ra2t1-120-degree-conducting-control-permanent-magnetic-synchronous-motor-mckmcb/r01an7891xx0100-ra2t1-120-degree.zip</ZipDownloadUrl>
 	<Date>2025-08-29</Date>
 	<SampleProject>
 		<DeviceName>RA2T1</DeviceName>
