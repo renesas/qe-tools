@@ -13,6 +13,10 @@
 			<ProjectFolderName>RA2T1_MCILV1_PM_LESS_FOC_3S_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7813xx0100-ra2t1-sensorless-foc.xml</ProjectUrl>
 		</Project>
+		<Project>
+			<ProjectFolderName>RA2T1_MCILV1_PM_120_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7891xx0100-ra2t1-120-degree.xml</ProjectUrl>
+		</Project>
 	</Kit>
 	<Kit>
 		<KitName en="MCK-RA4T1 Renesas Flexible Motor Control Kit for RA4T1 MCU Group" jp="MCK-RA4T1 Renesas Flexible Motor Control Kit for RA4T1 MCU Group"/>

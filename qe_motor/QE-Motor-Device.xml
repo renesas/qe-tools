@@ -7,6 +7,7 @@
 			<Device>
 				<DeviceName>RA2T1</DeviceName>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7813xx0100-ra2t1-sensorless-foc.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7891xx0100-ra2t1-120-degree.xml</ProjectUrl>
 			</Device>
 		</DeviceSeries>
 		<DeviceSeries>
