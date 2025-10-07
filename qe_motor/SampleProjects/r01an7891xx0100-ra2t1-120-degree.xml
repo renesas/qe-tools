@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="120-degree conducting control" jp="120 度通電制御" />
+	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
+	<Category en="Hall sensor feedback" jp="ホールセンサフィードバック" />
+	<ControlType en="120-degree conducting control" jp="120 度通電制御" />
+	<ZipDownloadUrl>/document/scd/25573820/r01an7891xx0100-ra2t1-120-degree.zip</ZipDownloadUrl>
+	<Date>2025-08-29</Date>
+	<SampleProject>
+		<DeviceName>RA2T1</DeviceName>
+		<FspVersion>6.0.0</FspVersion>
+		<ProjectFolderName>RA2T1_MCILV1_PM_120_E2S_V100</ProjectFolderName>
+		<ProjectName 
+		en="RA2T1 120-degree conducting control of permanent magnetic synchronous motor"
+		jp="RA2T1 永久磁石同期モータの120度通電制御"/>
+		<ApplicationNoteUrl>/document/apn/ra2t1-120-degree-conducting-control-permanent-magnetic-synchronous-motor-mckmcb</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the 120-degree conducting control sample programs of permanent magnetic synchronous motor (PMSM) using the RA2T1 microcontroller."
+			jp="RA2T1 マイクロコントローラを使用した永久磁石同期モータ(PMSM)の120度通電制御サンプルプログラムです。"/>
+	        <Features>
+					<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+					<Feature en="Sensorless feedback" jp="センサレスフィードバック" />
+					<Feature en="120-degree conducting control" jp="120 度通電制御"/>
+	        </Features>
+	       	<Setups>
+	            <Setup en="CPU board :RA2T1(R7FA2T1074CFL) CPU board (RTK0EMA810C00000BJ)" jp="CPUボード : RA2T1(R7FA2T1074CFL) CPUボード (RTK0EMA810C00000BJ)"/>
+	            <Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+	            <Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+	            <Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+		    	<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN7891EJ0100" jp="R01AN7891JJ0100"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the 120-degree conducting control sample programs of permanent magnetic synchronous motor (PMSM) using the RA2T1 microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Sensorless feedback&#10;
+ -Hall sensor feedback&#10;
+ -120-degree conducting control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU card : RA2T1(R7FA2T1074CFL) CPU card (RTK0EMA810C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN7891EJ0100
+"
+jp="
+[概要]&#10;
+RA2T1 マイクロコントローラを使用した永久磁石同期モータ(PMSM)の120度通電制御サンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -センサレスフィードバック&#10;
+ -ホールセンサフィードバック&#10;
+ -120 度通電制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUカード : RA2T1(R7FA2T1074CFL) CPUカード (RTK0EMA810C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN7891JJ0100
+"
+		/>
+	</SampleProject>
+
+
+
+</ZipFile>
