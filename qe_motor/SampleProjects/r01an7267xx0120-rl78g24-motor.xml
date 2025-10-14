@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />
+	<Category en="FAA Library" jp="FAAライブラリ"/>
+	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
+	<ControlType en="Vector control" jp="ベクトル制御" />
+	<ZipDownloadUrl>/document/scd/rl78g24-sensorless-vector-control-permanent-magnetic-synchronous-motor-faa-library-sample-code/r01an7267xx0120-rl78g24-faa-motor.zip</ZipDownloadUrl>
+	<Date>2025-10-10</Date>
+	<SampleProject>
+		<DeviceName>RL78/G24</DeviceName>
+		<ProjectFolderName>RL78G24_FAA_MCEK_1S_LESS_FOC_E2S_CC_V120</ProjectFolderName>
+	        <Category en="1-shunt current detection method" jp="1シャント抵抗電流検出方式" />
+		<ProjectName 
+		en="RL78/G24 Sensorless vector control for permanent magnetic synchronous motor using FAA library (1-shunt)" 
+		jp="RL78/G24 永久磁石同期モータのセンサレスベクトル制御 FAAライブラリ使用 (1シャント)"/>
+		<ApplicationNoteUrl>/document/apn/rl78g24-sensorless-vector-control-permanent-magnetic-synchronous-motor-faa-library</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sensorless vector control sample programs of the permanent magnetic synchronous motor (PMSM) using the Flexible Application Accelerator (FAA) in the RL78/G24 microcontroller.\nThe Current detection method is 1-shunt mode that detects DC link current."
+			jp="RL78/G24マイクロコントローラに内蔵する Flexible Application Accelerator (FAA)を使用した永久磁石同期モータ(PMSM)のセンサレスベクトル制御サンプルプログラムです。\n電流検出方式はDCリンク電流を検出する1シャントモードです。"/>
+	        <Features>
+	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+			   	   	<Feature en="FAA Library" jp="FAAライブラリ"/>
+			   	   	<Feature en="1-shunt current detection method" jp="1シャント抵抗電流検出方式"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU card : RL78/G24(R7F101GLG2DFB) CPU card (RTK0EMG240C00000BJ)" jp="CPUカード : RL78/G24(R7F101GLG2DFB) CPUカード (RTK0EMG240C00000BJ)"/>
+	            	<Setup en="Inverter board : LVI400 (RTK0EMGPLVB00000BJ)" jp="インバータボード : LVI400 (RTK0EMGPLVB00000BJ)"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Permanent magnet synchronous motor : TG-55L" jp="永久磁石同期モータ : TG-55L"/>
+	        </Setups>
+	        <Functions>
+		    	<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN7267EJ0120" jp="R01AN7267JJ0120"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the sensorless vector control sample programs of the permanent magnetic synchronous motor (PMSM) using the Flexible Application Accelerator (FAA) in the RL78/G24 microcontroller.&#10;
+The Current detection method is 1-shunt mode that detects DC link current. &#10;
+&#10;
+[Features, Target System]&#10;
+ -Sensorless feedback&#10;
+ -Vector control&#10;
+ -FAA Library&#10;
+ -1-shunt current detection method&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU card : RL78/G24(R7F101GLG2DFB) CPU card (RTK0EMG240C00000BJ)&#10;
+ -Inverter board : LVI400 (RTK0EMGPLVB00000BJ)&#10;
+ -Communication board : MC-COM&#10;
+ -Permanent magnet synchronous motor : TG-55L&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN7267EJ0120
+" 
+jp="
+[概要]&#10;
+RL78/G24マイクロコントローラに内蔵する Flexible Application Accelerator (FAA)を使用した永久磁石同期モータ(PMSM)のセンサレスベクトル制御サンプルプログラムです。&#10;
+電流検出方式はDCリンク電流を検出する1シャントモードです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -センサレスフィードバック&#10;
+ -ベクトル制御&#10;
+ -FAAライブラリ&#10;
+ -1シャント抵抗電流検出方式&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUカード : RL78/G24(R7F101GLG2DFB) CPUカード (RTK0EMG240C00000BJ)&#10;
+ -インバータボード : LVI400 (RTK0EMGPLVB00000BJ)&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モータ : TG-55L&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN7267JJ0120
+"
+		/>
+	</SampleProject>
+
+	<SampleProject>
+		<DeviceName>RL78/G24</DeviceName>
+		<ProjectFolderName>RL78G24_FAA_MCEK_3S_LESS_FOC_E2S_CC_V120</ProjectFolderName>
+	    <Category en="3-shunt current detection method" jp="3シャント抵抗電流検出方式" />
+		<ProjectName 
+		en="RL78/G24 Sensorless vector control for permanent magnetic synchronous motor using FAA library (3-shunt)" 
+		jp="RL78/G24 永久磁石同期モータのセンサレスベクトル制御 FAAライブラリ使用 (3シャント)"/>
+		<ApplicationNoteUrl>/document/apn/rl78g24-sensorless-vector-control-permanent-magnetic-synchronous-motor-faa-library</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sensorless vector control sample programs of the permanent magnetic synchronous motor (PMSM) using the Flexible Application Accelerator (FAA) in the RL78/G24 microcontroller.\nThe Current detection method is 3-shunt mode that detects 3-phase current."
+			jp="RL78/G24マイクロコントローラに内蔵する Flexible Application Accelerator (FAA)を使用した永久磁石同期モータ(PMSM)のセンサレスベクトル制御サンプルプログラムです。\n電流検出方式は3相電流を検出する3シャントモードです。"/>
+	        <Features>
+	            	<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+			   	   	<Feature en="FAA Library" jp="FAAライブラリ"/>
+			    	<Feature en="3-shunt current detection method" jp="3シャント抵抗電流検出方式"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU card : RL78/G24(R7F101GLG2DFB) CPU card (RTK0EMG240C00000BJ)" jp="CPUカード : RL78/G24(R7F101GLG2DFB) CPUカード (RTK0EMG240C00000BJ)"/>
+	            	<Setup en="Inverter board : LVI400 (RTK0EMGPLVB00000BJ)" jp="インバータボード : LVI400 (RTK0EMGPLVB00000BJ)"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Permanent magnet synchronous motor : TG-55L" jp="永久磁石同期モータ : TG-55L"/>
+	        </Setups>
+	        <Functions>
+		    	<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN7267EJ0120" jp="R01AN7267JJ0120"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the sensorless vector control sample programs of the permanent magnetic synchronous motor (PMSM) using the Flexible Application Accelerator (FAA) in the RL78/G24 microcontroller.&#10;
+The Current detection method is 3-shunt mode that detects 3-phase current. &#10;
+&#10;
+[Features, Target System]&#10;
+ -Sensorless feedback&#10;
+ -Vector control&#10;
+ -FAA Library&#10;
+ -3-shunt current detection method&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU card : RL78/G24(R7F101GLG2DFB) CPU card (RTK0EMG240C00000BJ)&#10;
+ -Inverter board : LVI400 (RTK0EMGPLVB00000BJ)&#10;
+ -Communication board : MC-COM&#10;
+ -Permanent magnet synchronous motor : TG-55L&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN7267EJ0120
+" 
+jp="
+[概要]&#10;
+RL78/G24マイクロコントローラに内蔵する Flexible Application Accelerator (FAA)を使用した永久磁石同期モータ(PMSM)のセンサレスベクトル制御サンプルプログラムです。&#10;
+電流検出方式は3相電流を検出する3シャントモードです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -センサレスフィードバック&#10;
+ -ベクトル制御&#10;
+ -FAAライブラリ&#10;
+ -3シャント抵抗電流検出方式&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUカード : RL78/G24(R7F101GLG2DFB) CPUカード (RTK0EMG240C00000BJ)&#10;
+ -インバータボード : LVI400 (RTK0EMGPLVB00000BJ)&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モータ : TG-55L&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN7267JJ0120
+"
+		/>
+	</SampleProject>
+
+</ZipFile>
