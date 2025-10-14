@@ -352,13 +352,13 @@
 		<Motor en="Brushless DC Mortor (TG-55L-KA)" jp="ブラシレスDCモータ (TG-55L-KA)"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/MCEK-RL78G24-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/MCEK-RL78G24-HardwareInfo.html" />
 		<Project>
-			<ProjectFolderName>RL78G24_MCEK_1S_LESS_FOC_E2S_CC_V110</ProjectFolderName>
-			<ProjectFolderName>RL78G24_MCEK_3S_LESS_FOC_E2S_CC_V110</ProjectFolderName>
+			<ProjectFolderName>RL78G24_MCEK_1S_LESS_FOC_E2S_CC_V120</ProjectFolderName>
+			<ProjectFolderName>RL78G24_MCEK_3S_LESS_FOC_E2S_CC_V120</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7036xx0120-rl78g24-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
-			<ProjectFolderName>RL78G24_FAA_MCEK_1S_LESS_FOC_E2S_CC_V110</ProjectFolderName>
-			<ProjectFolderName>RL78G24_FAA_MCEK_3S_LESS_FOC_E2S_CC_V110</ProjectFolderName>
+			<ProjectFolderName>RL78G24_FAA_MCEK_1S_LESS_FOC_E2S_CC_V120</ProjectFolderName>
+			<ProjectFolderName>RL78G24_FAA_MCEK_3S_LESS_FOC_E2S_CC_V120</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7267xx0120-rl78g24-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
