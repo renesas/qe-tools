@@ -110,32 +110,6 @@
         }
       ]
     },
-    "com.renesas.qe.tool.guide-package-v151-v2": {
-      "type": "extractable",
-      "name": "Guide Info Package",
-      "description": "Guide Info",
-      "category": "com.renesas.qe.tool",
-      "versionString": "1.5.1.2",
-      "file": "guide-package-v151-v2.zip",
-      "installSize": 1000,
-      "downloadInfo": {
-        "uri": "https://raw.githubusercontent.com/tak-kum/qem_test/main/guide-package-v151-v2.zip",
-        "size": 16768240,
-        "hash": "629d210ce72780d2d421f546d28ad1218ad06a43280d7957f35db777804cd57003f8875adfe2b4c39aae87ef432a3e45938cdb5a221271eff40e884330261924"
-      },
-      "filter": "(|(family=*rx;*)(family=*ra;*)(family=*rl78;*))",
-      "extractSteps": [
-        {
-          "function": "EXTRACT",
-          "args": [
-            "zip",
-            "${packageFile}",
-            "${installDir}/QE_Motor/Guide/"
-          ],
-          "outVarName": "qeExtractLoc"
-        }
-      ]
-    },
     "com.renesas.qe.tool.guide-package-v171-v2": {
       "type": "extractable",
       "name": "Guide Info Package",
@@ -164,6 +138,7 @@
     }
   }
 }
+
 
 
 
