@@ -32,16 +32,16 @@
         }
       ]
     },
-    "com.renesas.qe.tool.configurator-visu-package-v11": {
+    "com.renesas.qe.tool.configurator-visu-package-v13": {
       "type": "extractable",
       "name": "Configurator Visualization package",
       "description": "Configurator Visualization for Motor",
       "category": "com.renesas.qe.tool",
-      "versionString": "1.1",
-      "file": "configurator-visu-package-v11.zip",
+      "versionString": "1.3",
+      "file": "configurator-visu-package-v13.zip",
       "installSize": 1000,
       "downloadInfo": {
-        "uri": "http://tool-support.renesas.com/e2studio/qe/tools/configurator-visu-package-v11.zip",
+        "uri": "http://tool-support.renesas.com/e2studio/qe/tools/configurator-visu-package-v13.zip",
         "size": 348271,
         "hash": "cceeab602b0cfcc92274d9576830ff589bf33a78a0e017f093001667a9be577a55a3d242a7041f588715ac73d6d7df1d86f26c9209aa7959ac2330e331ee281c"
       },
@@ -138,6 +138,7 @@
     }
   }
 }
+
 
 
 
