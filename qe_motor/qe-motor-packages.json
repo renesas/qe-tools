@@ -110,6 +110,32 @@
         }
       ]
     },
+    "com.renesas.qe.tool.tuning-package-v3210": {
+      "type": "extractable",
+      "name": "Tuning Program Package",
+      "description": "Tuning Program",
+      "category": "com.renesas.qe.tool",
+      "versionString": "3.2.1.0",
+      "file": "rmw-tuning-resources-v3210.zip",
+      "installSize": 1000,
+      "downloadInfo": {
+        "uri": "https://raw.githubusercontent.com/renesas/qe-tools/refs/heads/main/qe_motor/TuningResources/rmw-tuning-resources-v3210.zip",
+        "size": 17006792,
+        "hash": "262ee40519523abd96fcded4a1d6130ca725a3455d2c656fc2d7fe42167df341a90d208670bb0155c771d85eb36f3f468ecb368cee3093a77b88890287a79ae8"
+      },
+      "filter": "(|(family=*rx;*)(family=*ra;*)(family=*rl78;*))",
+      "extractSteps": [
+        {
+          "function": "EXTRACT",
+          "args": [
+            "zip",
+            "${packageFile}",
+            "${installDir}/QE_Motor/RMW/"
+          ],
+          "outVarName": "qeExtractLoc"
+        }
+      ]
+    },
     "com.renesas.qe.tool.guide-package-v171-v2": {
       "type": "extractable",
       "name": "Guide Info Package",
@@ -138,6 +164,7 @@
     }
   }
 }
+
 
 
 
