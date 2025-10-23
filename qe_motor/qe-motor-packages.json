@@ -120,8 +120,8 @@
       "installSize": 1000,
       "downloadInfo": {
         "uri": "https://raw.githubusercontent.com/renesas/qe-tools/refs/heads/main/qe_motor/TuningResources/rmw-tuning-resources-v3210.zip",
-        "size": 17006792,
-        "hash": "262ee40519523abd96fcded4a1d6130ca725a3455d2c656fc2d7fe42167df341a90d208670bb0155c771d85eb36f3f468ecb368cee3093a77b88890287a79ae8"
+        "size": 17007710,
+        "hash": "2793ca2974cac297b315ad16d5cb755d309f1c46e5d7b6320dc6a5d3f656b1f1302f0a02c281927daf03cad14b12af88f75773774dccbc9d1eb55fae3f1bd1dc"
       },
       "filter": "(|(family=*rx;*)(family=*ra;*)(family=*rl78;*))",
       "extractSteps": [
@@ -164,6 +164,7 @@
     }
   }
 }
+
 
 
 
