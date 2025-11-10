@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Hall sensor feedback" jp="ホールセンサフィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />
+	<SensorType en="Hall sensor feedback" jp="ホールセンサフィードバック" />
+	<ControlType en="Vector control" jp="ベクトル制御" />
+	<ZipDownloadUrl>/document/scd/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/r01an6466xx0131-ra-hall-foc.zip</ZipDownloadUrl>
+	<Date>2025-10-31</Date>
+	<SampleProject>
+		<DeviceName>RA4T1</DeviceName>
+		<FspVersion>6.2.0</FspVersion>
+		<ProjectFolderName>RA4T1_MCILV1_SPM_HALL_FOC_E2S_V111</ProjectFolderName>
+		<ProjectName 
+		en="Vector control for permanent magnetic synchronous motor with hall sensors" 
+		jp="永久磁石同期モータのホールセンサベクトル制御" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA4T1 microcontroller."
+		jp="RA4T1マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。"/>
+	        <Features>
+	            	<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RA4T1(R7FA4T1BB3CFM) CPU board (RTK0EMA430C00000BJ)" jp="CPUボード : RA4T1(R7FA4T1BB3CFM) CPUボード (RTK0EMA430C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+			<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6466EJ0131" jp="R01AN6466JJ0131"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA4T1 microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RA4T1(R7FA4T1BB3CFM) CPU board (RTK0EMA430C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6466EJ0131
+"
+		jp="
+[概要]&#10;
+RA4T1マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA4T1(R7FA4T1BB3CFM) CPUボード (RTK0EMA430C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6466JJ0131
+"
+		/>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RA4T1</DeviceName>
+		<FspVersion>6.2.0</FspVersion>
+		<ProjectFolderName>RA4T1_MCILV1_SPM_HALL_FOC_TUNER_E2S_V111</ProjectFolderName>
+		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
+		<ProjectName 
+		en="Vector control for permanent magnetic synchronous motor with hall sensors (for tuning program generation)" 
+		jp="永久磁石同期モータのホールセンサベクトル制御 (チューニングプログラム作成用)" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA4T1 microcontroller.\nThis project supports tuning program generation."
+		jp="RA4T1マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。\n本プロジェクトはチューニングプログラムの作成に対応しています。"/>
+	        <Features>
+	            	<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+			<Feature en="Supports tuning program generation" jp="チューニングプログラム作成対応"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RA4T1(R7FA4T1BB3CFM) CPU board (RTK0EMA430C00000BJ)" jp="CPUボード : RA4T1(R7FA4T1BB3CFM) CPUボード (RTK0EMA430C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+			<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6466EJ0131" jp="R01AN6466JJ0131"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA4T1 microcontroller. This project supports tuning program generation.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+ -Supports tuning program generation&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RA4T1(R7FA4T1BB3CFM) CPU board (RTK0EMA430C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6466EJ0131
+"
+		jp="
+[概要]&#10;
+RA4T1マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。本プロジェクトはチューニングプログラムの作成に対応しています。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+ -チューニングプログラム作成対応&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA4T1(R7FA4T1BB3CFM) CPUボード (RTK0EMA430C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6466JJ0131
+"
+		/>
+	</SampleProject>
+
+	<SampleProject>
+		<DeviceName>RA6T2</DeviceName>
+		<FspVersion>6.2.0</FspVersion>
+		<ProjectFolderName>RA6T2_MCB2_MCILV1_SPM_HALL_FOC_E2S_V100</ProjectFolderName>
+		<ProjectName 
+		en="Vector control for permanent magnetic synchronous motor with hall sensors" 
+		jp="永久磁石同期モータのホールセンサベクトル制御" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller."
+		jp="RA6T2マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。"/>
+	        <Features>
+	            	<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="MCB-RA6T2 RA6T2(R7FA6T2BD3CFP) CPU board Version 2(RTK0EMA270C00002BJ)" jp="CPUボード : MCB-RA6T2 RA6T2(R7FA6T2BD3CFP) CPUボード Version 2(RTK0EMA270C00002BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+			<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6466EJ0131" jp="R01AN6466JJ0131"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : MCB-RA6T2 RA6T2(R7FA6T2BD3CFP) CPU board Version 2(RTK0EMA270C00002BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6466EJ0131
+"
+		jp="
+[概要]&#10;
+RA6T2マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : MCB-RA6T2 RA6T2(R7FA6T2BD3CFP) CPUボード Version 2(RTK0EMA270C00002BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6466JJ0131
+"
+		/>
+	</SampleProject>
+
+	<SampleProject>
+		<DeviceName>RA6T2</DeviceName>
+		<FspVersion>6.2.0</FspVersion>
+		<ProjectFolderName>RA6T2_MCB2_MCILV1_SPM_HALL_FOC_TUNER_E2S_V100</ProjectFolderName>
+		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
+		<ProjectName 
+		en="Vector control for permanent magnetic synchronous motor with hall sensors (for tuning program generation)" 
+		jp="永久磁石同期モータのホールセンサベクトル制御 (チューニングプログラム作成用)" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller.\nThis project supports tuning program generation."
+		jp="RA6T2マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。\n本プロジェクトはチューニングプログラムの作成に対応しています。"/>
+	        <Features>
+	            	<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+			<Feature en="Supports tuning program generation" jp="チューニングプログラム作成対応"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : MCB-RA6T2 RA6T2(R7FA6T2BD3CFP) CPU board Version 2(RTK0EMA270C00002BJ)" jp="CPUボード : MCB-RA6T2 RA6T2(R7FA6T2BD3CFP) CPUボード Version 2(RTK0EMA270C00002BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+			<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6466EJ0131" jp="R01AN6466JJ0131"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller. This project supports tuning program generation.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+ -Supports tuning program generation&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : MCB-RA6T2 RA6T2(R7FA6T2BD3CFP) CPU board Version 2(RTK0EMA270C00002BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6466EJ0131
+"
+		jp="
+[概要]&#10;
+RA6T2マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。本プロジェクトはチューニングプログラムの作成に対応しています。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+ -チューニングプログラム作成対応&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : MCB-RA6T2 RA6T2(R7FA6T2BD3CFP) CPUボード Version 2(RTK0EMA270C00002BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6466JJ0131
+"
+		/>
+	</SampleProject>
+
+	<SampleProject>
+		<DeviceName>RA6T2</DeviceName>
+		<FspVersion>6.2.0</FspVersion>
+		<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_FOC_E2S_V121</ProjectFolderName>
+		<ProjectName 
+		en="Vector control for permanent magnetic synchronous motor with hall sensors" 
+		jp="永久磁石同期モータのホールセンサベクトル制御" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller."
+		jp="RA6T2マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。"/>
+	        <Features>
+	            	<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="RA6T2(R7FA6T2BD3CFP) CPU board (RTK0EMA270C00000BJ)" jp="CPUボード : RA6T2(R7FA6T2BD3CFP) CPUボード (RTK0EMA270C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+			<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6466EJ0131" jp="R01AN6466JJ0131"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RA6T2(R7FA6T2BD3CFP) CPU board (RTK0EMA270C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6466EJ0131
+"
+		jp="
+[概要]&#10;
+RA6T2マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA6T2(R7FA6T2BD3CFP) CPUボード (RTK0EMA270C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6466JJ0131
+"
+		/>
+	</SampleProject>
+
+	<SampleProject>
+		<DeviceName>RA6T2</DeviceName>
+		<FspVersion>6.2.0</FspVersion>
+		<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_FOC_TUNER_E2S_V121</ProjectFolderName>
+		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
+		<ProjectName 
+		en="Vector control for permanent magnetic synchronous motor with hall sensors (for tuning program generation)" 
+		jp="永久磁石同期モータのホールセンサベクトル制御 (チューニングプログラム作成用)" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller.\nThis project supports tuning program generation."
+		jp="RA6T2マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。\n本プロジェクトはチューニングプログラムの作成に対応しています。"/>
+	        <Features>
+	            	<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+			<Feature en="Supports tuning program generation" jp="チューニングプログラム作成対応"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RA6T2(R7FA6T2BD3CFP) CPU board (RTK0EMA270C00000BJ)" jp="CPUボード : RA6T2(R7FA6T2BD3CFP) CPUボード (RTK0EMA270C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+			<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6466EJ0131" jp="R01AN6466JJ0131"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller. This project supports tuning program generation.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+ -Supports tuning program generation&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RA6T2(R7FA6T2BD3CFP) CPU board (RTK0EMA270C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6466EJ0131
+"
+		jp="
+[概要]&#10;
+RA6T2マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。本プロジェクトはチューニングプログラムの作成に対応しています。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+ -チューニングプログラム作成対応&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA6T2(R7FA6T2BD3CFP) CPUボード (RTK0EMA270C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6466JJ0131
+"
+		/>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RA6T3</DeviceName>
+		<FspVersion>6.2.0</FspVersion>
+		<ProjectFolderName>RA6T3_MCILV1_SPM_HALL_FOC_E2S_V111</ProjectFolderName>
+		<ProjectName 
+		en="Vector control for permanent magnetic synchronous motor with hall sensors" 
+		jp="永久磁石同期モータのホールセンサベクトル制御" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA6T3 microcontroller."
+		jp="RA6T3マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。"/>
+	        <Features>
+	            	<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RA6T3(R7FA6T3BB3CFM) CPU board (RTK0EMA330C00000BJ)" jp="CPUボード : RA6T3(R7FA6T3BB3CFM) CPUボード (RTK0EMA330C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+			<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6466EJ0131" jp="R01AN6466JJ0131"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA6T3 microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RA6T3(R7FA6T3BB3CFM) CPU board (RTK0EMA330C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6466EJ0131
+"
+		jp="
+[概要]&#10;
+RA6T3マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA6T3(R7FA6T3BB3CFM) CPUボード (RTK0EMA330C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6466JJ0131
+"
+		/>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RA6T3</DeviceName>
+		<FspVersion>6.2.0</FspVersion>
+		<ProjectFolderName>RA6T3_MCILV1_SPM_HALL_FOC_TUNER_E2S_V111</ProjectFolderName>
+		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
+		<ProjectName 
+		en="Vector control for permanent magnetic synchronous motor with hall sensors (for tuning program generation)" 
+		jp="永久磁石同期モータのホールセンサベクトル制御 (チューニングプログラム作成用)" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA6T3 microcontroller.\nThis project supports tuning program generation."
+		jp="RA6T3マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。\n本プロジェクトはチューニングプログラムの作成に対応しています。"/>
+	        <Features>
+	            	<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+			<Feature en="Supports tuning program generation" jp="チューニングプログラム作成対応"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RA6T3(R7FA6T3BB3CFM) CPU board (RTK0EMA330C00000BJ)" jp="CPUボード : RA6T3(R7FA6T3BB3CFM) CPUボード (RTK0EMA330C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+			<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6466EJ0131" jp="R01AN6466JJ0131"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA6T3 microcontroller. This project supports tuning program generation.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+ -Supports tuning program generation&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RA6T3(R7FA6T3BB3CFM) CPU board (RTK0EMA330C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6466EJ0131
+"
+		jp="
+[概要]&#10;
+RA6T3マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。本プロジェクトはチューニングプログラムの作成に対応しています。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+ -チューニングプログラム作成対応&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA6T3(R7FA6T3BB3CFM) CPUボード (RTK0EMA330C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6466JJ0131
+"
+		/>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RA8T1</DeviceName>
+		<FspVersion>6.2.0</FspVersion>
+		<ProjectFolderName>RA8T1_MCILV1_SPM_HALL_FOC_E2S_V111</ProjectFolderName>
+		<ProjectName 
+		en="Vector control for permanent magnetic synchronous motor with hall sensors" 
+		jp="永久磁石同期モータのホールセンサベクトル制御" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA8T1 microcontroller."
+		jp="RA8T1マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。"/>
+	        <Features>
+	            	<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RA8T1(R7FA8T1AHECBD) CPU board (RTK0EMA5K0C00000BJ)" jp="CPUボード : RA8T1(R7FA8T1AHECBD) CPUボード (RTK0EMA5K0C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+			<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6466EJ0131" jp="R01AN6466JJ0131"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA8T1 microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RA8T1(R7FA8T1AHECBD) CPU board (RTK0EMA5K0C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6466EJ0131
+"
+		jp="
+[概要]&#10;
+RA8T1マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA8T1(R7FA8T1AHECBD) CPUボード (RTK0EMA5K0C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6466JJ0131
+"
+		/>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RA8T1</DeviceName>
+		<FspVersion>6.2.0</FspVersion>
+		<ProjectFolderName>RA8T1_MCILV1_SPM_HALL_FOC_TUNER_E2S_V111</ProjectFolderName>
+		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
+		<ProjectName 
+		en="Vector control for permanent magnetic synchronous motor with hall sensors (for tuning program generation)" 
+		jp="永久磁石同期モータのホールセンサベクトル制御 (チューニングプログラム作成用)" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA8T1 microcontroller.\nThis project supports tuning program generation."
+		jp="RA8T1マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。\n本プロジェクトはチューニングプログラムの作成に対応しています。"/>
+	        <Features>
+	            	<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+			<Feature en="Supports tuning program generation" jp="チューニングプログラム作成対応"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RA8T1(R7FA8T1AHECBD) CPU board (RTK0EMA5K0C00000BJ)" jp="CPUボード : RA8T1(R7FA8T1AHECBD) CPUボード (RTK0EMA5K0C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+			<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6466EJ0131" jp="R01AN6466JJ0131"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA8T1 microcontroller. This project supports tuning program generation.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+ -Supports tuning program generation&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RA8T1(R7FA8T1AHECBD) CPU board (RTK0EMA5K0C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6466EJ0131
+"
+		jp="
+[概要]&#10;
+RA8T1マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。本プロジェクトはチューニングプログラムの作成に対応しています。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+ -チューニングプログラム作成対応&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA8T1(R7FA8T1AHECBD) CPUボード (RTK0EMA5K0C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6466JJ0131
+"
+		/>
+	</SampleProject>
+
+	
+	<SampleProject>
+		<DeviceName>RA8T2</DeviceName>
+		<FspVersion>6.2.0</FspVersion>
+		<ProjectFolderName>RA8T2_MCILV1_SPM_HALL_FOC_E2S_V101</ProjectFolderName>
+		<ProjectName 
+		en="Vector control for permanent magnetic synchronous motor with hall sensors" 
+		jp="永久磁石同期モータのホールセンサベクトル制御" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA8T2 microcontroller."
+		jp="RA8T2マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。"/>
+	        <Features>
+	            	<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RA8T2(R7KA8T2LFLCAC) CPU board (RTK0EMA6L0C00000BJ)" jp="CPUボード : RA8T2(R7KA8T2LFLCAC) CPUボード (RTK0EMA6L0C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+			<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6466EJ0131" jp="R01AN6466JJ0131"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA8T2 microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RA8T2(R7KA8T2LFLCAC) CPU board (RTK0EMA6L0C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6466EJ0131
+"
+		jp="
+[概要]&#10;
+RA8T2マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA8T2(R7KA8T2LFLCAC) CPUボード (RTK0EMA6L0C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6466JJ0131
+"
+		/>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RA8T2</DeviceName>
+		<FspVersion>6.2.0</FspVersion>
+		<ProjectFolderName>RA8T2_MCILV1_SPM_HALL_FOC_TUNER_E2S_V101</ProjectFolderName>
+		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
+		<ProjectName 
+		en="Vector control for permanent magnetic synchronous motor with hall sensors (for tuning program generation)" 
+		jp="永久磁石同期モータのホールセンサベクトル制御 (チューニングプログラム作成用)" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA8T2 microcontroller.\nThis project supports tuning program generation."
+		jp="RA8T2マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。\n本プロジェクトはチューニングプログラムの作成に対応しています。"/>
+	        <Features>
+	            	<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+	            	<Feature en="Vector control" jp="ベクトル制御"/>
+			<Feature en="Supports tuning program generation" jp="チューニングプログラム作成対応"/>
+	        </Features>
+	       	<Setups>
+	            	<Setup en="CPU board : RA8T2(R7KA8T2LFLCAC) CPU board (RTK0EMA6L0C00000BJ)" jp="CPUボード : RA8T2(R7KA8T2LFLCAC) CPUボード (RTK0EMA6L0C00000BJ)"/>
+	            	<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+		    	<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+			<Setup en="Motor : R42BLD30L3" jp="永久磁石同期モーター : R42BLD30L3"/>
+	        </Setups>
+	        <Functions>
+	        	<Function en="SW configuration" jp="SW configuration"/>
+		    	<Function en="Tuner" jp="Tuner"/>
+			<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN6466EJ0131" jp="R01AN6466JJ0131"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RA8T2 microcontroller. This project supports tuning program generation.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+ -Supports tuning program generation&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RA8T2(R7KA8T2LFLCAC) CPU board (RTK0EMA6L0C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6466EJ0131
+"
+		jp="
+[概要]&#10;
+RA8T2マイクロコントローラ(MCU)を使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。本プロジェクトはチューニングプログラムの作成に対応しています。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+ -チューニングプログラム作成対応&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA8T2(R7KA8T2LFLCAC) CPUボード (RTK0EMA6L0C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6466JJ0131
+"
+		/>
+	</SampleProject>
+</ZipFile>
