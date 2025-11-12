@@ -84,13 +84,13 @@
         }
       ]
     },
-    "com.renesas.qe.tool.tuning-package-v3200": {
+    "com.renesas.qe.tool.tuning-package-v8900": {
       "type": "extractable",
       "name": "Tuning Program Package",
       "description": "Tuning Program",
       "category": "com.renesas.qe.tool",
       "versionString": "3.2.0.0",
-      "file": "rmw-tuning-resources-v3200.zip",
+      "file": "rmw-tuning-resources-v8900.zip",
       "installSize": 1000,
       "downloadInfo": {
         "uri": "https://raw.githubusercontent.com/renesas/qe-tools/refs/heads/main/qe_motor/TuningResources/rmw-tuning-resources-v3200.zip",
@@ -110,13 +110,13 @@
         }
       ]
     },
-    "com.renesas.qe.tool.tuning-package-v3210": {
+    "com.renesas.qe.tool.tuning-package-v9000": {
       "type": "extractable",
       "name": "Tuning Program Package",
       "description": "Tuning Program",
       "category": "com.renesas.qe.tool",
       "versionString": "3.2.1.0",
-      "file": "rmw-tuning-resources-v3210.zip",
+      "file": "rmw-tuning-resources-v9000.zip",
       "installSize": 1000,
       "downloadInfo": {
         "uri": "https://raw.githubusercontent.com/renesas/qe-tools/refs/heads/main/qe_motor/TuningResources/rmw-tuning-resources-v3210.zip",
@@ -164,6 +164,7 @@
     }
   }
 }
+
 
 
 
