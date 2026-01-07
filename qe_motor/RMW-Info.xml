@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rmw>
-	<version>3.2.0</version>
-	<link>/document/sow/motor-control-development-support-tool-renesas-motor-workbench-320/Renesas_Motor_Workbench_V320.zip</link>
+	<version>3.3.0</version>
+	<link>/document/swo/motor-control-development-support-tool-renesas-motor-workbench-330/Renesas_Motor_Workbench_V330.zip</link>
 </rmw>
+
