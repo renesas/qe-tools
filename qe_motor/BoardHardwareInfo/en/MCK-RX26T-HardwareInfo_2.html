@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="https://renesas.github.io/qe-tools/qe_motor/BoardHardwareInfo/style.css" type="text/css">
+  <meta name="title" content="Kit information">
+  <title>Kit information</title>
+</head>
+
+<body>
+
+  <h3>
+    <p>MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group</p>
+    <p>RTK0EMXE70S00020BJ</p>
+  </h3>
+
+  <table style="border:none;" cellpadding="5">
+    <tr>
+      <td>
+        <p>
+          <img src="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCK-RX26T.png"
+            style="width:6cm" />
+        </p>
+      </td>
+      <td style="border:none;">
+        <p style="font-size:100%;">
+          The MCK-RX26T is a development kit that enables easy evaluation of motor control using permanent
+          magnet synchronous motors (brushless DC motors).
+          With this product and the sample code and
+          <a href="https://www.renesas.com/us/en/software-tool/qe-motor-development-assistance-tool-motor-applications"
+            target="_blank">QE for Motor</a>
+          that can be downloaded from the website, you can start evaluating motor control using the
+          <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx26t-32-bit-microcontroller-optimized-dual-motor-and-pfc-control"
+            target="_blank">RX26T</a>
+          right away.
+        </p>
+        <p style="font-size:100%;">
+        <div class="wrapper">
+          <div class="btn linkbtn">
+            <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70s00020bj-mck-rx26t-renesas-flexible-motor-control-kit-rx26t-mcu-group"
+              target="_blank">Product Information</a>
+          </div>
+          <div class="btn linkbtn">
+            <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70s00020bj-mck-rx26t-renesas-flexible-motor-control-kit-rx26t-mcu-group#parametric_options"
+              target="_blank">Order Now</a>
+          </div>
+        </div>
+        </p>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <h6>Note in using sample program</h6>
+  <p style="font-size:100%;">
+  <ul>
+    The setup of hardware required to execute the sample program depends on the device version and the motor control
+    type.
+    Please refer to "Hardware Setup" and the application note of each sample program for the setup of hardware
+    required for sample program.
+  </ul>
+  </p>
+
+  <h4>Hardware Setup</h4>
+  <p style="font-size:100%;">
+  <ul>
+    <p>
+      <img
+        src="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/Images/MCKRX26T_HW_e.png"
+        style="width:15cm" />
+    </p>
+    <br>
+    The hardware setup required to execute the sample program depends on the version of device and motor control
+    type.
+    Change the hardware setup from the components included in MCK-RX26T or prepare the components separately as
+    follows.
+    <br>
+    <br>
+
+    <h5>
+      RX26T RAM64KB Version
+    </h5>
+
+    <table class="hwsetup">
+      <thead>
+        <tr class="setuphead">
+          <th class="header-space"></th>
+          <th>Sensorless Vector Control of <br>a Permanent Magnet Synchronous Motor</th>
+          <th>Vector Control for Permanent Magnet <br>Synchronous Motor with Encoder</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="setuphead">CPU board</td>
+          <td colspan="2">
+            <p>RX26T RAM64KB Version(R5F526TFCDFP) CPU board</p>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70c00000bj-mcb-rx26t-type-cpu-board-rx26t-mcu-group"
+                target="_blank">
+                MCB-RX26T Type A Version 1
+              </a>
+              <p>RTK0EMXE70C00000BJ (*1)</p>
+            </p>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70c00000bj-mcb-rx26t-type-cpu-board-rx26t-mcu-group"
+                target="_blank">
+                MCB-RX26T Type A Version 2
+              </a>
+              <p>RTK0EMXE70C00001BJ (*2)</p>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Inverter board</td>
+          <td colspan="2">
+            <p>
+              <a href="https://www.renesas.com/us/en/products/power-power-management/fet-motor-drivers/rtk0em0000s04020bj-mci-lv-1-renesas-flexible-motor-control-inverter-board-low-voltage-48v10a-three-phase-bldcpmsm-motor"
+                target="_blank">
+                MCI-LV-1
+              </a>
+              (*1)(*2)
+            </p>
+            <p>RTK0EM0000S04020BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Communication board</td>
+          <td colspan="2">
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxc90s00000bj-mc-com-renesas-flexible-motor-control-communication-board"
+                target="_blank">
+                MC-COM
+              </a>
+              (*1)(*2)
+            </p>
+            <p>RTK0EMXC90S00000BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Permanent magnet <br>synchronous motor</td>
+          <td>R42BLD30L3 (*1)(*2)(*3)</td>
+          <td>BLY171D-24V-4000 (*4)</td>
+        </tr>
+        <tr>
+          <td class="setuphead">Sensor</td>
+          <td>Not used</td>
+          <td>Encoder: AMT102-V (*5)</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+
+    <table class="hwsetup">
+      <thead>
+        <tr class="setuphead">
+          <th class="header-space"></th>
+          <th>Vector Control for Permanent Magnet <br>Synchronous Motor with Hall Sensor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="setuphead">CPU board</td>
+          <td>
+            <p>RX26T RAM64KB Version(R5F526TFCDFP) CPU board</p>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70c00000bj-mcb-rx26t-type-cpu-board-rx26t-mcu-group"
+                target="_blank">
+                MCB-RX26T Type A Version 1
+              </a>
+              <p>RTK0EMXE70C00000BJ (*1)</p>
+            </p>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70c00000bj-mcb-rx26t-type-cpu-board-rx26t-mcu-group"
+                target="_blank">
+                MCB-RX26T Type A Version 2
+              </a>
+              <p>RTK0EMXE70C00001BJ (*2)</p>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Inverter board</td>
+          <td>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/power-power-management/fet-motor-drivers/rtk0em0000s04020bj-mci-lv-1-renesas-flexible-motor-control-inverter-board-low-voltage-48v10a-three-phase-bldcpmsm-motor"
+                target="_blank">
+                MCI-LV-1
+              </a>
+              (*1)(*2)
+            </p>
+            <p>RTK0EM0000S04020BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Communication board</td>
+          <td>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxc90s00000bj-mc-com-renesas-flexible-motor-control-communication-board"
+                target="_blank">
+                MC-COM
+              </a>
+              (*1)(*2)
+            </p>
+            <p>RTK0EMXC90S00000BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Permanent magnet <br>synchronous motor</td>
+          <td>R42BLD30L3 (*1)(*2)(*3)</td>
+        </tr>
+        <tr>
+          <td class="setuphead">Sensor</td>
+          <td>Hall Sensor: Mounted inside the motor</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h5>
+      RX26T RAM48KB Version
+    </h5>
+    <table class="hwsetup">
+      <thead>
+        <tr class="setuphead">
+          <th class="header-space"></th>
+          <th>Sensorless Vector Control of <br>a Permanent Magnet Synchronous Motor</th>
+          <th>Vector Control for Permanent Magnet <br>Synchronous Motor with Encoder</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="setuphead">CPU board</td>
+          <td colspan="2">
+            <p>RX26T RAM48KB Version(R5F526TACDFM) CPU board</p>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe30c00000bj-mcb-rx26t-type-c-cpu-board-rx26t-mcu-group"
+                target="_blank">
+                MCB-RX26T Type C
+              </a>
+            </p>
+            <p>RTK0EMXE30C00000BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Inverter board</td>
+          <td colspan="2">
+            <p>
+              <a href="https://www.renesas.com/us/en/products/power-power-management/fet-motor-drivers/rtk0em0000s04020bj-mci-lv-1-renesas-flexible-motor-control-inverter-board-low-voltage-48v10a-three-phase-bldcpmsm-motor"
+                target="_blank">
+                MCI-LV-1
+              </a>
+              (*1)(*2)
+            </p>
+            <p>RTK0EM0000S04020BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Communication board</td>
+          <td colspan="2">
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxc90s00000bj-mc-com-renesas-flexible-motor-control-communication-board"
+                target="_blank">
+                MC-COM
+              </a>
+              (*1)(*2)
+            </p>
+            <p>RTK0EMXC90S00000BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Permanent magnet <br>synchronous motor</td>
+          <td>R42BLD30L3 (*1)(*2)(*3)</td>
+          <td>BLY171D-24V-4000 (*4)</td>
+        </tr>
+        <tr>
+          <td class="setuphead">Sensor</td>
+          <td>Not used</td>
+          <td>Encoder: AMT102-V (*5)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class="hwsetup">
+      <thead>
+        <tr class="setuphead">
+          <th class="header-space"></th>
+          <th>Vector Control for Permanent Magnet <br>Synchronous Motor with Hall Sensor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="setuphead">CPU board</td>
+          <td>
+            <p>RX26T RAM48KB Version(R5F526TACDFM) CPU board</p>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe30c00000bj-mcb-rx26t-type-c-cpu-board-rx26t-mcu-group"
+                target="_blank">
+                MCB-RX26T Type C
+              </a>
+            </p>
+            <p>RTK0EMXE30C00000BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Inverter board</td>
+          <td>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/power-power-management/fet-motor-drivers/rtk0em0000s04020bj-mci-lv-1-renesas-flexible-motor-control-inverter-board-low-voltage-48v10a-three-phase-bldcpmsm-motor"
+                target="_blank">
+                MCI-LV-1
+              </a>
+              (*1)(*2)
+            </p>
+            <p>RTK0EM0000S04020BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Communication board</td>
+          <td>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxc90s00000bj-mc-com-renesas-flexible-motor-control-communication-board"
+                target="_blank">
+                MC-COM
+              </a>
+              (*1)(*2)
+            </p>
+            <p>RTK0EMXC90S00000BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Permanent magnet <br>synchronous motor</td>
+          <td>R42BLD30L3 (*1)(*2)(*3)</td>
+        </tr>
+        <tr>
+          <td class="setuphead">Sensor</td>
+          <td>Hall Sensor: Mounted inside the motor</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>*1: Included in MCK-RX26T Version 1</p>
+    <p>*1: Included in MCK-RX26T Version 2</p>
+    <p>*3: R42BLD30L3 is manufactured by MOONS’.</p>
+    <p>*4: BLY171D-24V-4000 is manufactured by Anaheim Automation.</p>
+    <p>*5: AMT102-V is manufactured by CUI Device.</p>
+    <br>
+  </ul>
+  </p>
+
+  <h4>References</h4>
+  <ul>
+    <h5>Microcontrollers</h5>
+    <ul><a
+        href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx26t-32-bit-microcontroller-optimized-dual-motor-and-pfc-control"
+        target="_blank">RX26T 32-bit Microcontroller Optimized for Dual-Motor and PFC Control</a></ul>
+    <h5>Boards &amp; Kits</h5>
+    <ul><a
+        href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70s00020bj-mck-rx26t-renesas-flexible-motor-control-kit-rx26t-mcu-group"
+        target="_blank">MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group</a></ul>
+    <h5>Development Tools</h5>
+    <ul><a href="https://www.renesas.com/us/en/software-tool/renesas-motor-workbench" target="_blank">Renesas Motor
+        Workbench</a></ul>
+    <h5>Solutions</h5>
+    <ul><a
+        href="https://www.renesas.com/us/en/application/key-technology/motor-control-robotics/motor-control-solutions"
+        target="_blank">Renesas Motor and Inverter Control Solutions</a></ul>
+  </ul>
+
+  <h4>Documentation</h4>
+  <ul>
+    <h5>Microcontrollers</h5>
+    <ul><a href="https://www.renesas.com/us/en/document/dst/rx26t-group-datasheet" target="_blank">RX26T Group
+        Datasheet</a></ul>
+    <ul><a href="https://www.renesas.com/us/en/document/mah/rx26t-group-users-manual-hardware" target="_blank">RX26T
+        Group User's Manual: Hardware</a></ul>
+    <h5>Boards &amp; Kit</h5>
+    <ul><a href="https://www.renesas.com/us/en/document/mat/mck-rx26t-users-manual" target="_blank">MCK-RX26T User's
+        Manual</a></ul>
+    <ul><a href="https://www.renesas.com/us/en/document/qsg/mck-rx26t-quick-start-guide" target="_blank">MCK-RX26T
+        Quick Start Guide</a></ul>
+    <h5>Development Tools</h5>
+    <ul><a
+        href="https://www.renesas.com/us/en/document/qsg/motor-control-development-support-tool-renesas-motor-workbench-312-quick-start-guide"
+        target="_blank">Motor Control Development Support Tool Renesas Motor Workbench Quick Start Guide</a>
+    </ul>
+    <ul><a
+        href="https://www.renesas.com/us/en/document/mat/motor-control-development-support-tool-renesas-motor-workbench-312-users-manual"
+        target="_blank">Motor Control Development Support Tool Renesas Motor Workbench User's Manual</a>
+    </ul>
+    <h5>Solutions</h5>
+    <ul><a href="https://www.renesas.com/us/en/document/bro/motor-solution-brochure" target="_blank">Renesas Motor
+        Solutions Brochure</a></ul>
+  </ul>
+  <br>
+  <hr>
+  <br>
+</body>
+
+</html>
