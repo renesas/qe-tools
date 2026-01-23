@@ -112,8 +112,10 @@
 			<DeviceSeriesName>RX200</DeviceSeriesName>
 			<Device>
 				<DeviceName>RX26T</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6857xx0110-rx-encoderFOC.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6858xx0110-rx-sensorlessFOC.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6857xx0111-rx-encoderFOC.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6858xx0111-rx-sensorlessFOC.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7331xx0101-rx-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7422xx0101-motor-hall-foc-rx26t.xml</ProjectUrl>
 			</Device>
 		</DeviceSeries>
 	</DeviceFamily>
