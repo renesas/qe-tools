@@ -12,8 +12,8 @@
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA_MCILV1_2SPM_LESS_FOC_E2S_V100</ProjectFolderName>
 		<ProjectName
-		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - 2 motors, for MCK"
-		jp="永久磁石同期モータのセンサレスベクトル制御 - 2モータ駆動 MCK用"
+		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - 2 motors, for MCK(RAM64KB V.1)"
+		jp="永久磁石同期モータのセンサレスベクトル制御 - 2モータ駆動 MCK(RAM64KB V.1)用"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-2motor-mck-rev101</ApplicationNoteUrl>
 	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive dual permanent magnet synchronous motors with vector control."
@@ -92,8 +92,8 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA2_MCILV1_2SPM_LESS_FOC_E2S_V100</ProjectFolderName>
 		<ProjectName
-		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - 2 motors, for MCK"
-		jp="永久磁石同期モータのセンサレスベクトル制御 - 2モータ駆動 MCK用"
+		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - 2 motors, for MCK(RAM64KB V.2)"
+		jp="永久磁石同期モータのセンサレスベクトル制御 - 2モータ駆動 MCK(RAM64KB V.2)用"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-2motor-mck-rev101</ApplicationNoteUrl>
 

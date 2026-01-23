@@ -11,8 +11,8 @@
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_E2S_V110</ProjectFolderName>
 		<ProjectName
-		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK"
-		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用"
+		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK(RAM64KB V.1)"
+		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK(RAM64KB V.1)用"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev111</ApplicationNoteUrl>
 	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control."
@@ -94,8 +94,8 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_TUNER_E2S_V110</ProjectFolderName>
 		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
 		<ProjectName
-		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK (for tuning program generation)"
-		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用 (チューニングプログラム作成用)"
+		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK(RAM64KB V.1) (for tuning program generation)"
+		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK(RAM64KB V.1)用 (チューニングプログラム作成用)"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev111</ApplicationNoteUrl>
 	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control.\nThis project supports tuning program generation."
@@ -175,8 +175,8 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V110</ProjectFolderName>
 		<ProjectName
-		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK (1-shunt)"
-		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用 (1シャント)"
+		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK(RAM64KB V.1) (1-shunt)"
+		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK(RAM64KB V.1)用 (1シャント)"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev111</ApplicationNoteUrl>
 	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control. "
@@ -258,8 +258,8 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA2_MCILV1_SPM_LESS_FOC_E2S_V100</ProjectFolderName>
 		<ProjectName
-		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK"
-		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用"
+		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK(RAM64KB V.2)"
+		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK(RAM64KB V.2)用"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev111</ApplicationNoteUrl>
 	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control."
@@ -341,8 +341,8 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		<ProjectFolderName>RX26T_MCBA2_MCILV1_SPM_LESS_FOC_TUNER_E2S_V100</ProjectFolderName>
 		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
 		<ProjectName
-		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK (for tuning program generation)"
-		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用 (チューニングプログラム作成用)"
+		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK(RAM64KB V.2) (for tuning program generation)"
+		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK(RAM64KB V.2)用 (チューニングプログラム作成用)"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev111</ApplicationNoteUrl>
 	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control.\nThis project supports tuning program generation."
@@ -422,8 +422,8 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA2_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
 		<ProjectName
-		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK (1-shunt)"
-		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用 (1シャント)"
+		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK(RAM64KB V.2) (1-shunt)"
+		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK(RAM64KB V.2)用 (1シャント)"
 		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rev111</ApplicationNoteUrl>
 	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control. "

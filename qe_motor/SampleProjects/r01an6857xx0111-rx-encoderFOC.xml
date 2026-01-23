@@ -11,8 +11,8 @@
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
 		<ProjectName
-		en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK"
-		jp="永久磁石同期モータのエンコーダベクトル制御 - MCK用"
+		en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK(RAM64KB V.1)"
+		jp="永久磁石同期モータのエンコーダベクトル制御 - MCK(RAM64KB V.1)用"
 		/>
 		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rev111</ApplicationNoteUrl>
 		<ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control."
@@ -92,8 +92,8 @@ RX26Tマイクロコントローラを使用し、エンコーダ付き永久磁
 		<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
 		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
 		<ProjectName 
-		en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK (for tuning program generation)" 
-		jp="永久磁石同期モータのエンコーダベクトル制御 - MCK用 (チューニングプログラム作成用)"
+		en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK(RAM64KB V.1) (for tuning program generation)" 
+		jp="永久磁石同期モータのエンコーダベクトル制御 - MCK(RAM64KB V.1)用 (チューニングプログラム作成用)"
 		/>
 		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rev111</ApplicationNoteUrl>
 		<ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control.\nThis project supports tuning program generation."
@@ -171,8 +171,8 @@ RX26Tマイクロコントローラを使用し、エンコーダ付き永久磁
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA2_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
 		<ProjectName
-		en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK"
-		jp="永久磁石同期モータのエンコーダベクトル制御 - MCK用"
+		en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK(RAM64KB V.2)"
+		jp="永久磁石同期モータのエンコーダベクトル制御 - MCK(RAM64KB V.2)用"
 		/>
 		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rev111</ApplicationNoteUrl>
 		<ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control."
@@ -252,8 +252,8 @@ RX26Tマイクロコントローラを使用し、エンコーダ付き永久磁
 		<ProjectFolderName>RX26T_MCBA2_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
 		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
 		<ProjectName 
-		en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK (for tuning program generation)" 
-		jp="永久磁石同期モータのエンコーダベクトル制御 - MCK用 (チューニングプログラム作成用)"
+		en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK(RAM64KB V.2) (for tuning program generation)" 
+		jp="永久磁石同期モータのエンコーダベクトル制御 - MCK(RAM64KB V.2)用 (チューニングプログラム作成用)"
 		/>
 		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rev111</ApplicationNoteUrl>
 		<ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control.\nThis project supports tuning program generation."
