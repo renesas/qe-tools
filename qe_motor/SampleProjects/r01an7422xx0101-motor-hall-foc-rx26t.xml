@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Hall sensor feedback" jp="ホールセンサフィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />
+	<SensorType en="Hall sensor feedback" jp="ホールセンサフィードバック" />
+	<ControlType en="Vector control" jp="ベクトル制御" />
+	<ZipDownloadUrl>/document/scd/hall-sensor-vector-control-pm-motors-rev101/r01an7422xx0101-motor-hall-foc-rx26t.zip</ZipDownloadUrl>
+
+	<Date>2025-06-30</Date>
+
+	<SampleProject>
+		<DeviceName>RX26T</DeviceName>
+		<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_HALL_FOC_E2S_V100</ProjectFolderName>
+		<ProjectName
+		en="Hall sensor vector control of PM motors"
+		jp="PM モータのホールセンサベクトル制御"
+		/>
+		<ApplicationNoteUrl>/document/apn/hall-sensor-vector-control-pm-motors-rev101</ApplicationNoteUrl>
+
+	        <ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RX26T microcontroller."
+			jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。"/>
+	        <Features>
+				<Feature en="For RX26T RAM64KB Version CPU Board Version 1" jp="RX26T RAM64KBバージョンCPUボード Version 1対応"/>
+				<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+				<Feature en="Vector control" jp="ベクトル制御"/>
+	        </Features>
+	       	<Setups>
+				<Setup en="CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A Version 1 (RTK0EMXE70C00000BJ)" jp="CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード MCB-RX26T Type A Version 1 (RTK0EMXE70C00000BJ)"/>
+				<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+				<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+				<Setup en="Permanent magnet synchronous motor : R42BLD30L3" jp="永久磁石同期モータ : R42BLD30L3"/>
+				<Setup en="Sensor : Hall Sensor (Mounted inside the motor)" jp="センサ : ホールセンサ (モータに内蔵)"/>
+	        </Setups>
+	        <Functions>
+				<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN7422EJ0101" jp="R01AN7422JJ0101"/>
+		<Description
+		en="
+[Description]&#10;
+This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RX26T microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -For RX26T RAM64KB Version CPU Board Version 1&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A Version 1(RTK0EMXE70C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Permanent magnet synchronous motor : R42BLD30L3&#10;
+ -Sensor : Hall Sensor (Mounted inside the motor)&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN7422EJ0101
+"
+		jp="
+[概要]&#10;
+RX26Tマイクロコントローラを使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -RX26T RAM64KBバージョンCPUボード Version 1対応&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード MCB-RX26T Type A Version 1(RTK0EMXE70C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モータ : R42BLD30L3&#10;
+ -センサ : ホールセンサ (モータに内蔵)&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN7422JJ0101
+"
+		/>
+	</SampleProject>
+
+	<SampleProject>
+		<DeviceName>RX26T</DeviceName>
+		<ProjectFolderName>RX26T_MCBA2_MCILV1_SPM_HALL_FOC_E2S_V100</ProjectFolderName>
+		<ProjectName
+		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK"
+		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用"
+		/>
+		<ApplicationNoteUrl>/document/apn/hall-sensor-vector-control-pm-motors-rev101</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RX26T microcontroller."
+			jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。"/>
+	        <Features>
+				<Feature en="For RX26T RAM64KB Version CPU Board Version 2" jp="RX26T RAM64KBバージョンCPUボード Version 2対応"/>
+				<Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+				<Feature en="Vector control" jp="ベクトル制御"/>
+	        </Features>
+	       	<Setups>
+				<Setup en="CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A Version 2 (RTK0EMXE70C00001BJ)" jp="CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード MCB-RX26T Type A Version 2 (RTK0EMXE70C00001BJ)"/>
+				<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+				<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+				<Setup en="Permanent magnet synchronous motor : R42BLD30L3" jp="永久磁石同期モータ : R42BLD30L3"/>
+				<Setup en="Sensor : Hall Sensor (Mounted inside the motor)" jp="センサ : ホールセンサ (モータに内蔵)"/>
+	        </Setups>
+	        <Functions>
+				<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN7422EJ0101" jp="R01AN7422JJ0101"/>
+		<Description
+		en="
+[Description]&#10;
+This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RX26T microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -For RX26T RAM64KB Version CPU Board Version 2&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A Version 2(RTK0EMXE70C00001BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Permanent magnet synchronous motor : R42BLD30L3&#10;
+ -Sensor : Hall Sensor (Mounted inside the motor)&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN7422EJ0101
+"
+		jp="
+[概要]&#10;
+RX26Tマイクロコントローラを使用し、永久磁石同期モータを、ホールセンサを用いたベクトル制御で駆動するサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -RX26T RAM64KBバージョンCPUボード Version 2対応&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード MCB-RX26T Type A Version 2(RTK0EMXE70C00001BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モータ : R42BLD30L3&#10;
+ -センサ : ホールセンサ (モータに内蔵)&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN7422JJ0101
+"
+		/>
+	</SampleProject>
+
+</ZipFile>

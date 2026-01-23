@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />
+	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
+	<ControlType en="Vector control" jp="ベクトル制御" />
+	<ZipDownloadUrl>/document/scd/sensorless-vector-control-permanent-magnet-synchronous-motor-2motor-mck-rev101/r01an7331xx0101-rx-motor.zip</ZipDownloadUrl>
+
+	<Date>2025-06-30</Date>
+
+	<SampleProject>
+		<DeviceName>RX26T</DeviceName>
+		<ProjectFolderName>RX26T_MCBA_MCILV1_2SPM_LESS_FOC_E2S_V100</ProjectFolderName>
+		<ProjectName
+		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - 2 motors, for MCK"
+		jp="永久磁石同期モータのセンサレスベクトル制御 - 2モータ駆動 MCK用"
+		/>
+		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-2motor-mck-rev101</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive dual permanent magnet synchronous motors with vector control."
+			jp="RX26Tマイクロコントローラを使用し、2個の永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。"/>
+	        <Features>
+				<Feature en="For RX26T RAM64KB Version CPU Board Version 1" jp="RX26T RAM64KBバージョンCPUボード Version 1対応"/>
+				<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+				<Feature en="Vector control" jp="ベクトル制御"/>
+				<Feature en="2-shunt current detection method" jp="2シャント抵抗電流検出方式"/>
+	        </Features>
+	       	<Setups>
+				<Setup en="CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A Version 1 (RTK0EMXE70C00000BJ)" jp="CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード MCB-RX26T Type A Version 1 (RTK0EMXE70C00000BJ)"/>
+				<Setup en="Inverter board : MCI-LV-1 x2" jp="インバータボード : MCI-LV-1 x2"/>
+				<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+				<Setup en="Permanent magnet synchronous motor : R42BLD30L3 x2" jp="永久磁石同期モータ : R42BLD30L3 x2"/>
+				<Setup en="Sensor : Not used" jp="センサ : なし"/>
+	        </Setups>
+	        <Functions>
+				<Function en="SW configuration" jp="SW configuration"/>
+				<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN7331EJ0101" jp="R01AN7331JJ0101"/>
+		<Description
+		en="
+[Description]&#10;
+This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control.&#10;
+&#10;
+[Features, Target System]&#10;
+ -For RX26T RAM64KB Version CPU Board Version 1&#10;
+ -Sensorless feedback&#10;
+ -Vector control&#10;
+ -2-shunt current detection method&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A Version 1(RTK0EMXE70C00000BJ)&#10;
+ -Inverter board : MCI-LV-1 x2&#10;
+ -Communication board : MC-COM&#10;
+ -Permanent magnet synchronous motor : R42BLD30L3 x2&#10;
+ -Sensor : Not used&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN7331EJ0101
+"
+		jp="
+[概要]&#10;
+RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -RX26T RAM64KBバージョンCPUボード Version 1対応&#10;
+ -センサレスフィードバック&#10;
+ -ベクトル制御&#10;
+ -2シャント抵抗電流検出方式&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード MCB-RX26T Type A Version 1(RTK0EMXE70C00000BJ)&#10;
+ -インバータボード : MCI-LV-1 x2&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モータ : R42BLD30L3 x2&#10;
+ -センサ : なし&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN7331JJ0101
+"
+		/>
+	</SampleProject>
+
+	<SampleProject>
+		<DeviceName>RX26T</DeviceName>
+		<ProjectFolderName>RX26T_MCBA2_MCILV1_2SPM_LESS_FOC_E2S_V100</ProjectFolderName>
+		<ProjectName
+		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - 2 motors, for MCK"
+		jp="永久磁石同期モータのセンサレスベクトル制御 - 2モータ駆動 MCK用"
+		/>
+		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-permanent-magnet-synchronous-motor-2motor-mck-rev101</ApplicationNoteUrl>
+
+	        <ProjectDescription en="This project is the sample program that uses Renesas RX26T microcontroller to drive dual permanent magnet synchronous motors with vector control."
+			jp="RX26Tマイクロコントローラを使用し、2個の永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。"/>
+	        <Features>
+				<Feature en="For RX26T RAM64KB Version CPU Board Version 2" jp="RX26T RAM64KBバージョンCPUボード Version 2対応"/>
+				<Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+				<Feature en="Vector control" jp="ベクトル制御"/>
+				<Feature en="2-shunt current detection method" jp="2シャント抵抗電流検出方式"/>
+	        </Features>
+	       	<Setups>
+				<Setup en="CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A Version 2 (RTK0EMXE70C00001BJ)" jp="CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード MCB-RX26T Type A Version 2 (RTK0EMXE70C00001BJ)"/>
+				<Setup en="Inverter board : MCI-LV-1 x2" jp="インバータボード : MCI-LV-1 x2"/>
+				<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+				<Setup en="Permanent magnet synchronous motor : R42BLD30L3 x2" jp="永久磁石同期モータ : R42BLD30L3 x2"/>
+				<Setup en="Sensor : Not used" jp="センサ : なし"/>
+	        </Setups>
+	        <Functions>
+				<Function en="SW configuration" jp="SW configuration"/>
+				<Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN7331EJ0101" jp="R01AN7331JJ0101"/>
+		<Description
+		en="
+[Description]&#10;
+This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control.&#10;
+&#10;
+[Features, Target System]&#10;
+ -For RX26T RAM64KB Version CPU Board Version 2&#10;
+ -Sensorless feedback&#10;
+ -Vector control&#10;
+ -2-shunt current detection method&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A Version 2(RTK0EMXE70C00001BJ)&#10;
+ -Inverter board : MCI-LV-1 x2&#10;
+ -Communication board : MC-COM&#10;
+ -Permanent magnet synchronous motor : R42BLD30L3 x2&#10;
+ -Sensor : Not used&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN7331EJ0101
+"
+		jp="
+[概要]&#10;
+RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -RX26T RAM64KBバージョンCPUボード Version 2対応&#10;
+ -センサレスフィードバック&#10;
+ -ベクトル制御&#10;
+ -2シャント抵抗電流検出方式&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード MCB-RX26T Type A Version 2(RTK0EMXE70C00001BJ)&#10;
+ -インバータボード : MCI-LV-1 x2&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モータ : R42BLD30L3 x2&#10;
+ -センサ : なし&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN7331JJ0101
+"
+		/>
+	</SampleProject>
+
+</ZipFile>
