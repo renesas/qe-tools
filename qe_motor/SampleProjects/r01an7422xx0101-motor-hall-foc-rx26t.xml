@@ -87,8 +87,8 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA2_MCILV1_SPM_HALL_FOC_E2S_V100</ProjectFolderName>
 		<ProjectName
-		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK"
-		jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用"
+		en="Hall sensor vector control of PM motors"
+		jp="PM モータのホールセンサベクトル制御"
 		/>
 		<ApplicationNoteUrl>/document/apn/hall-sensor-vector-control-pm-motors-rev101</ApplicationNoteUrl>
 		<ProjectDescription en="This project is the vector control with hall sensors software that drives permanent magnetic synchronous motor (PMSM) using the RX26T microcontroller."
