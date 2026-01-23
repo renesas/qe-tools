@@ -81,6 +81,7 @@
     <h5>
       RX26T RAM64KB Version
     </h5>
+
     <table class="hwsetup">
       <thead>
         <tr class="setuphead">
@@ -93,14 +94,21 @@
         <tr>
           <td class="setuphead">CPU board</td>
           <td colspan="2">
-            <p>RX26T RAM64KB Version(R5F526TFCDFP) CPU board (*1)</p>
+            <p>RX26T RAM64KB Version(R5F526TFCDFP) CPU board</p>
             <p>
               <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70c00000bj-mcb-rx26t-type-cpu-board-rx26t-mcu-group"
                 target="_blank">
-                MCB-RX26T Type A
+                MCB-RX26T Type A Version 1
               </a>
+              <p>RTK0EMXE70C00000BJ (*1)</p>
             </p>
-            <p>RTK0EMXE70C00000BJ</p>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70c00000bj-mcb-rx26t-type-cpu-board-rx26t-mcu-group"
+                target="_blank">
+                MCB-RX26T Type A Version 2
+              </a>
+              <p>RTK0EMXE70C00001BJ (*2)</p>
+            </p>
           </td>
         </tr>
         <tr>
@@ -111,7 +119,7 @@
                 target="_blank">
                 MCI-LV-1
               </a>
-              (*1)
+              (*1)(*2)
             </p>
             <p>RTK0EM0000S04020BJ</p>
           </td>
@@ -124,20 +132,85 @@
                 target="_blank">
                 MC-COM
               </a>
-              (*1)
+              (*1)(*2)
             </p>
             <p>RTK0EMXC90S00000BJ</p>
           </td>
         </tr>
         <tr>
           <td class="setuphead">Permanent magnet <br>synchronous motor</td>
-          <td>R42BLD30L3 (*1)(*2)</td>
-          <td>BLY171D-24V-4000 (*3)</td>
+          <td>R42BLD30L3 (*1)(*2)(*3)</td>
+          <td>BLY171D-24V-4000 (*4)</td>
         </tr>
         <tr>
           <td class="setuphead">Sensor</td>
           <td>Not used</td>
-          <td>AMT102-V (*4)</td>
+          <td>Encoder: AMT102-V (*5)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class="hwsetup">
+      <thead>
+        <tr class="setuphead">
+          <th class="header-space"></th>
+          <th>Vector Control for Permanent Magnet <br>Synchronous Motor with Hall Sensor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="setuphead">CPU board</td>
+          <td>
+            <p>RX26T RAM64KB Version(R5F526TFCDFP) CPU board</p>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70c00000bj-mcb-rx26t-type-cpu-board-rx26t-mcu-group"
+                target="_blank">
+                MCB-RX26T Type A Version 1
+              </a>
+              <p>RTK0EMXE70C00000BJ (*1)</p>
+            </p>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70c00000bj-mcb-rx26t-type-cpu-board-rx26t-mcu-group"
+                target="_blank">
+                MCB-RX26T Type A Version 2
+              </a>
+              <p>RTK0EMXE70C00001BJ (*2)</p>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Inverter board</td>
+          <td>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/power-power-management/fet-motor-drivers/rtk0em0000s04020bj-mci-lv-1-renesas-flexible-motor-control-inverter-board-low-voltage-48v10a-three-phase-bldcpmsm-motor"
+                target="_blank">
+                MCI-LV-1
+              </a>
+              (*1)(*2)
+            </p>
+            <p>RTK0EM0000S04020BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Communication board</td>
+          <td>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxc90s00000bj-mc-com-renesas-flexible-motor-control-communication-board"
+                target="_blank">
+                MC-COM
+              </a>
+              (*1)(*2)
+            </p>
+            <p>RTK0EMXC90S00000BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Permanent magnet <br>synchronous motor</td>
+          <td>R42BLD30L3 (*1)(*2)(*3)</td>
+        </tr>
+        <tr>
+          <td class="setuphead">Sensor</td>
+          <td>Hall Sensor: Mounted inside the motor</td>
         </tr>
       </tbody>
     </table>
@@ -176,7 +249,7 @@
                 target="_blank">
                 MCI-LV-1
               </a>
-              (*)
+              (*1)(*2)
             </p>
             <p>RTK0EM0000S04020BJ</p>
           </td>
@@ -189,28 +262,87 @@
                 target="_blank">
                 MC-COM
               </a>
-              (*)
+              (*1)(*2)
             </p>
             <p>RTK0EMXC90S00000BJ</p>
           </td>
         </tr>
         <tr>
           <td class="setuphead">Permanent magnet <br>synchronous motor</td>
-          <td>R42BLD30L3 (*)</td>
-          <td>BLY171D-24V-4000</td>
+          <td>R42BLD30L3 (*1)(*2)(*3)</td>
+          <td>BLY171D-24V-4000 (*4)</td>
         </tr>
         <tr>
           <td class="setuphead">Sensor</td>
           <td>Not used</td>
-          <td>Encoder: AMT102-V</td>
+          <td>Encoder: AMT102-V (*5)</td>
         </tr>
       </tbody>
     </table>
 
-    <p>*1: Included in MCK-RX26T</p>
-    <p>*2: R42BLD30L3 is manufactured by MOONS’.</p>
-    <p>*3: BLY171D-24V-4000 is manufactured by Anaheim Automation.</p>
-    <p>*4: AMT102-V is manufactured by CUI Device.</p>
+    <table class="hwsetup">
+      <thead>
+        <tr class="setuphead">
+          <th class="header-space"></th>
+          <th>Vector Control for Permanent Magnet <br>Synchronous Motor with Hall Sensor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="setuphead">CPU board</td>
+          <td>
+            <p>RX26T RAM48KB Version(R5F526TACDFM) CPU board</p>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe30c00000bj-mcb-rx26t-type-c-cpu-board-rx26t-mcu-group"
+                target="_blank">
+                MCB-RX26T Type C
+              </a>
+            </p>
+            <p>RTK0EMXE30C00000BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Inverter board</td>
+          <td>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/power-power-management/fet-motor-drivers/rtk0em0000s04020bj-mci-lv-1-renesas-flexible-motor-control-inverter-board-low-voltage-48v10a-three-phase-bldcpmsm-motor"
+                target="_blank">
+                MCI-LV-1
+              </a>
+              (*1)(*2)
+            </p>
+            <p>RTK0EM0000S04020BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Communication board</td>
+          <td>
+            <p>
+              <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxc90s00000bj-mc-com-renesas-flexible-motor-control-communication-board"
+                target="_blank">
+                MC-COM
+              </a>
+              (*1)(*2)
+            </p>
+            <p>RTK0EMXC90S00000BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">Permanent magnet <br>synchronous motor</td>
+          <td>R42BLD30L3 (*1)(*2)(*3)</td>
+        </tr>
+        <tr>
+          <td class="setuphead">Sensor</td>
+          <td>Hall Sensor: Mounted inside the motor</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>*1: Included in MCK-RX26T Version 1</p>
+    <p>*2: Included in MCK-RX26T Version 2</p>
+    <p>*3: R42BLD30L3 is manufactured by MOONS’.</p>
+    <p>*4: BLY171D-24V-4000 is manufactured by Anaheim Automation.</p>
+    <p>*5: AMT102-V is manufactured by CUI Device.</p>
     <br>
   </ul>
   </p>
