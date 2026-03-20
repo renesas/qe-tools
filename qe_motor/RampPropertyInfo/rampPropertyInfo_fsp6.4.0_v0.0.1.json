@@ -32,6 +32,12 @@
                 }
               ]
             }
+          ],
+          "macros": [
+            {
+              "macroDef": "MOTOR_SENSOR_1",
+              "macroValue": "MOTOR_SENSOR_BEMF"
+            }
           ]
         },
         {
@@ -52,6 +58,12 @@
                   "value": "module.middleware.motor_algorithm.sensor_select.slot1"
                 }
               ]
+            }
+          ],
+          "macros": [
+            {
+              "macroDef": "MOTOR_SENSOR_1",
+              "macroValue": "MOTOR_SENSOR_HALL"
             }
           ]
         }
