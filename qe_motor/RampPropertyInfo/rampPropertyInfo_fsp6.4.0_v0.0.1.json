@@ -248,6 +248,10 @@
                 {
                   "propertyId": "module.driver.timer.adc_b_compare_match",
                   "value": "200"
+                },
+                {
+                  "propertyId": "module.driver.timer.gtior.custom_waveform_enable",
+                  "value": "module.driver.timer.gtior.custom_waveform_enable.enabled"
                 }
               ]
             },
@@ -452,6 +456,10 @@
                 {
                   "propertyId": "module.driver.timer.adc_b_compare_match",
                   "value": "0"
+                },
+                {
+                  "propertyId": "module.driver.timer.gtior.custom_waveform_enable",
+                  "value": "module.driver.timer.gtior.custom_waveform_enable.disabled"
                 }
               ]
             },
@@ -655,6 +663,10 @@
                 {
                   "propertyId": "module.driver.timer.adc_b_compare_match",
                   "value": "0"
+                },
+                {
+                  "propertyId": "module.driver.timer.gtior.custom_waveform_enable",
+                  "value": "module.driver.timer.gtior.custom_waveform_enable.disabled"
                 }
               ]
             },
