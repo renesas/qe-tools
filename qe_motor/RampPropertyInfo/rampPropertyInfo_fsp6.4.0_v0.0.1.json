@@ -107,6 +107,50 @@
                 {
                   "propertyId": "module.middleware.motor_algorithm.f_over_current",
                   "value": "1.67F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v1",
+                  "value": "0.024F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v2",
+                  "value": "0.048F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v3",
+                  "value": "0.072F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v4",
+                  "value": "0.096F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v5",
+                  "value": "0.120F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i1",
+                  "value": "0.070F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i2",
+                  "value": "0.140F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i3",
+                  "value": "0.220F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i4",
+                  "value": "0.300F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i5",
+                  "value": "0.500F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_ref_vdc",
+                  "value": "24.0F"
                 }
               ]
             },
@@ -313,6 +357,50 @@
                 {
                   "propertyId": "module.middleware.motor_algorithm.f_over_current",
                   "value": "3.2F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v1",
+                  "value": "0.048F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v2",
+                  "value": "0.096F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v3",
+                  "value": "0.144F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v4",
+                  "value": "0.192F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v5",
+                  "value": "0.240F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i1",
+                  "value": "0.070F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i2",
+                  "value": "0.140F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i3",
+                  "value": "0.220F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i4",
+                  "value": "0.300F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i5",
+                  "value": "0.500F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_ref_vdc",
+                  "value": "24.0F"
                 }
               ]
             },
@@ -521,6 +609,50 @@
                 {
                   "propertyId": "module.middleware.motor_algorithm.f_over_current",
                   "value": "3.2F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v1",
+                  "value": "0.048F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v2",
+                  "value": "0.096F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v3",
+                  "value": "0.144F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v4",
+                  "value": "0.192F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_v5",
+                  "value": "0.240F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i1",
+                  "value": "0.070F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i2",
+                  "value": "0.140F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i3",
+                  "value": "0.220F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i4",
+                  "value": "0.300F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_i5",
+                  "value": "0.500F"
+                },
+                {
+                  "propertyId": "module.middleware.motor_algorithm.voltage_comp_ref_vdc",
+                  "value": "24.0F"
                 }
               ]
             },
