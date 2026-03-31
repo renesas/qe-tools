@@ -13,7 +13,7 @@
 		<ProjectFolderName>RA6T2_MCB2_MCILV1_2SPM_LESS_FOC_E2S_V100</ProjectFolderName>
 		<ProjectName 
 		en="Sensorless vector control for dual permanent magnetic synchronous motor" 
-		jp="永久磁石同期モータのセンサレスベクトル制御  2モータ駆動" />
+		jp="永久磁石同期モータのセンサレスベクトル制御 - 2モータ駆動" />
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-dual-permanent-magnetic-synchronous-motor-mckmcb-ra-family/</ApplicationNoteUrl>
 	        <ProjectDescription en="This project is the sensorless vector control software that drives dual permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller."
 			jp="RA6T2マイクロコントローラ(MCU)を使用し、2個の永久磁石同期モータをセンサレスベクトル制御で駆動するサンプルプログラムです。"/>
