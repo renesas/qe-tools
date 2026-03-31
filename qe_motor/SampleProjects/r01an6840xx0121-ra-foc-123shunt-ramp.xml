@@ -11,7 +11,7 @@
 	<SampleProject>
 		<DeviceName>RA6T2</DeviceName>
 		<FspVersion>6.4.0</FspVersion>
-		<ProjectFolderName>RA6T2_MCB2_MCILV1_AMM_E2S_V100</ProjectFolderName>
+		<ProjectFolderName>RA6T2_MCB2_MCILV1_RAMP_E2S_V100</ProjectFolderName>
 		<ProjectName 
 		en="1RAMP Vector control for magnetic synchronous motor with hall sensors - 3shunt current detection" 
 		jp="1永久磁石同期モータのホールベクトル制御 - 1シャント電流検出方式" />
@@ -87,4 +87,5 @@ RA6T2マイクロコントローラを使用し、ホールセンサを用いて
 		/>
 	</SampleProject>
 </ZipFile>
+
 
