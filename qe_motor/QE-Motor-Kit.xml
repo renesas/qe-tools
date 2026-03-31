@@ -101,10 +101,6 @@
 		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモータ（R42BLD30L3）"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/MCK-RA6T2-V2-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/MCK-RA6T2-V2-HardwareInfo.html" />
 		<Project>
-			<ProjectFolderName>RA6T2_MCB2_MCILV1_RAMP_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6840xx0121-ra-foc-123shunt-ramp.xml</ProjectUrl>
-		</Project>
-		<Project>
 			<ProjectFolderName>RA6T2_MCB2_MCILV1_2SPM_LESS_FOC_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6421xx0131-ra-sensorless-foc-2motor.xml</ProjectUrl>
 		</Project>
