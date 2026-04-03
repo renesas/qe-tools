@@ -1,42 +1,139 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <title>Document Under Preparation</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 100px auto;
-            padding: 40px;
-            background-color: #ffffff;
-            border-radius: 8px;
-            text-align: center;
-        }
-        h1 {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 16px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>RAMPを使用したプロジェクトでチューニングする際の注意事項</title>
+  <style>
+    body {
+      background-color: white;
+      color: black;
+      font-family: sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+    }
+    h1 {
+      font-size: 1.8em;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3em;
+    }
+    h2 {
+      font-size: 1.4em;
+      margin-top: 2em;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.2em;
+    }
+    p {
+      margin: 1em 0;
+    }
+    ol {
+      margin-left: 2em;
+    }
+
+
+pre.path {
+  font-size: 1em;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+
+
+
+    .doc-image {
+      max-width: 100%;
+      width: 800px;
+      height: auto;
+      display: block;
+      margin: 10px 0;
+    }
+  </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>Document Under Preparation</h1>
-    <p>
-        This document is currently under preparation and will be published once it is ready.
-    </p>
-</div>
+<h1>RAMPを使用したプロジェクトでチューニングする際の注意事項</h1>
+
+<!-- ========== 大項目 1 ========== -->
+<h2>Tunerの起動に関する注意事項</h2>
+
+<p>
+Renesas Motor Workbench 3.3 以下を使用している場合、  
+RAMP (Renesas Advanced Motor control Platform) のモータ制御用 FSP モジュールを使用したプロジェクトでは、  
+QE for Motor の「<strong>Renesas Motor Workbench tuner を起動</strong>」ボタンから、  
+Tuner を直接起動することができません。
+</p>
+
+<p>
+以下の方法で、一旦 Analyzer を起動後、Tuner に切り替えてください。
+</p>
+
+<ol>
+  <li>
+    チューニングに使用するプログラムを書き込み後、  
+    QE for Motor の「<strong>アナライズ</strong>」ページを表示し、  
+    「<strong>Renesas Motor Workbench analyzer を起動</strong>」ボタンで、  
+    Renesas Motor Workbench の Analyzer を起動する。
+    <img
+      src="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/ToolDocuments/Images/RampTuningNoteRmw33_img1_j.png"
+      alt="Analyzer起動手順"
+      class="doc-image"
+    >
+  </li>
+
+  <li>
+    Renesas Motor Workbench の Analyzer 表示で  
+    「<strong>Tuner</strong>」ボタンをクリックし、Tuner に切り替える。
+    <img
+      src="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/ToolDocuments/Images/RampTuningNoteRmw33_img2.png"
+      alt="Tuner切り替え手順"
+      class="doc-image"
+    >
+  </li>
+</ol>
+
+<!-- ========== 大項目 2 ========== -->
+<h2>チューニング結果のFSP設定への適用に関する注意事項</h2>
+
+<p>
+RAMP (Renesas Advanced Motor control Platform) のモータ制御用 FSP モジュールを使用したプロジェクトでは、  
+QE for Motor の「<strong>チューニング結果をプロジェクトに適用する</strong>」ボタンにより  
+チューニング結果を FSP 設定に反映する機能を使用する場合、以下の点に注意してください。
+</p>
+
+<ul>
+  <li>
+Renesas Motor Workbench でのチューニング完了後、  
+「<strong>Output Header File</strong>」ボタンでチューニング結果のパラメータ値を含む  
+ヘッダーファイル（<strong>r_mtr_control_parameter.h</strong>、  
+<strong>r_mtr_motor_parameter.h</strong>）の出力先に、  
+使用している e2 studio プロジェクトフォルダ内を指定してください。
+
+  </li>
+
+  <li>
+RAMP 使用サンプルプロジェクト  
+（<strong>RA6T2_MCB2_MCILV1_RAMP_E2S_V100</strong>）では、  
+出力先に以下のフォルダを指定し、既存のヘッダーファイルを上書きしてください。
+
+
+
+<pre class="path">
+RA6T2_MCB2_MCILV1_RAMP_E2S_V100\src\application\main
+</pre>
+
+
+<p>
+サンプルプロジェクトの初期状態では、これらのヘッダーファイルはプログラムで使用されていませんが、  
+使用するようプログラムを変更された場合は、必要に応じて事前にバックアップを保存してください。
+</p>
+
+    <img
+      src="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/ToolDocuments/Images/RampTuningNoteRmw33_img3_j.png"
+      alt="Tuner切り替え手順"
+      class="doc-image"
+    >
+
+  </li>
+</ul>
 
 </body>
 </html>

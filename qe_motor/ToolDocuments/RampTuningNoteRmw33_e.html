@@ -1,42 +1,135 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Document Under Preparation</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 100px auto;
-            padding: 40px;
-            background-color: #ffffff;
-            border-radius: 8px;
-            text-align: center;
-        }
-        h1 {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 16px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Notes on Tuning in Projects Using RAMP</title>
+  <style>
+    body {
+      background-color: white;
+      color: black;
+      font-family: sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+    }
+    h1 {
+      font-size: 1.8em;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3em;
+    }
+    h2 {
+      font-size: 1.4em;
+      margin-top: 2em;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.2em;
+    }
+    p {
+      margin: 1em 0;
+    }
+    ol {
+      margin-left: 2em;
+    }
+    pre {
+      font-size: 1em;
+      font-family: inherit;
+      font-weight: bold;
+    }
+    .doc-image {
+      max-width: 100%;
+      width: 800px;
+      height: auto;
+      display: block;
+      margin: 10px 0;
+    }
+  </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>Document Under Preparation</h1>
+<h1>Notes on Tuning in Projects Using RAMP</h1>
+
+<!-- ========== Section 1 ========== -->
+<h2>Notes on Launching the Tuner</h2>
+
+<p>
+When using Renesas Motor Workbench version 3.3 or earlier,  
+in projects that use the motor control FSP modules of  
+RAMP (Renesas Advanced Motor control Platform),  
+the Tuner cannot be launched directly from the  
+“<strong>Launch Renesas Motor Workbench tuner</strong>” button in QE for Motor.
+</p>
+
+<p>
+Please follow the procedure below to launch the Analyzer first,  
+and then switch to the Tuner.
+</p>
+
+<ol>
+  <li>
+    After writing the program used for tuning,  
+    open the “<strong>Analyzer</strong>” page in QE for Motor,  
+    and click the “<strong>Launch Renesas Motor Workbench analyzer</strong>” button  
+    to launch the Analyzer of Renesas Motor Workbench.
+    <img
+      src="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/ToolDocuments/Images/RampTuningNoteRmw33_img1_e.png"
+      alt="Procedure to launch Analyzer"
+      class="doc-image"
+    >
+  </li>
+
+  <li>
+    In the Analyzer view of Renesas Motor Workbench,  
+    click the “<strong>Tuner</strong>” button to switch to the Tuner.
+    <img
+      src="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/ToolDocuments/Images/RampTuningNoteRmw33_img2.png"
+      alt="Procedure to switch to Tuner"
+      class="doc-image"
+    >
+  </li>
+</ol>
+
+<!-- ========== Section 2 ========== -->
+<h2>Notes on Applying Tuning Results to FSP Settings</h2>
+
+<p>
+In projects that use the motor control FSP modules of  
+RAMP (Renesas Advanced Motor control Platform),  
+when using the function to apply tuning results to FSP settings  
+via the “<strong>Apply the tuning results to the target project</strong>” button in QE for Motor,  
+please note the following points.
+</p>
+
+<ul>
+  <li>
+    After completing tuning in Renesas Motor Workbench,  
+    specify a location within the e2 studio project folder  
+    as the output destination when exporting the header files  
+    containing the tuning result parameter values by using the  
+    “<strong>Output Header File</strong>” button.  
+    The relevant header files are  
+    <strong>r_mtr_control_parameter.h</strong> and  
+    <strong>r_mtr_motor_parameter.h</strong>.
+  </li>
+
+  <li>
+    In the RAMP sample project  
+    (<strong>RA6T2_MCB2_MCILV1_RAMP_E2S_V100</strong>),  
+    specify the following folder as the output destination  
+    and overwrite the existing header files.
+    <pre>
+RA6T2_MCB2_MCILV1_RAMP_E2S_V100\src\application\main
+    </pre>
+
     <p>
-        This document is currently under preparation and will be published once it is ready.
+      In the initial state of the sample project, these header files are not used by the program.
+      However, if you modify the program to use these header files, be sure to create a backup in advance as necessary.
     </p>
-</div>
+
+    <img
+      src="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/ToolDocuments/Images/RampTuningNoteRmw33_img3_e.png"
+      alt="Header file output destination example"
+      class="doc-image"
+    >
+  </li>
+</ul>
 
 </body>
 </html>
