@@ -217,7 +217,7 @@ class="math inline">\(G_{wp}\)</span> are applied as gate signals with
 the dead time taken into account. Table 1 lists the switching patterns.
 Desired voltages are output to the motor according to the switching
 patterns and the durations of the individual patterns in each carrier
-cycle. Figure 3 shows an example of the output of phase voltage command
+cycle. Table 1 shows an example of the output of phase voltage command
 values according to the patterns <span
 class="math inline">\(S_0\)</span>, <span
 class="math inline">\(S_1\)</span>, <span
@@ -253,27 +253,50 @@ class="math inline">\(S_1\)</span> to <span
 class="math inline">\(S_6\)</span>) within one carrier cycle, currents
 of two phases should be detected at appropriate times and the remaining
 one phase current can be obtained from the Kirchhoff's current law.</p>
-<div data-align="center">
-<p>Table 1 Inverter Switching Patterns and Phase Currents Detected from
-the Inverter Bus Current<br />
-(1 = On and 0 = Off, Only Shown for the Upper Arms) | Pattern | <span
-class="math inline">\(S_0\)</span> | <span
-class="math inline">\(S_1\)</span> | <span
-class="math inline">\(S_2\)</span> | <span
-class="math inline">\(S_3\)</span> | <span
-class="math inline">\(S_4\)</span> | <span
-class="math inline">\(S_5\)</span> | <span
-class="math inline">\(S_6\)</span> | <span
-class="math inline">\(S_7\)</span> | |——-|—|—|—|—|—|—|—|—| | U+ | 0 | 1
-| 1 | 0 | 0 | 0 | 1 | 1 | | V+ | 0 | 0 | 1 | 1 | 1 | 0 | 0 | 1 | | W+ |
-0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 | | <span
-class="math inline">\(i_{bus}\)</span> | – | <span
-class="math inline">\(-i_u\)</span> | <span
-class="math inline">\(i_w\)</span> | <span
-class="math inline">\(-i_v\)</span> | <span
-class="math inline">\(i_u\)</span> | <span
-class="math inline">\(-i_w\)</span> | <span
-class="math inline">\(i_v\)</span> | – |</p>
+<div style="text-align: center;">
+  <p><strong>Table 1. Inverter Switching Patterns and Phase Currents Detected from the Inverter Bus Current</strong><br>
+  (1 = On and 0 = Off, Only Shown for the Upper Arms)</p>
+
+  <table style="margin: 0 auto; text-align: center;">
+    <thead>
+      <tr>
+        <th>Pattern</th>
+        <th><span class="math inline">\(S_0\)</span></th>
+        <th><span class="math inline">\(S_1\)</span></th>
+        <th><span class="math inline">\(S_2\)</span></th>
+        <th><span class="math inline">\(S_3\)</span></th>
+        <th><span class="math inline">\(S_4\)</span></th>
+        <th><span class="math inline">\(S_5\)</span></th>
+        <th><span class="math inline">\(S_6\)</span></th>
+        <th><span class="math inline">\(S_7\)</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>U+</td>
+        <td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td>
+      </tr>
+      <tr>
+        <td>V+</td>
+        <td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+      </tr>
+      <tr>
+        <td>W+</td>
+        <td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td>
+      </tr>
+      <tr>
+        <td><span class="math inline">\(i_{bus}\)</span></td>
+        <td>–</td>
+        <td><span class="math inline">\(-i_u\)</span></td>
+        <td><span class="math inline">\(i_w\)</span></td>
+        <td><span class="math inline">\(-i_v\)</span></td>
+        <td><span class="math inline">\(i_u\)</span></td>
+        <td><span class="math inline">\(-i_w\)</span></td>
+        <td><span class="math inline">\(i_v\)</span></td>
+        <td>–</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 <p><br></p>
 <p><img src="media/1shunt_image5.png" /></p>
