@@ -29,7 +29,6 @@
 				<Setup en="Sensor : AMT102-V" jp="センサ : AMT102-V"/>
 			</Setups>
 			<Functions>
-				<Function en="SW configuration" jp="SW configuration"/>
 				<Function en="Tuner" jp="Tuner"/>
 				<Function en="Analyzer" jp="Analyzer"/>
 			</Functions>
@@ -51,7 +50,6 @@ This project is the sample program that uses Renesas RX14T microcontroller to dr
  -Sensor : AMT102-V&#10;
 &#10;
 [Supported QE function(s)]&#10;
- -SW configuration&#10;
  -Tuner&#10;
  -Analyzer&#10;
 &#10;
@@ -74,7 +72,6 @@ RX14Tマイクロコントローラを使用し、エンコーダ付き永久磁
  -センサ : AMT102-V&#10;
 &#10;
 [サポートするQE機能]&#10;
- -SW configuration&#10;
  -Tuner&#10;
  -Analyzer&#10;
 &#10;
