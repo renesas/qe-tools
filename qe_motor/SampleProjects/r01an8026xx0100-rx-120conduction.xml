@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
+	<Category en="Hall sensor feedback" jp="ホールセンサフィードバック" />
+	<Category en="120-degree conducting control" jp="120 度通電制御" />
+	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
+	<SensorType en="Hall sensor feedback" jp="ホールセンサフィードバック" />
+	<ControlType en="120-degree conducting control" jp="120 度通電制御" />
+	<ZipDownloadUrl>/document/scd/120-degree-conducting-control-permanent-magnet-synchronous-motor-mck-rev100/r01an8026xx0100-rx-120conduction.zip</ZipDownloadUrl>
+	<Date>2026-01-30</Date>
+
+	<SampleProject>
+		<DeviceName>RX14T</DeviceName>
+		<ProjectFolderName>RX14T_MCILV1_SPM_120_CONDUCTION_E2S_V100</ProjectFolderName>
+		<ProjectName
+		en="120-degree Conducting Control of a Permanent Magnet Synchronous Motor"
+		jp="永久磁石同期モータの 120 度通電制御"
+		/>
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rev120</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the sample program that uses Renesas RX14T microcontroller to drive a permanent magnet synchronous motor with 120-degree conducting control."
+		jp="RX14Tマイクロコントローラを使用し、永久磁石同期モータを120度通電制御で駆動するソフトウェアサンプルプログラムです。"/>
+			<Features>
+	            <Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+	            <Feature en="Hall sensor feedback" jp="ホールセンサフィードバック"/>
+	            <Feature en="120-degree conducting control" jp="120 度通電制御"/>
+			</Features>
+			<Setups>
+				<Setup en="CPU board : RX14T (R5F514T5AMFM) CPU board MCB-RX14T (RTK0EMXH30C00000BJ)" jp="CPUボード : RX14T (R5F514T5AMFM) CPUボード MCB-RX14T (RTK0EMXH30C00000BJ)"/>
+				<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1"/>
+				<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM"/>
+				<Setup en="Permanent magnet synchronous motor : BLY171D-24V-4000" jp="永久磁石同期モータ : BLY171D-24V-4000"/>
+			</Setups>
+			<Functions>
+				<Function en="Analyzer" jp="Analyzer"/>
+			</Functions>
+			<DocumentNumber en="R01AN8026EJ0120" jp="R01AN8026JJ0120"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the sample program that uses Renesas RX14T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Encoder feedback&#10;
+ -Vector control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RX14T (R5F514T5AMFM) CPU board MCB-RX14T (RTK0EMXH30C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Permanent magnet synchronous motor : BLY171D-24V-4000&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN8026EJ0120
+"
+		jp="
+[概要]&#10;
+RX14Tマイクロコントローラを使用し、エンコーダ付き永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -エンコーダ―フィードバック&#10;
+ -ベクトル制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RX14T (R5F514T5AMFM) CPUボード MCB-RX14T (RTK0EMXH30C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モータ : BLY171D-24V-4000 &#10;
+&#10;
+[サポートするQE機能]&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN8026JJ0120
+"
+		/>
+	</SampleProject>
+
+</ZipFile>
