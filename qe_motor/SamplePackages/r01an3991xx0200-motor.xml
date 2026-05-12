@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />
+	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
+	<ControlType en="Vector control" jp="ベクトル制御" />
+	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SamplePackages/r01an3991xx0200-motor.zip</ZipDownloadUrl>
+	<Date>2020-10-20</Date>
+	<SampleProject>
+		<DeviceName>RL78/G1F</DeviceName>
+		<ProjectFolderName>RL78G1F_MRSSK_LESS_FOC_E2S_CC_V200</ProjectFolderName>
+		<ProjectDescriptionName>RL78G1F_MRSSK_LESS_FOC_E2S_V200</ProjectDescriptionName>
+		<ProjectName 
+		en="RL78/G1F Sensorless vector control for permanent magnetic synchronous motor" 
+		jp="RL78/G1F 永久磁石同期モータのセンサレスベクトル制御"/>
+		<ApplicationNoteUrl>/document/apn/rl78g1f-sensorless-vector-control-permanent-magnetic-synchronous-motor-rev200</ApplicationNoteUrl>
+	        <ProjectDescription en="This project is the sample programs for driving a permanent magnet synchronous motor in the sensorless vector method using the RL78/G1F microcontroller." jp="RL78/G1Fマイクロコントローラを使用し、永久磁石同期モータをセンサレスベクトル方式で駆動するサンプルプログラムです。"/>
+	        <Features>
+	            <Feature en="Sensorless feedback" jp="センサレスフィードバック"/>
+	            <Feature en="Vector control" jp="ベクトル制御"/>
+	        </Features>
+	        <Setups>
+	            <Setup en="CPU card : RL78/G1F(R5F11BLEAFB) CPU card (RTK0EML240C03000BJ) or RL78/G1F CPU card T5103" jp="CPUボード : RL78/G1F(R5F11BLEAFB) CPUカード(RTK0EML240C03000BJ) または RL78/G1F CPUカード T5103"/>
+	            <Setup en="Inverter board : 24V Inverter board(RTK0EM0001B00012BJ)" jp="インバータボード : 24V系インバータボード(RTK0EM0001B00012BJ)"/>
+		    <Setup en="Permanent magnet synchronous motor : TG-55L" jp="永久磁石同期モータ : TG-55L"/>
+	        </Setups>
+	        <Functions>
+		        <Function en="Analyzer" jp="Analyzer"/>
+	        </Functions>
+	        <DocumentNumber en="R01AN3991EJ0200" jp="R01AN3991JJ0200"/>
+		<Description 
+		en="
+[Description]&#10;
+This project is the sample programs for driving a permanent magnet synchronous motor in the sensorless vector method using the RL78/G1F microcontroller. &#10;
+&#10;
+[Features, Target System]&#10;
+ -Sensorless feedback&#10;
+ -Vector control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU card : RL78/G1F(R5F11BLEAFB) CPU card (RTK0EML240C03000BJ) or RL78/G1F CPU card T5103&#10;
+ -Inverter board : 24V Inverter board(RTK0EM0001B00012BJ)&#10;
+ -Permanent magnet synchronous motor : TG-55L&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN3991EJ0200
+" 
+jp="
+RL78/G1Fマイクロコントローラを使用し、永久磁石同期モータをセンサレスベクトル方式で駆動するサンプルプログラムです。&#10;
+[機能、対象システム]&#10;
+ -センサレスフィードバック&#10;
+ -ベクトル制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RL78/G1F(R5F11BLEAFB) CPUカード(RTK0EML240C03000BJ) または RL78/G1F CPUカード T5103&#10;
+ -インバータボード : 24V系インバータボード(RTK0EM0001B00012BJ)&#10;
+ -永久磁石同期モータ : TG-55L&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN3991JJ0200
+"
+		/>
+	</SampleProject>
+</ZipFile>
