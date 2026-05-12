@@ -4,7 +4,7 @@
 	<Category en="Vector control" jp="ベクトル制御" />
 	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
 	<ControlType en="Vector control" jp="ベクトル制御" />
-	<ZipDownloadUrl>/document/scd/sensorless-vector-control-dual-permanent-magnetic-synchronous-motor-mckmcb-ra-family/r01an6421xx0131-ra-sensorless-foc-2motor.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SamplePackages/r01an6421xx0131-ra-sensorless-foc-2motor.zip</ZipDownloadUrl>
 	<Date>2025-10-31</Date>
 
 	<SampleProject>
