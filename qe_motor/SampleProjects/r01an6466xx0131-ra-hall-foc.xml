@@ -4,7 +4,7 @@
 	<Category en="Vector control" jp="ベクトル制御" />
 	<SensorType en="Hall sensor feedback" jp="ホールセンサフィードバック" />
 	<ControlType en="Vector control" jp="ベクトル制御" />
-	<ZipDownloadUrl>/document/scd/vector-control-permanent-magnetic-synchronous-motor-hall-sensors-mckmcb-ra-family/r01an6466xx0131-ra-hall-foc.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SamplePackages/r01an6466xx0131-ra-hall-foc.zip</ZipDownloadUrl>
 	<Date>2025-10-31</Date>
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>
