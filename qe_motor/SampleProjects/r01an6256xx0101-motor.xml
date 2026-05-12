@@ -5,7 +5,7 @@
 	<Category en="1-shunt current detection method" jp="1シャント抵抗電流検出方式" />
 	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
 	<ControlType en="Vector control" jp="ベクトル制御" />
-	<ZipDownloadUrl>/document/scd/ra6t1-sensorless-vector-control-one-shunt-permanent-magnet-synchronous-motor-implementation/r01an6256xx0101-motor.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SamplePackages/r01an6256xx0101-motor.zip</ZipDownloadUrl>
 	<Date>2022-10-18</Date>
 	<SampleProject>
 		<DeviceName>RA6T1</DeviceName>
