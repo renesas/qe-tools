@@ -6,7 +6,7 @@
 	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
 	<SensorType en="Hall sensor feedback" jp="ホールセンサフィードバック" />
 	<ControlType en="120-degree conducting control" jp="120 度通電制御" />
-	<ZipDownloadUrl>/document/scd/120-degree-conducting-control-permanent-magnet-synchronous-motor-mck-rev100/r01an8026xx0100-rx-120conduction.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SamplePackages/r01an8026xx0100-rx-120conduction.zip</ZipDownloadUrl>
 	<Date>2026-01-30</Date>
 
 	<SampleProject>

@@ -4,7 +4,7 @@
 	<Category en="Vector control" jp="ベクトル制御" />
 	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
 	<ControlType en="Vector control" jp="ベクトル制御" />
-	<ZipDownloadUrl>/document/scd/25574790/r01an7813xx0100-ra2t1-sensorless-foc.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SamplePackages/r01an7813xx0100-ra2t1-sensorless-foc.zip</ZipDownloadUrl>
 	<Date>2025-07-09</Date>
 	<SampleProject>
 		<DeviceName>RA2T1</DeviceName>
