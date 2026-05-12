@@ -4,7 +4,7 @@
 	<Category en="Vector control" jp="ベクトル制御" />
 	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
 	<ControlType en="Vector control" jp="ベクトル制御" />
-	<ZipDownloadUrl>/document/scd/sensorless-vector-control-permanent-magnet-synchronous-motor-2motor-mck-rev101/r01an7331xx0101-rx-motor.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SamplePackages/r01an7331xx0101-rx-motor.zip</ZipDownloadUrl>
 
 	<Date>2025-06-30</Date>
 

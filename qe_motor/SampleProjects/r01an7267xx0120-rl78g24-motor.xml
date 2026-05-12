@@ -5,7 +5,7 @@
 	<Category en="FAA Library" jp="FAAライブラリ"/>
 	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
 	<ControlType en="Vector control" jp="ベクトル制御" />
-	<ZipDownloadUrl>/document/scd/rl78g24-sensorless-vector-control-permanent-magnetic-synchronous-motor-faa-library-sample-code/r01an7267xx0120-rl78g24-faa-motor.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SamplePackages/r01an7267xx0120-rl78g24-faa-motor.zip</ZipDownloadUrl>
 	<Date>2025-10-10</Date>
 	<SampleProject>
 		<DeviceName>RL78/G24</DeviceName>

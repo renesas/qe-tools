@@ -4,7 +4,7 @@
 	<Category en="Vector control" jp="ベクトル制御" />
 	<SensorType en="Hall sensor feedback" jp="ホールセンサフィードバック" />
 	<ControlType en="Vector control" jp="ベクトル制御" />
-	<ZipDownloadUrl>/document/scd/hall-sensor-vector-control-pm-motors-rev101/r01an7422xx0101-motor-hall-foc-rx26t.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SamplePackages/r01an7422xx0101-motor-hall-foc-rx26t.zip</ZipDownloadUrl>
 
 	<Date>2025-06-30</Date>
 

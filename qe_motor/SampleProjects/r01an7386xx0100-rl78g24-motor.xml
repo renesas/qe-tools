@@ -7,7 +7,7 @@
 	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
 	<SensorType en="Hall sensor feedback" jp="ホールセンサフィードバック" />
 	<ControlType en="120-degree conducting control" jp="120 度通電制御" />
-	<ZipDownloadUrl>/document/scd/rl78g24-120-degree-conducting-control-permanent-magnetic-synchronous-motor-rev100/r01an7386xx0100-rl78g24-motor.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SamplePackages/r01an7386xx0100-rl78g24-motor.zip</ZipDownloadUrl>
 	<Date>2024-09-09</Date>
 	<SampleProject>
 		<DeviceName>RL78/G24</DeviceName>
