@@ -4,7 +4,7 @@
 	<Category en="120-degree conducting control" jp="120 度通電制御" />
 	<SensorType en="Hall sensor feedback" jp="ホールセンサフィードバック" />
 	<ControlType en="120-degree conducting control" jp="120 度通電制御" />
-	<ZipDownloadUrl>/document/scd/120-degree-conducting-control-permanent-magnet-synchronous-motor-hall-sensors-mckmcb-ra-family/r01an6843xx0121-ra-hall-120.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SamplePackages/r01an6843xx0121-ra-hall-120.zip</ZipDownloadUrl>
 	<Date>2025-10-31</Date>
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>

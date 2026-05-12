@@ -4,7 +4,7 @@
 	<Category en="Vector control" jp="ベクトル制御" />
 	<SensorType en="Encoder feedback" jp="エンコーダフィードバック" />
 	<ControlType en="Vector control" jp="ベクトル制御" />
-	<ZipDownloadUrl>/document/scd/vector-control-permanent-magnet-synchronous-motor-encoder-mckmcb-ra-family-sample-code/r01an6841xx0122-ra-encoder-foc.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SamplePackages/r01an6841xx0122-ra-encoder-foc.zip</ZipDownloadUrl>
 	<Date>2025-10-31</Date>
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>

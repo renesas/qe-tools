@@ -4,7 +4,7 @@
 	<Category en="120-degree conducting control" jp="120 度通電制御" />
 	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
 	<ControlType en="120-degree conducting control" jp="120 度通電制御" />
-	<ZipDownloadUrl>/document/scd/sensorless-120-degree-conducting-control-permanent-magnet-synchronous-motor-mckmcb-ra-family-sample/r01an6844xx0121-ra-sensorless-120.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SamplePackages/r01an6844xx0121-ra-sensorless-120.zip</ZipDownloadUrl>
 	<Date>2025-10-31</Date>
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>
