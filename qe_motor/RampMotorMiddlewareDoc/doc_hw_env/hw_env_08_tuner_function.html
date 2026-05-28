@@ -91,6 +91,7 @@
       color: #606060;
     }
     code {
+      white-space: pre-wrap;
       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
@@ -154,7 +155,6 @@
     #TOC a:not(:hover) {
       text-decoration: none;
     }
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
@@ -193,9 +193,10 @@ illustrated in the figures referenced in the following sections.</p>
 <li>Run the debugger to write the executable file to the CPU board.</li>
 </ol>
 <div data-align="center">
-<p><img src="media/image_add_tuner_stack.png"
-alt="image_add_tuner_stack.png" /> Fig. 1 Adding Motor Tuner Stack in e²
-studio</p>
+<img src="media/image_add_tuner_stack.png" />
+<div style="text-align: center;">
+Figure 1 Adding Motor Tuner Stack in e² studio
+</div>
 </div>
 <h3 id="launching-renesas-motor-workbench">2. Launching Renesas Motor
 Workbench</h3>
@@ -208,16 +209,18 @@ Renesas Motor Workbench.</li>
 <li>Choose the <strong>Tuner</strong> tool from the <strong>Select
 Tool</strong> tab of Renesas Motor Workbench.</li>
 </ol>
-<p>The initial window of Renesas Motor Workbench is shown in Fig. 2.</p>
+<p>The initial window of Renesas Motor Workbench is shown in Figure
+2.</p>
 <div data-align="center">
-<p><img src="media/image_RMW_startwindow.png"
-alt="image_RMW_startwindow.png" /> Fig. 2 Renesas Motor Workbench Start
-Window</p>
+<img src="media/image_RMW_startwindow.png" />
+<div style="text-align: center;">
+Figure 2 Renesas Motor Workbench Start Window
+</div>
 </div>
 <h3 id="execution-of-tuning">3. Execution of Tuning</h3>
 <ol type="1">
 <li><p>After launching the Tuner tool, the <strong>Parameter
-Input</strong> screen appears (see Fig. 3).</p>
+Input</strong> screen appears (see Figure 3).</p>
 <p>In the <strong>Input Parameter</strong> section:</p>
 <ul>
 <li>Enter <strong>Rated Current</strong></li>
@@ -234,29 +237,34 @@ tab.</p></li>
 <li>To stop tuning during execution, press the <strong>Stop</strong>
 button.</li>
 <li>If an error occurs, check the displayed error message and press the
-<strong>Reset</strong> button (an example error screen is shown in Fig.
-4).</li>
+<strong>Reset</strong> button (an example error screen is shown in
+Figure 4).</li>
 </ul></li>
 </ol>
 <div data-align="center">
-<p><img src="media/image_tuner_parameter_input.png"
-alt="image_tuner_parameter_input.png" /> Fig. 3 Tuner Parameter Input
-Screen</p>
+<img src="media/image_tuner_parameter_input.png" />
+<div style="text-align: center;">
+Figure 3 Tuner Parameter Input Screen
+</div>
+<p><br></p>
 </div>
 <div data-align="center">
-<p><img src="media/image_tuner_error.png"
-alt="image_tuner_error.png" /><br> Fig. 4 Example of Error Message</p>
+<img src="media/image_tuner_error.png" /><br>
+<div style="text-align: center;">
+Figure 4 Example of Error Message
+</div>
+<p><br></p>
 </div>
 <h3 id="confirming-the-tuning-result">4. Confirming the Tuning
 Result</h3>
 <p>After tuning is finished, the <strong>Tune Window</strong> will
-appear, as shown in Fig. 5.</p>
+appear, as shown in Figure 5.</p>
 <ol type="1">
 <li>Press the <strong>Report</strong> button to view the detailed tuning
 results.</li>
 <li>If needed, a PDF file containing the tuning results can be generated
 by pressing the <strong>Output</strong> button in the <strong>Result
-Report</strong> window (see Fig. 6).</li>
+Report</strong> window (see Figure 6).</li>
 <li>Tuning results can also be output in header file format used by
 Renesas motor control programs. Pressing the <strong>Output Header
 File</strong> button in the <strong>Tune Window</strong> displays the
@@ -270,11 +278,16 @@ save dialog for:
 software by updating the corresponding motor parameter and control
 parameter header files.</p>
 <div data-align="center">
-<p><img src="media/image_tuner_tune_window.png"
-alt="image_tuner_tune_window.png" /> Fig. 5 Tune Window</p>
-<p><img src="media/image_tuner_result_report.png"
-alt="image_tuner_result_report.png" /><br> Fig. 6 Tuning Result Report
-Window</p>
+<img src="media/image_tuner_tune_window.png" />
+<div style="text-align: center;">
+Figure 5 Tune Window
+</div>
+<p><br></p>
+<img src="media/image_tuner_result_report.png" /><br>
+<div style="text-align: center;">
+Figure 6 Tuning Result Report Window
+</div>
+<p><br></p>
 </div>
 <h2 id="list-of-output-parameters">List of Output Parameters</h2>
 <p>Table 1 lists the parameters that can be obtained using the Tuner
