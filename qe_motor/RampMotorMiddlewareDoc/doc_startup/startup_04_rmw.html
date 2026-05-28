@@ -91,6 +91,7 @@
       color: #606060;
     }
     code {
+      white-space: pre-wrap;
       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
@@ -154,7 +155,6 @@
     #TOC a:not(:hover) {
       text-decoration: none;
     }
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
@@ -179,11 +179,8 @@ command, rotation speed command, and other commands. The RMW can be
 downloaded from our website.</p>
 <h2 id="install-rmw">Install RMW</h2>
 <p>User can download RMW as the following URL.</p>
-<p>
-  <a href="https://www.renesas.com/en/software-tool/renesas-motor-workbench">
-    https://www.renesas.com/en/software-tool/renesas-motor-workbench
-  </a>
-</p>
+<p>Renesas Motor Workbench website: <a
+href="https://www.renesas.com/en/software-tool/renesas-motor-workbench">https://www.renesas.com/en/software-tool/renesas-motor-workbench</a></p>
 <h2 id="updating-registration-of-the-map-file">Updating Registration of
 the Map File</h2>
 <p>If a part of the sample program has been modified and the sample
@@ -220,10 +217,10 @@ communications.</p>
 </table>
 <h2 id="variables-used-for-operating-the-rmw">Variables Used for
 Operating the RMW</h2>
-<p>The RMW is used to control the motor in this sample program. Table 6
-3 lists the input variables that are used when the RMW UI is in use.
-Input values can only be reflected in the corresponding variables in the
-motor module for use in controlling the motor when the values are
+<p>The RMW is used to control the motor in this sample program. This
+section lists the input variables that are used when the RMW UI is in
+use. Input values can only be reflected in the corresponding variables
+in the motor module for use in controlling the motor when the values are
 written with the com_u1_enable_write value being toggled between 0 and 1
 each time. Note, however, that the variables marked with an asterisk (*)
 in the table are written regardless of the state of toggling of the
