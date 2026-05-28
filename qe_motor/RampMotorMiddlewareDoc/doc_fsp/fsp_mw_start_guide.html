@@ -91,6 +91,7 @@
       color: #606060;
     }
     code {
+      white-space: pre-wrap;
       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
@@ -154,7 +155,6 @@
     #TOC a:not(:hover) {
       text-decoration: none;
     }
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
@@ -181,13 +181,9 @@ interrupt management for peripherals such as ADC, GPT, and SCI. It is a
 software package that includes the functions of the Hardware Abstraction
 Layer (HAL) as well as middleware functions such as a file system and
 communication protocol stacks.</p>
-<p>
-  <a href="./media/image_fspmw_overall.png">
-    <img src="./media/image_fspmw_overall.png" alt="Renesas Advanced Motor control Platform overview">
-  </a>
-</p>
+<img src="./media/image_fspmw_overall.png" />
 <div style="text-align: center;">
-Figure 7 Overview of Renesas Advanced Motor control Platform
+Figure 1 Overview of Renesas Advanced Motor control Platform
 </div>
 <p><br></p>
 <p>Renesas Advanced Motor control Platform compatible with FSP 6.4
@@ -198,7 +194,8 @@ The other modules are used in common.</p>
 <p>In FSP, functional modules are provided for each peripheral function
 and are referred to as “stacks.” The table shows the FSP stacks used in
 this sample program and their function assignments.<br />
-Advance Motor Middleware is located within the Motor module.<br />
+Renesas Advanced Motor control Platform is located within the Motor
+module.<br />
 The following modules are provided, and each has a corresponding API
 interface.</p>
 <table>
@@ -427,9 +424,9 @@ the board, but it has weaknesses such as processing time constraints and
 a tendency for noise, etc. to occur in the current waveform, resulting
 in a trade-off in control performance.</p>
 <h3 id="how-to-use-3">How to Use</h3>
-<p>In Advance Motor Middleware, the Trajectory module is used to pass
-speed commands to the motor control unit. If you do not use the
-Trajectory module, you can also set the speed command value directly
+<p>In Renesas Advanced Motor control Platform, the Trajectory module is
+used to pass speed commands to the motor control unit. If you do not use
+the Trajectory module, you can also set the speed command value directly
 with the <code>speedSet</code> API. In the current version, only speed
 control is supported.</p>
 <ol type="1">
