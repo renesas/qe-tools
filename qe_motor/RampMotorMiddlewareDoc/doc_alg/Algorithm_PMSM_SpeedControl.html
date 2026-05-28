@@ -91,6 +91,7 @@
       color: #606060;
     }
     code {
+      white-space: pre-wrap;
       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
@@ -154,7 +155,6 @@
     #TOC a:not(:hover) {
       text-decoration: none;
     }
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
@@ -182,12 +182,10 @@ lower‑level current control loop. PI (Proportional–Integral) control is
 primarily used, and additional compensation functions—such as
 disturbance observers or feedforward control—may be incorporated as
 needed.</p>
-<figure>
-<img src="./media/image_outer_blockdiagram.png"
-alt="Functional block diagram of speed control" />
-<figcaption aria-hidden="true"> Figure 1 Functional block diagram of speed
-control</figcaption>
-</figure>
+<img src="./media/image_outer_blockdiagram.png" />
+<div style="text-align: center;">
+Figure 1 Functional block diagram of speed control
+</div>
 <h3 id="role">Role</h3>
 <p>Speed control plays an important role in bridging the mechanical
 inertia characteristics of the motor and its electrical characteristics.

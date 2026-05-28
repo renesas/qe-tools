@@ -91,6 +91,7 @@
       color: #606060;
     }
     code {
+      white-space: pre-wrap;
       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
@@ -154,7 +155,6 @@
     #TOC a:not(:hover) {
       text-decoration: none;
     }
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
@@ -202,10 +202,7 @@ To reduce speed fluctuations, use the static friction compensation
 described later and make adjustments according to the motor and load.
 Please note that even if it is compensated, it will be difficult in
 principle to eliminate speed fluctuations completely.</p>
-<figure>
-<img src="./media/image_hallfoc_startup.png"
-alt="Hall Sensor Vector Control Startup Diagram" />
-</figure>
+<img src="./media/image_hallfoc_startup.png" />
 <div style="text-align: center;">
 Figure 1 Speed fluctuation during startup
 </div>
@@ -219,12 +216,7 @@ using the difference between High/Low of these signals, one rotation of
 360 degrees can be represented by the six magnetic pole positions. In
 other words, it can be regarded as an encoder with six pulses in one
 rotation of the electric angle.</p>
-<figure>
-<img src="./media/image_hallfoc_hallpattern.png"
-alt="Hall Sensor Vector Control Startup Diagram" />
-<figcaption aria-hidden="true">Hall Sensor Vector Control Startup
-Diagram</figcaption>
-</figure>
+<img src="./media/image_hallfoc_hallpattern.png" />
 <div style="text-align: center;">
 Figure 2 Hall Sensor Placement and Hall Sensor Signal
 </div>
@@ -357,12 +349,7 @@ following equation is used for the equivalent calculation.</p>
 of carrier interrupts (2πperiod)</p>
 <p>Electrical angular speed [rad/sec] = electrical angle change in 1
 carrier cycle [rad] x carrier frequency [Hz]</p>
-<figure>
-<img src="./media/image_hallfoc_speed_estimation_diagram.png"
-alt="Conceptual diagram of speed estimation" />
-<figcaption aria-hidden="true">Conceptual diagram of speed
-estimation</figcaption>
-</figure>
+<img src="./media/image_hallfoc_speed_estimation_diagram.png" />
 <div style="text-align: center;">
 Figure 3 Conceptual diagram of speed estimation
 </div>
@@ -374,23 +361,13 @@ pattern. The Hall sensor signal pattern is determined by the motor used,
 therefore, when the signal changes, the direction of rotation can be
 detected by comparison between the current and last Hall signal
 pattern.</p>
-<figure>
-<img src="./media/image_hallfoc_electrical_angle_estimation_cw.png"
-alt="Electrical angle estimation (CW rotation)" />
-<figcaption aria-hidden="true">Electrical angle estimation (CW
-rotation)</figcaption>
-</figure>
+<img src="./media/image_hallfoc_electrical_angle_estimation_cw.png" />
 <div style="text-align: center;">
 Figure 4 Electrical angle estimation (CW rotation)
 </div>
 <p><br></p>
-<figure>
-<img src="./media/image_hallfoc_electrical_angle_estimation_ccw.png"
-alt="Electrical angle estimation (CCW rotation)" />
-<figcaption aria-hidden="true">Electrical angle estimation (CCW
-rotation)</figcaption>
-</figure>
-<div data-align="center">
+<img src="./media/image_hallfoc_electrical_angle_estimation_ccw.png" />
+<div style="text-align: center;">
 Figure 5 Electrical angle estimation (CCW rotation)
 </div>
 <p><br> At point A in Figure 5, the Hall signal changes from 1 to 5.
@@ -443,12 +420,7 @@ following Table.</p>
 <p>At point A in Figure 4, the Hall signal changes from 1 to 5, so the
 reference angle adjustment value is set to 1/6, which corresponds to the
 Hall signal 5.</p>
-<figure>
-<img src="./media/image_hallfoc_internal_angle_estimation.png"
-alt="Conceptual diagram of Hall sensor internal angle estimation (at CW rotation)" />
-<figcaption aria-hidden="true">Conceptual diagram of Hall sensor
-internal angle estimation (at CW rotation)</figcaption>
-</figure>
+<img src="./media/image_hallfoc_internal_angle_estimation.png" />
 <div style="text-align: center;">
 Figure 6 Conceptual diagram of Hall sensor internal angle estimation (at
 CW rotation)
@@ -545,12 +517,7 @@ compensates for frictions caused by bearings or some contact
 objects.<br />
 If the direction of rotation is reversed, the software automatically
 processes these compensations by reversing positive and negative.</p>
-<figure>
-<img src="./media/image_hallfoc_friction_compensation.png"
-alt="Conceptual diagram of friction compensation" />
-<figcaption aria-hidden="true">Conceptual diagram of friction
-compensation</figcaption>
-</figure>
+<img src="./media/image_hallfoc_friction_compensation.png" />
 <div style="text-align: center;">
 Figure 7 Conceptual diagram of friction compensation
 </div>

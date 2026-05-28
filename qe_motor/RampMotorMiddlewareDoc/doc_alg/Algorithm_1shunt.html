@@ -91,6 +91,7 @@
       color: #606060;
     }
     code {
+      white-space: pre-wrap;
       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
@@ -154,7 +155,6 @@
     #TOC a:not(:hover) {
       text-decoration: none;
     }
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
@@ -254,56 +254,104 @@ class="math inline">\(S_6\)</span>) within one carrier cycle, currents
 of two phases should be detected at appropriate times and the remaining
 one phase current can be obtained from the Kirchhoff's current law.</p>
 <div style="text-align: center;">
-  <p><strong>Table 1. Inverter Switching Patterns and Phase Currents Detected from the Inverter Bus Current</strong><br>
-  (1 = On and 0 = Off, Only Shown for the Upper Arms)</p>
-
-  <table style="margin: 0 auto; text-align: center;">
-    <thead>
-      <tr>
-        <th>Pattern</th>
-        <th><span class="math inline">\(S_0\)</span></th>
-        <th><span class="math inline">\(S_1\)</span></th>
-        <th><span class="math inline">\(S_2\)</span></th>
-        <th><span class="math inline">\(S_3\)</span></th>
-        <th><span class="math inline">\(S_4\)</span></th>
-        <th><span class="math inline">\(S_5\)</span></th>
-        <th><span class="math inline">\(S_6\)</span></th>
-        <th><span class="math inline">\(S_7\)</span></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>U+</td>
-        <td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td>
-      </tr>
-      <tr>
-        <td>V+</td>
-        <td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
-      </tr>
-      <tr>
-        <td>W+</td>
-        <td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td>
-      </tr>
-      <tr>
-        <td><span class="math inline">\(i_{bus}\)</span></td>
-        <td>–</td>
-        <td><span class="math inline">\(-i_u\)</span></td>
-        <td><span class="math inline">\(i_w\)</span></td>
-        <td><span class="math inline">\(-i_v\)</span></td>
-        <td><span class="math inline">\(i_u\)</span></td>
-        <td><span class="math inline">\(-i_w\)</span></td>
-        <td><span class="math inline">\(i_v\)</span></td>
-        <td>–</td>
-      </tr>
-    </tbody>
-  </table>
+<p>
+<strong>Table 1 Inverter Switching Patterns and Phase Currents Detected
+from the Inverter Bus Current</strong><br> (1 = On and 0 = Off, Only
+Shown for the Upper Arms)
+</p>
 </div>
+<table>
+<colgroup>
+<col style="width: 19%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 6%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;">Pattern</th>
+<th style="text-align: center;"><span
+class="math inline">\(S_0\)</span></th>
+<th style="text-align: center;"><span
+class="math inline">\(S_1\)</span></th>
+<th style="text-align: center;"><span
+class="math inline">\(S_2\)</span></th>
+<th><span class="math inline">\(S_3\)</span></th>
+<th style="text-align: center;"><span
+class="math inline">\(S_4\)</span></th>
+<th style="text-align: center;"><span
+class="math inline">\(S_5\)</span></th>
+<th style="text-align: center;"><span
+class="math inline">\(S_6\)</span></th>
+<th style="text-align: center;"><span
+class="math inline">\(S_7\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">U+</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td>0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">V+</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td>1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">W+</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td>0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span
+class="math inline">\(i_{bus}\)</span></td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;"><span
+class="math inline">\(-i_u\)</span></td>
+<td style="text-align: center;"><span
+class="math inline">\(i_w\)</span></td>
+<td><span class="math inline">\(-i_v\)</span></td>
+<td style="text-align: center;"><span
+class="math inline">\(i_u\)</span></td>
+<td style="text-align: center;"><span
+class="math inline">\(-i_w\)</span></td>
+<td style="text-align: center;"><span
+class="math inline">\(i_v\)</span></td>
+<td style="text-align: center;">–</td>
+</tr>
+</tbody>
+</table>
 <p><br></p>
 <p><img src="media/1shunt_image5.png" /></p>
 <div style="text-align: center;">
 Figure 1 Carrier Comparison Method and Timing of Current Detection with
 the 1-Shunt and 3-Shunt Methods
 </div>
+<p><br></p>
 <p><img src="media/pmsm_inv_motor.png" /></p>
 <div style="text-align: center;">
 Figure 2 Inverter Bus Current in the <span

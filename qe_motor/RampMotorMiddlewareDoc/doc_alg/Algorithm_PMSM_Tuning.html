@@ -91,6 +91,7 @@
       color: #606060;
     }
     code {
+      white-space: pre-wrap;
       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
@@ -154,7 +155,6 @@
     #TOC a:not(:hover) {
       text-decoration: none;
     }
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
@@ -210,7 +210,7 @@ required:</p>
 <td>q-axis inductance</td>
 <td>Lq</td>
 <td>H</td>
-<td>Inductance of the motor in the d-axis (q-axis)</td>
+<td>Inductance of the motor in the q-axis (q-axis)</td>
 </tr>
 <tr>
 <td>Flux linkage / Back-EMF constant</td>
@@ -416,14 +416,14 @@ Lq</strong></li>
 </ol>
 <h2 id="pmsm-parameter-identification-algorithm">6. PMSM Parameter
 Identification Algorithm</h2>
-<h3 id="dq-axis-equivalent-circuits-fig.-1">6.1 dq-axis Equivalent
-Circuits (Fig. 1)</h3>
+<h3 id="dq-axis-equivalent-circuits-figure-1">6.1 dq-axis Equivalent
+Circuits (Figure 1)</h3>
 <p><strong>(a) d-axis equivalent circuit:</strong></p>
 <pre><code>vd → [Ra] → [Ld] → (current source: ωLqIq) → id</code></pre>
 <p><strong>(b) q-axis equivalent circuit:</strong></p>
 <pre><code>vq → [Ra] → [Lq] → (voltage source: ωLdId + Φf) → iq</code></pre>
-<h3 id="mechanical-output-equivalent-model-fig.-2">6.2 Mechanical Output
-Equivalent Model (Fig. 2)</h3>
+<h3 id="mechanical-output-equivalent-model-figure-2">6.2 Mechanical
+Output Equivalent Model (Figure 2)</h3>
 <pre><code>τ (torque) → [1/(JS+D)] → ωm → [1/s] → θm
          ↑ TL (load torque)</code></pre>
 <p>Mechanical equation:</p>
