@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="color-scheme" content="light only">
   <title>Documentation Navigation</title>
   <link rel="stylesheet" href="styles/index.css">
 </head>
+
 <body>
   <nav id="nav">
     <div id="search-container">
       <div id="search-input-wrapper">
-        <input type="text" id="search-input" placeholder="🔍 Search..." autocomplete="off" />
+        <span id="search-icon" aria-hidden="true"></span>
+        <input type="text" id="search-input" placeholder="Search documentation..." autocomplete="off" />
         <button id="search-clear" title="Clear">✕</button>
       </div>
       <div id="search-status"></div>
@@ -87,4 +90,5 @@
 
   <script src="scripts/index.js"></script>
 </body>
+
 </html>
