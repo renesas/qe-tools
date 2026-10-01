@@ -36,7 +36,7 @@
 			</Device>
 			<Device>
 				<DeviceName>RA6T2</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/RAMP_FSP660_BaseProjects.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/RA6T2_MCB2_MCILV1_RAMP_E2S_V110.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6421xx0131-ra-sensorless-foc-2motor.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6466xx0131-ra-hall-foc.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6980xx0100-ra-motor.xml</ProjectUrl>
@@ -60,7 +60,7 @@
 			</Device>
 			<Device>
 				<DeviceName>RA8T1</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/RAMP_FSP660_BaseProjects.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/RA8T1_MCILV1_RAMP_E2S_V100.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6421xx0131-ra-sensorless-foc-2motor.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6466xx0131-ra-hall-foc.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6840xx0121-ra-sensorless-foc-1shunt.xml</ProjectUrl>
@@ -72,7 +72,7 @@
 			</Device>
 			<Device>
 				<DeviceName>RA8T2</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/RAMP_FSP660_BaseProjects.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/RA8T2_MCILV1_RAMP_E2S_V100.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6421xx0131-ra-sensorless-foc-2motor.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6466xx0131-ra-hall-foc.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6840xx0121-ra-sensorless-foc-1shunt.xml</ProjectUrl>
