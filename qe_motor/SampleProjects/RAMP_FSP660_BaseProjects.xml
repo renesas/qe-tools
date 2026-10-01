@@ -10,7 +10,7 @@
 	<SensorType en="Hall sensor feedback" jp="ホールセンサフィードバック" />
 	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
 	<ControlType en="Vector control" jp="ベクトル制御" />
-	<ZipDownloadUrl>https://github.com/renesas/qe-tools/raw/refs/heads/main/qe_motor/SampleProjects/Packages/RAMP_FSP660_BaseProjects.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/Packages/RAMP_FSP660_BaseProjects.zip</ZipDownloadUrl>
 	<Date>2026-10-01</Date>
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>
