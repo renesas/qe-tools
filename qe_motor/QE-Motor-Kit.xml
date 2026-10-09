@@ -458,6 +458,10 @@
 			<ProjectFolderName>RX14T_MCILV1_SPM_120_CONDUCTION_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an8026xx0100-rx-120conduction.xml</ProjectUrl>
 		</Project>
+		<Project>
+			<ProjectFolderName>RX14T_MCILV1_SPM_HALL_FOC_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7422xx0110-motor-hall-foc-rx.xml</ProjectUrl>
+		</Project>
 	</Kit>
 	<Kit>
 		<KitName en="MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group" jp="MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group"/>
@@ -540,11 +544,11 @@
 		</Project>
 		<Project>
 			<ProjectFolderName>RX26T_MCBA2_MCILV1_SPM_HALL_FOC_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7422xx0101-motor-hall-foc-rx26t.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7422xx0110-motor-hall-foc-rx.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_HALL_FOC_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7422xx0101-motor-hall-foc-rx26t.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7422xx0110-motor-hall-foc-rx.xml</ProjectUrl>
 		</Project>
 	</Kit>
 </Kits>
