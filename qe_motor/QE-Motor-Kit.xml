@@ -587,7 +587,7 @@
 			jp="MCK-RX74Nは、RX74Nを使用したモータ制御評価向け開発キットです。 永久磁石同期モータ（ブラシレスDCモータ）、RX74N CPUボード、インバータボード、および通信ボードを同梱しており、産業用途の幅広い製品のモータ制御評価をすぐに開始できます。"
 		/>
 		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモータ（R42BLD30L3）"/>
-		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/MCK-RX74M-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/MCK-RX74M-HardwareInfo.html" />
+		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/MCK-RX74N-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/MCK-RX74N-HardwareInfo.html" />
 
 		<Project>
 			<ProjectFolderName>RX74N_MCILV1_SPM_LESS_FOC_E2S_V100</ProjectFolderName>
