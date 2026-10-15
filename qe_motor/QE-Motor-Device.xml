@@ -131,5 +131,20 @@
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7422xx0110-motor-hall-foc-rx.xml</ProjectUrl>
 			</Device>
 		</DeviceSeries>
+		<DeviceSeries>
+			<DeviceSeriesName>RX700</DeviceSeriesName>
+			<Device>
+				<DeviceName>RX74M</DeviceName>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an8127xx0100-rx-sensorless-foc.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an8128xx0100-rx-encoder-foc.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an8129xx0100-rx-sensorless-foc-1shunt.xml</ProjectUrl>
+			</Device>
+			<Device>
+				<DeviceName>RX74N</DeviceName>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an8127xx0100-rx-sensorless-foc.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an8128xx0100-rx-encoder-foc.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an8129xx0100-rx-sensorless-foc-1shunt.xml</ProjectUrl>
+			</Device>
+		</DeviceSeries>
 	</DeviceFamily>
 </DeviceFamilies>
