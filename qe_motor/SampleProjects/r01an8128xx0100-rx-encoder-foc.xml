@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Encoder feedback" jp="エンコーダフィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />
+	<SensorType en="Encoder feedback" jp="エンコーダフィードバック" />
+	<ControlType en="Vector control" jp="ベクトル制御" />
+	<ZipDownloadUrl>/document/scd/vector-control-permanent-magnet-synchronous-motor-encoder-mckmcb-rx-family/r01an8128xx0100-rx-encoder-foc.zip</ZipDownloadUrl>
+	<Date>2026-06-30</Date>
+	<SampleProject>
+		<DeviceName>RX74M</DeviceName>
+		<FspVersion>1.0.0</FspVersion>
+		<ProjectFolderName>RX74M_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
+		<ProjectName en="Vector Control for Permanent Magnet Synchronous Motor with Encoder" jp="永久磁石同期モータのエンコーダベクトル制御" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mckmcb-rx-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with encoder software that drives permanent magnetic synchronous motor (PMSM) using the RX74M microcontroller." jp="RX74Mマイクロコントローラ(MCU)を使用し、永久磁石同期モータをエンコーダベクトル制御で駆動するサンプルプログラムです。" />
+		<Features>
+			<Feature en="Encoder feedback" jp="エンコーダフィードバック" />
+			<Feature en="Vector control" jp="ベクトル制御" />
+		</Features>
+		<Setups>
+			<Setup en="CPU board :RX74M(R5K574MCB4AE) CPU board (RTK0EMXFN0C00000BJ)" jp="CPUボード : RX74M(R5K574MCB4AE) CPUボード (RTK0EMXFN0C00000BJ)" />
+			<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1" />
+			<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM" />
+			<Setup en="Motor : BLY171D-24V-4000" jp="永久磁石同期モーター : BLY171D-24V-4000" />
+			<Setup en="Sensor : AMT102-V" jp="センサ : AMT102-V" />
+		</Setups>
+		<Functions>
+			<Function en="SW configuration" jp="SW configuration" />
+			<Function en="Tuner" jp="Tuner" />
+			<Function en="Analyzer" jp="Analyzer" />
+		</Functions>
+		<DocumentNumber en="R01AN8128EJ0100" jp="R01AN8128JJ0100" />
+		<Description
+			en="[Description]&#10;This project is the vector control with encoder software that drives permanent magnetic synchronous motor (PMSM) using the RX74M microcontroller.&#10;&#10;[Features, Target System]&#10; -Encoder feedback&#10; -Vector control&#10;&#10;[Hardware Setup]&#10; -CPU board :RX74M(R5K574MCB4AE) CPU board (RTK0EMXFN0C00000BJ)&#10; -Inverter board : MCI-LV-1&#10; -Communication board : MC-COM&#10; -Motor : BLY171D-24V-4000&#10; -Sensor : AMT102-V&#10;&#10;[Supported QE function(s)]&#10; -SW configuration&#10; -Tuner&#10; -Analyzer&#10;&#10;[Document Number]&#10; R01AN8128EJ0100"
+			jp="[概要]&#10;RX74Mマイクロコントローラ(MCU)を使用し、永久磁石同期モータをエンコーダベクトル制御で駆動するサンプルプログラムです。&#10;&#10;[機能、対象システム]&#10; -エンコーダフィードバック&#10; -ベクトル制御&#10;&#10;[対象ハードウェア構成]&#10; -CPUボード : RX74M(R5K574MCB4AE) CPUボード (RTK0EMXFN0C00000BJ)&#10; -インバータボード : MCI-LV-1&#10; -通信ボード : MC-COM&#10; -永久磁石同期モーター : BLY171D-24V-4000&#10; -センサ : AMT102-V&#10;&#10;[サポートするQE機能]&#10; -SW configuration&#10; -Tuner&#10; -Analyzer&#10;&#10;[ドキュメント番号]&#10; R01AN8128JJ0100"
+		/>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RX74M</DeviceName>
+		<FspVersion>1.0.0</FspVersion>
+		<ProjectFolderName>RX74M_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
+		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
+		<ProjectName en="Vector Control for Permanent Magnet Synchronous Motor with Encoder (for tuning program generation)" jp="永久磁石同期モータのエンコーダベクトル制御 (チューニングプログラム作成用)" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mckmcb-rx-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with encoder software that drives permanent magnetic synchronous motor (PMSM) using the RX74M microcontroller.&#10;This project supports tuning program generation." jp="RX74Mマイクロコントローラ(MCU)を使用し、永久磁石同期モータをエンコーダベクトル制御で駆動するサンプルプログラムです。&#10;本プロジェクトはチューニングプログラムの作成に対応しています。" />
+		<Features>
+			<Feature en="Encoder feedback" jp="エンコーダフィードバック" />
+			<Feature en="Vector control" jp="ベクトル制御" />
+			<Feature en="Supports tuning program generation" jp="チューニングプログラム作成対応" />
+		</Features>
+		<Setups>
+			<Setup en="CPU board :RX74M(R5K574MCB4AE) CPU board (RTK0EMXFN0C00000BJ)" jp="CPUボード : RX74M(R5K574MCB4AE) CPUボード (RTK0EMXFN0C00000BJ)" />
+			<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1" />
+			<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM" />
+			<Setup en="Motor : BLY171D-24V-4000" jp="永久磁石同期モーター : BLY171D-24V-4000" />
+			<Setup en="Sensor : AMT102-V" jp="センサ : AMT102-V" />
+		</Setups>
+		<Functions>
+			<Function en="SW configuration" jp="SW configuration" />
+			<Function en="Tuner" jp="Tuner" />
+			<Function en="Analyzer" jp="Analyzer" />
+		</Functions>
+		<DocumentNumber en="R01AN8128EJ0100" jp="R01AN8128JJ0100" />
+		<Description
+			en="[Description]&#10;This project is the vector control with encoder software that drives permanent magnetic synchronous motor (PMSM) using the RX74M microcontroller.  This project supports tuning program generation.&#10;&#10;[Features, Target System]&#10; -Encoder feedback&#10; -Vector control&#10; -Supports tuning program generation&#10;&#10;[Hardware Setup]&#10; -CPU board :RX74M(R5K574MCB4AE) CPU board (RTK0EMXFN0C00000BJ)&#10; -Inverter board : MCI-LV-1&#10; -Communication board : MC-COM&#10; -Motor : BLY171D-24V-4000&#10; -Sensor : AMT102-V&#10;&#10;[Supported QE function(s)]&#10; -SW configuration&#10; -Tuner&#10; -Analyzer&#10;&#10;[Document Number]&#10; R01AN8128EJ0100"
+			jp="[概要]&#10;RX74Mマイクロコントローラ(MCU)を使用し、永久磁石同期モータをエンコーダベクトル制御で駆動するサンプルプログラムです。 本プロジェクトはチューニングプログラムの作成に対応しています。&#10;&#10;[機能、対象システム]&#10; -エンコーダフィードバック&#10; -ベクトル制御&#10; -チューニングプログラム作成対応&#10;&#10;[対象ハードウェア構成]&#10; -CPUボード : RX74M(R5K574MCB4AE) CPUボード (RTK0EMXFN0C00000BJ)&#10; -インバータボード : MCI-LV-1&#10; -通信ボード : MC-COM&#10; -永久磁石同期モーター : BLY171D-24V-4000&#10; -センサ : AMT102-V&#10;&#10;[サポートするQE機能]&#10; -SW configuration&#10; -Tuner&#10; -Analyzer&#10;&#10;[ドキュメント番号]&#10; R01AN8128JJ0100"
+		/>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RX74N</DeviceName>
+		<FspVersion>1.0.0</FspVersion>
+		<ProjectFolderName>RX74N_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
+		<ProjectName en="Vector Control for Permanent Magnet Synchronous Motor with Encoder" jp="永久磁石同期モータのエンコーダベクトル制御" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mckmcb-rx-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with encoder software that drives permanent magnetic synchronous motor (PMSM) using the RX74N microcontroller." jp="RX74Nマイクロコントローラ(MCU)を使用し、永久磁石同期モータをエンコーダベクトル制御で駆動するサンプルプログラムです。" />
+		<Features>
+			<Feature en="Encoder feedback" jp="エンコーダフィードバック" />
+			<Feature en="Vector control" jp="ベクトル制御" />
+		</Features>
+		<Setups>
+			<Setup en="CPU board : MCB-RX74N RX74N(R5K574NCB4BG) CPU board (RTK0EMXGP0C00000BJ)" jp="CPUボード : MCB-RX74N RX74N(R5K574NCB4BG) CPUボード (RTK0EMXGP0C00000BJ)" />
+			<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1" />
+			<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM" />
+			<Setup en="Motor : BLY171D-24V-4000" jp="永久磁石同期モーター : BLY171D-24V-4000" />
+			<Setup en="Sensor : AMT102-V" jp="センサ : AMT102-V" />
+		</Setups>
+		<Functions>
+			<Function en="SW configuration" jp="SW configuration" />
+			<Function en="Tuner" jp="Tuner" />
+			<Function en="Analyzer" jp="Analyzer" />
+		</Functions>
+		<DocumentNumber en="R01AN8128EJ0100" jp="R01AN8128JJ0100" />
+		<Description
+			en="[Description]&#10;This project is the vector control with encoder software that drives permanent magnetic synchronous motor (PMSM) using the RX74N microcontroller.&#10;&#10;[Features, Target System]&#10; -Encoder feedback&#10; -Vector control&#10;&#10;[Hardware Setup]&#10; -CPU board : MCB-RX74N RX74N(R5K574NCB4BG) CPU board (RTK0EMXGP0C00000BJ)&#10; -Inverter board : MCI-LV-1&#10; -Communication board : MC-COM&#10; -Motor : BLY171D-24V-4000&#10; -Sensor : AMT102-V&#10;&#10;[Supported QE function(s)]&#10; -SW configuration&#10; -Tuner&#10; -Analyzer&#10;&#10;[Document Number]&#10; R01AN8128EJ0100"
+			jp="[概要]&#10;RX74Nマイクロコントローラ(MCU)を使用し、永久磁石同期モータをエンコーダベクトル制御で駆動するサンプルプログラムです。&#10;&#10;[機能、対象システム]&#10; -エンコーダフィードバック&#10; -ベクトル制御&#10;&#10;[対象ハードウェア構成]&#10; -CPUボード : MCB-RX74N RX74N(R5K574NCB4BG) CPUボード (RTK0EMXGP0C00000BJ)&#10; -インバータボード : MCI-LV-1&#10; -通信ボード : MC-COM&#10; -永久磁石同期モーター : BLY171D-24V-4000&#10; -センサ : AMT102-V&#10;&#10;[サポートするQE機能]&#10; -SW configuration&#10; -Tuner&#10; -Analyzer&#10;&#10;[ドキュメント番号]&#10; R01AN8128JJ0100"
+		/>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RX74N</DeviceName>
+		<FspVersion>1.0.0</FspVersion>
+		<ProjectFolderName>RX74N_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
+		<Category en="Tuning program generation" jp="チューニングプログラム作成" />
+		<ProjectName en="Vector Control for Permanent Magnet Synchronous Motor with Encoder (for tuning program generation)" jp="永久磁石同期モータのエンコーダベクトル制御 (チューニングプログラム作成用)" />
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mckmcb-rx-family/</ApplicationNoteUrl>
+		<ProjectDescription en="This project is the vector control with encoder software that drives permanent magnetic synchronous motor (PMSM) using the RX74N microcontroller.&#10;This project supports tuning program generation." jp="RX74Nマイクロコントローラ(MCU)を使用し、永久磁石同期モータをエンコーダベクトル制御で駆動するサンプルプログラムです。&#10;本プロジェクトはチューニングプログラムの作成に対応しています。" />
+		<Features>
+			<Feature en="Encoder feedback" jp="エンコーダフィードバック" />
+			<Feature en="Vector control" jp="ベクトル制御" />
+			<Feature en="Supports tuning program generation" jp="チューニングプログラム作成対応" />
+		</Features>
+		<Setups>
+			<Setup en="CPU board : MCB-RX74N RX74N(R5K574NCB4BG) CPU board (RTK0EMXGP0C00000BJ)" jp="CPUボード : MCB-RX74N RX74N(R5K574NCB4BG) CPUボード (RTK0EMXGP0C00000BJ)" />
+			<Setup en="Inverter board : MCI-LV-1" jp="インバータボード : MCI-LV-1" />
+			<Setup en="Communication board : MC-COM" jp="通信ボード : MC-COM" />
+			<Setup en="Motor : BLY171D-24V-4000" jp="永久磁石同期モーター : BLY171D-24V-4000" />
+			<Setup en="Sensor : AMT102-V" jp="センサ : AMT102-V" />
+		</Setups>
+		<Functions>
+			<Function en="SW configuration" jp="SW configuration" />
+			<Function en="Tuner" jp="Tuner" />
+			<Function en="Analyzer" jp="Analyzer" />
+		</Functions>
+		<DocumentNumber en="R01AN8128EJ0100" jp="R01AN8128JJ0100" />
+		<Description
+			en="[Description]&#10;This project is the vector control with encoder software that drives permanent magnetic synchronous motor (PMSM) using the RX74N microcontroller.  This project supports tuning program generation.&#10;&#10;[Features, Target System]&#10; -Encoder feedback&#10; -Vector control&#10; -Supports tuning program generation&#10;&#10;[Hardware Setup]&#10; -CPU board : MCB-RX74N RX74N(R5K574NCB4BG) CPU board (RTK0EMXGP0C00000BJ)&#10; -Inverter board : MCI-LV-1&#10; -Communication board : MC-COM&#10; -Motor : BLY171D-24V-4000&#10; -Sensor : AMT102-V&#10;&#10;[Supported QE function(s)]&#10; -SW configuration&#10; -Tuner&#10; -Analyzer&#10;&#10;[Document Number]&#10; R01AN8128EJ0100"
+			jp="[概要]&#10;RX74Nマイクロコントローラ(MCU)を使用し、永久磁石同期モータをエンコーダベクトル制御で駆動するサンプルプログラムです。 本プロジェクトはチューニングプログラムの作成に対応しています。&#10;&#10;[機能、対象システム]&#10; -エンコーダフィードバック&#10; -ベクトル制御&#10; -チューニングプログラム作成対応&#10;&#10;[対象ハードウェア構成]&#10; -CPUボード : MCB-RX74N RX74N(R5K574NCB4BG) CPUボード (RTK0EMXGP0C00000BJ)&#10; -インバータボード : MCI-LV-1&#10; -通信ボード : MC-COM&#10; -永久磁石同期モーター : BLY171D-24V-4000&#10; -センサ : AMT102-V&#10;&#10;[サポートするQE機能]&#10; -SW configuration&#10; -Tuner&#10; -Analyzer&#10;&#10;[ドキュメント番号]&#10; R01AN8128JJ0100"
+		/>
+	</SampleProject>
+</ZipFile>
