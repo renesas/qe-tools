@@ -11,7 +11,7 @@
 	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
 	<ControlType en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/Packages/RA4T1_MCB2_MCILV1_RAMP_E2S_V100.zip</ZipDownloadUrl>
-	<Date>2026-10-01</Date>
+	<Date>2026-10-23</Date>
 	<SampleProject>
 		<DeviceName>RA4T1</DeviceName>
 		<FspVersion>6.6.0</FspVersion>
