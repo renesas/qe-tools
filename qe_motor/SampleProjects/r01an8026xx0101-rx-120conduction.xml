@@ -6,13 +6,13 @@
 	<SensorType en="Sensorless feedback" jp="センサレスフィードバック" />
 	<SensorType en="Hall sensor feedback" jp="ホールセンサフィードバック" />
 	<ControlType en="120-degree conducting control" jp="120 度通電制御" />
-	<ZipDownloadUrl>/document/scd/120-degree-conducting-control-permanent-magnet-synchronous-motor-mck-rev101/r01an8026xx0101-rx-120conduction.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>/document/scd/120-degree-conducting-control-permanent-magnet-synchronous-motor-mck/r01an8026xx0101-rx-120conduction.zip</ZipDownloadUrl>
 	<Date>2026-06-30</Date>
 	<SampleProject>
 		<DeviceName>RX14T</DeviceName>
 		<ProjectFolderName>RX14T_MCILV1_SPM_120_CONDUCTION_E2S_V100</ProjectFolderName>
 		<ProjectName en="120-degree Conducting Control of a Permanent Magnet Synchronous Motor" jp="永久磁石同期モータの 120 度通電制御" />
-		<ApplicationNoteUrl>/document/apn/120-degree-conducting-control-permanent-magnet-synchronous-motor-mck-rev101/</ApplicationNoteUrl>
+		<ApplicationNoteUrl>/document/apn/120-degree-conducting-control-permanent-magnet-synchronous-motor-mck/</ApplicationNoteUrl>
 		<ProjectDescription en="This project is the sample program that uses Renesas RX14T microcontroller to drive a permanent magnet synchronous motor with 120-degree conducting control." jp="RX14Tマイクロコントローラを使用し、永久磁石同期モータを120度通電制御で駆動するソフトウェアサンプルプログラムです。" />
 		<Features>
 			<Feature en="Sensorless feedback" jp="センサレスフィードバック" />
