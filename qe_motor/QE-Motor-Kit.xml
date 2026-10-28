@@ -287,6 +287,10 @@
 			<ProjectFolderName>RA8T1_MCILV1_SPM_LESS_120_E2S_V111</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6844xx0122-ra-sensorless-120.xml</ProjectUrl>
 		</Project>
+		<Project>
+			<ProjectFolderName>RA8T1_MCB_MCILV1_PM_LESS_FOC_WFS_E2S_V101</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an8230xx0110-rx-ra-sensorless-foc.xml</ProjectUrl>
+		</Project>
 	</Kit>
 	<Kit>
 		<KitName en="MCK-RA8T2 Renesas Flexible Motor Control Kit for RA8T2 MCU Group" jp="MCK-RA8T2 Renesas Flexible Motor Control Kit for RA8T2 MCU Group"/>
@@ -335,6 +339,10 @@
 		<Project>
 			<ProjectFolderName>RA8T2_MCILV1_SPM_LESS_120_E2S_V101</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6844xx0122-ra-sensorless-120.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RA8T2_MCB_MCILV1_PM_LESS_FOC_WFS_E2S_V101</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an8230xx0110-rx-ra-sensorless-foc.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
