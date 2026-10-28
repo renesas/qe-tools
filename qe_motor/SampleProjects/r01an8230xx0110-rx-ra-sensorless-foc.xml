@@ -36,7 +36,7 @@
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA6T2</DeviceName>
-		<FspVersion>6.5.1</FspVersion>
+		<FspVersion>6.5.0</FspVersion>
 		<ProjectFolderName>RA6T2_MCB2_MCILV1_PM_LESS_FOC_WFS_E2S_V101</ProjectFolderName>
 		<ProjectName en="Sensorless Vector Control of PM Motor Equipped with Flying Start" jp="PMモータのセンサレスベクトル制御 フライングスタート機能搭載" />
 		<ApplicationNoteUrl>/document/apn/sensorless-vector-control-pm-motor-equipped-flying-start-mckmcb-ra-familyrx-family/</ApplicationNoteUrl>
