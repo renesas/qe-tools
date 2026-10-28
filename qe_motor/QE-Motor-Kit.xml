@@ -140,6 +140,10 @@
 			<ProjectFolderName>RA6T2_MCB2_MCILV1_SPM_LESS_120_E2S_V101</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6844xx0122-ra-sensorless-120.xml</ProjectUrl>
 		</Project>
+		<Project>
+			<ProjectFolderName>RA6T2_MCB2_MCILV1_PM_LESS_FOC_WFS_E2S_V101</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an8230xx0110-rx-ra-sensorless-foc.xml</ProjectUrl>
+		</Project>
 	</Kit>
 	<Kit>
 		<KitName en="MCK-RA6T2 Renesas Flexible Motor Control Kit for RA6T2 MCU Group" jp="MCK-RA6T2 Renesas Flexible Motor Control Kit for RA6T2 MCU Group"/>
@@ -496,6 +500,17 @@
 			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_HALL_FOC_E2S_V101</ProjectFolderName>
 			<ProjectFolderName>RX26T_MCBC2_MCILV1_SPM_HALL_FOC_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7422xx0120-motor-hall-foc-rx.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RX26T_MCBA_MCILV1_IPM_LESS_FOC_WHOLE_E2S_V100</ProjectFolderName>
+			<ProjectFolderName>RX26T_MCBA2_MCILV1_IPM_LESS_FOC_WHOLE_E2S_V100</ProjectFolderName>
+			<ProjectFolderName>RX26T_MCBC2_MCILV1_IPM_LESS_FOC_WHOLE_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7084xx0120-rx-motor.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RX26T_MCBA2_MCILV1_PM_LESS_FOC_WFS_E2S_V101</ProjectFolderName>
+			<ProjectFolderName>RX26T_MCBC2_MCILV1_PM_LESS_FOC_WFS_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an8230xx0110-rx-ra-sensorless-foc.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
