@@ -25,12 +25,12 @@
 			<Setup en="Sensor : Not used" jp="センサ : なし" />
 		</Setups>
 		<Functions>
-			<Function en="Analyzer" jp="Analyzer" />
+			<Function en="-" jp="-" />
 		</Functions>
 		<DocumentNumber en="R01AN7084EJ0120" jp="R01AN7084JJ0120" />
 		<Description
-			en="[Description]&#10;This is the sample program that uses RX26T to drive a permanent magnet synchronous motor with vector &#10;control over the whole speed range including standstill and low speeds.&#10;&#10;[Features, Target System]&#10; -For RX26T RAM64KB Version CPU Board Version 1&#10; -Sensorless feedback&#10; -Vector control&#10;&#10;[Hardware Setup]&#10; -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A Version 1(RTK0EMXE70C00000BJ)&#10; -Inverter board : MCI-LV-1&#10; -Communication board : MC-COM&#10; -Permanent magnet synchronous motor : IS-94BZC&#10; -Sensor : Not used&#10;&#10;[Supported QE function(s)]&#10; -Analyzer&#10;&#10;[Document Number]&#10; R01AN7084EJ0120"
-			jp="[概要]&#10;RX26Tを使用し、永久磁石同期モータを停止から低速も含めて全速度域をベクトル制御で駆動するサンプルプログラムです。&#10;&#10;[機能、対象システム]&#10; -RX26T RAM64KBバージョンCPUボード Version 1対応&#10; -センサレスフィードバック&#10; -ベクトル制御&#10;&#10;[対象ハードウェア構成]&#10; -CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード MCB-RX26T Type A Version 1(RTK0EMXE70C00000BJ)&#10; -インバータボード : MCI-LV-1&#10; -通信ボード : MC-COM&#10; -永久磁石同期モータ : IS-94BZC&#10; -センサ : なし&#10;&#10;[サポートするQE機能]&#10; -Analyzer&#10;&#10;[ドキュメント番号]&#10; R01AN7084JJ0120"
+			en="[Description]&#10;This is the sample program that uses RX26T to drive a permanent magnet synchronous motor with vector &#10;control over the whole speed range including standstill and low speeds.&#10;&#10;[Features, Target System]&#10; -For RX26T RAM64KB Version CPU Board Version 1&#10; -Sensorless feedback&#10; -Vector control&#10;&#10;[Hardware Setup]&#10; -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A Version 1(RTK0EMXE70C00000BJ)&#10; -Inverter board : MCI-LV-1&#10; -Communication board : MC-COM&#10; -Permanent magnet synchronous motor : IS-94BZC&#10; -Sensor : Not used&#10;&#10;[Supported QE function(s)]&#10; NA&#10;&#10;[Document Number]&#10; R01AN7084EJ0120"
+			jp="[概要]&#10;RX26Tを使用し、永久磁石同期モータを停止から低速も含めて全速度域をベクトル制御で駆動するサンプルプログラムです。&#10;&#10;[機能、対象システム]&#10; -RX26T RAM64KBバージョンCPUボード Version 1対応&#10; -センサレスフィードバック&#10; -ベクトル制御&#10;&#10;[対象ハードウェア構成]&#10; -CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード MCB-RX26T Type A Version 1(RTK0EMXE70C00000BJ)&#10; -インバータボード : MCI-LV-1&#10; -通信ボード : MC-COM&#10; -永久磁石同期モータ : IS-94BZC&#10; -センサ : なし&#10;&#10;[サポートするQE機能]&#10; NA&#10;&#10;[ドキュメント番号]&#10; R01AN7084JJ0120"
 		/>
 	</SampleProject>
 	<SampleProject>
@@ -52,12 +52,12 @@
 			<Setup en="Sensor : Not used" jp="センサ : なし" />
 		</Setups>
 		<Functions>
-			<Function en="Analyzer" jp="Analyzer" />
+			<Function en="-" jp="-" />
 		</Functions>
 		<DocumentNumber en="R01AN7084EJ0120" jp="R01AN7084JJ0120" />
 		<Description
-			en="[Description]&#10;This is the sample program that uses RX26T to drive a permanent magnet synchronous motor with vector &#10;control over the whole speed range including standstill and low speeds.&#10;&#10;[Features, Target System]&#10; -For RX26T RAM64KB Version CPU Board Version 2&#10; -Sensorless feedback&#10; -Vector control&#10;&#10;[Hardware Setup]&#10; -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A Version 2(RTK0EMXE70C00001BJ)&#10; -Inverter board : MCI-LV-1&#10; -Communication board : MC-COM&#10; -Permanent magnet synchronous motor : IS-94BZC&#10; -Sensor : Not used&#10;&#10;[Supported QE function(s)]&#10; -Analyzer&#10;&#10;[Document Number]&#10; R01AN7084EJ0120"
-			jp="[概要]&#10;RX26Tを使用し、永久磁石同期モータを停止から低速も含めて全速度域をベクトル制御で駆動するサンプルプログラムです。&#10;&#10;[機能、対象システム]&#10; -RX26T RAM64KBバージョンCPUボード Version 2対応&#10; -センサレスフィードバック&#10; -ベクトル制御&#10;&#10;[対象ハードウェア構成]&#10; -CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード MCB-RX26T Type A Version 2(RTK0EMXE70C00001BJ)&#10; -インバータボード : MCI-LV-1&#10; -通信ボード : MC-COM&#10; -永久磁石同期モータ : IS-94BZC&#10; -センサ : なし&#10;&#10;[サポートするQE機能]&#10; -Analyzer&#10;&#10;[ドキュメント番号]&#10; R01AN7084JJ0120"
+			en="[Description]&#10;This is the sample program that uses RX26T to drive a permanent magnet synchronous motor with vector &#10;control over the whole speed range including standstill and low speeds.&#10;&#10;[Features, Target System]&#10; -For RX26T RAM64KB Version CPU Board Version 2&#10; -Sensorless feedback&#10; -Vector control&#10;&#10;[Hardware Setup]&#10; -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A Version 2(RTK0EMXE70C00001BJ)&#10; -Inverter board : MCI-LV-1&#10; -Communication board : MC-COM&#10; -Permanent magnet synchronous motor : IS-94BZC&#10; -Sensor : Not used&#10;&#10;[Supported QE function(s)]&#10; NA&#10;&#10;[Document Number]&#10; R01AN7084EJ0120"
+			jp="[概要]&#10;RX26Tを使用し、永久磁石同期モータを停止から低速も含めて全速度域をベクトル制御で駆動するサンプルプログラムです。&#10;&#10;[機能、対象システム]&#10; -RX26T RAM64KBバージョンCPUボード Version 2対応&#10; -センサレスフィードバック&#10; -ベクトル制御&#10;&#10;[対象ハードウェア構成]&#10; -CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード MCB-RX26T Type A Version 2(RTK0EMXE70C00001BJ)&#10; -インバータボード : MCI-LV-1&#10; -通信ボード : MC-COM&#10; -永久磁石同期モータ : IS-94BZC&#10; -センサ : なし&#10;&#10;[サポートするQE機能]&#10; NA&#10;&#10;[ドキュメント番号]&#10; R01AN7084JJ0120"
 		/>
 	</SampleProject>
 	<SampleProject>
@@ -79,12 +79,12 @@
 			<Setup en="Sensor : Not used" jp="センサ : なし" />
 		</Setups>
 		<Functions>
-			<Function en="Analyzer" jp="Analyzer" />
+			<Function en="-" jp="-" />
 		</Functions>
 		<DocumentNumber en="R01AN7084EJ0120" jp="R01AN7084JJ0120" />
 		<Description
-			en="[Description]&#10;This is the sample program that uses RX26T to drive a permanent magnet synchronous motor with vector &#10;control over the whole speed range including standstill and low speeds.&#10;&#10;[Features, Target System]&#10; -For RX26T RAM48KB Version CPU Board Version 2&#10; -Sensorless feedback&#10; -Vector control&#10;&#10;[Hardware Setup]&#10; -CPU board : RX26T RAM48KB version (R5F526TACDFM) CPU board MCB-RX26T Type C Version 2(RTK0EMXE30C00001BJ)&#10; -Inverter board : MCI-LV-1&#10; -Communication board : MC-COM&#10; -Permanent magnet synchronous motor : IS-94BZC&#10; -Sensor : Not used&#10;&#10;[Supported QE function(s)]&#10; -Analyzer&#10;&#10;[Document Number]&#10; R01AN7084EJ0120"
-			jp="[概要]&#10;RX26Tを使用し、永久磁石同期モータを停止から低速も含めて全速度域をベクトル制御で駆動するサンプルプログラムです。&#10;&#10;[機能、対象システム]&#10; -RX26T RAM48KBバージョンCPUボード Version 2対応&#10; -センサレスフィードバック&#10; -ベクトル制御&#10;&#10;[対象ハードウェア構成]&#10; -CPUボード : RX26T RAM48KBバージョン(R5F526TACDFM) CPUボード MCB-RX26T Type C Version 2(RTK0EMXE30C00001BJ)&#10; -インバータボード : MCI-LV-1&#10; -通信ボード : MC-COM&#10; -永久磁石同期モータ : IS-94BZC&#10; -センサ : なし&#10;&#10;[サポートするQE機能]&#10; -Analyzer&#10;&#10;[ドキュメント番号]&#10; R01AN7084JJ0120"
+			en="[Description]&#10;This is the sample program that uses RX26T to drive a permanent magnet synchronous motor with vector &#10;control over the whole speed range including standstill and low speeds.&#10;&#10;[Features, Target System]&#10; -For RX26T RAM48KB Version CPU Board Version 2&#10; -Sensorless feedback&#10; -Vector control&#10;&#10;[Hardware Setup]&#10; -CPU board : RX26T RAM48KB version (R5F526TACDFM) CPU board MCB-RX26T Type C Version 2(RTK0EMXE30C00001BJ)&#10; -Inverter board : MCI-LV-1&#10; -Communication board : MC-COM&#10; -Permanent magnet synchronous motor : IS-94BZC&#10; -Sensor : Not used&#10;&#10;[Supported QE function(s)]&#10; NA&#10;&#10;[Document Number]&#10; R01AN7084EJ0120"
+			jp="[概要]&#10;RX26Tを使用し、永久磁石同期モータを停止から低速も含めて全速度域をベクトル制御で駆動するサンプルプログラムです。&#10;&#10;[機能、対象システム]&#10; -RX26T RAM48KBバージョンCPUボード Version 2対応&#10; -センサレスフィードバック&#10; -ベクトル制御&#10;&#10;[対象ハードウェア構成]&#10; -CPUボード : RX26T RAM48KBバージョン(R5F526TACDFM) CPUボード MCB-RX26T Type C Version 2(RTK0EMXE30C00001BJ)&#10; -インバータボード : MCI-LV-1&#10; -通信ボード : MC-COM&#10; -永久磁石同期モータ : IS-94BZC&#10; -センサ : なし&#10;&#10;[サポートするQE機能]&#10; NA&#10;&#10;[ドキュメント番号]&#10; R01AN7084JJ0120"
 		/>
 	</SampleProject>
 </ZipFile>
