@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="https://renesas.github.io/qe-tools/qe_motor/BoardHardwareInfo/style.css" type="text/css">
+  <meta name="title" content="Kit information">
+  <title>Kit information</title>
+</head>
+
+<body>
+
+  <h3>
+    <p>MCK-RA4T1 Renesas Flexible Motor Control Kit for RA4T1 MCU Group Version 2</p>
+    <p>RTK0EMA430S00021BJ</p>
+  </h3>
+
+  <table style="border:none;" cellpadding="5">
+    <tr>
+      <td>
+        <p>
+          <img src="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCK-RA4T1_V2.png"
+            style="width:6cm" />
+        </p>
+      </td>
+      <td style="border:none;">
+        <p style="font-size:100%;">
+          MCK-RA4T1は永久磁石同期モータ(ブラシレスDCモータ)を使ったモータ制御の評価を簡単に行うことができる開発キットです。
+          本製品と、ウェブサイトからダウンロードできるサンプルコードや
+          <a href="https://www.renesas.com/ja/software-tool/qe-motor-development-assistance-tool-motor-applications"
+            target="_blank">QE for Motor</a>
+          を使うことで、
+          <a href="https://www.renesas.com/ja/products/ra4t1"
+            target="_blank">RA4T1</a>
+          を用いたモータ制御評価をすぐに始めることができます。
+        </p>
+        <p style="font-size:100%;">
+        <div class="wrapper">
+          <div class="btn linkbtn">
+            <a href="https://www.renesas.com/ja/design-resources/boards-kits/mck-ra4t1"
+              target="_blank">製品情報</a>
+          </div>
+          <div class="btn linkbtn">
+            <a href="https://www.renesas.com/ja/design-resources/boards-kits/mck-ra4t1#parametric_options"
+              target="_blank">ご購入</a>
+          </div>
+        </div>
+        </p>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <h6>サンプルプログラム使用時の注意事項</h6>
+  <p style="font-size:100%;">
+  <ul>
+    本キットでサンプルプログラムを動作させる場合、プログラムによってはハードウェアの構成を変更する必要があります。「ハードウェア構成」および各サンプルプログラムのアプリケーションノートを参照してハードウェアの構成を確認してください。
+  </ul>
+  </p>
+
+  <h4>ハードウェア構成</h4>
+  <p style="font-size:100%;">
+  <ul>
+    <p>
+      <img
+        src="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/Images/MCKRA4T1_HW_j.png"
+        style="width:15cm" />
+    </p>
+    <br>
+    動作させるサンプルプログラムのモータ制御方式により、ハードウェアの構成をMCK-RA4T1の同梱品から変更してください。
+    <br>
+    <table class="hwsetup">
+      <thead>
+        <tr class="setuphead">
+          <th class="header-space"></th>
+          <th width="180">永久磁石同期モータの<br>センサレスベクトル制御</th>
+          <th width="200">永久磁石同期モータの<br>ホールセンサ利用ベクトル制御</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="setuphead">CPUボード</td>
+          <td colspan="2">
+            <a href="https://www.renesas.com/ja/design-resources/boards-kits/mcb-ra4t1"
+              target="_blank">
+              MCB-RA4T1
+            </a>
+            <p>RA4T1(R7FA4T1BB3CFM) CPUボード (*1)</p>
+            <p>Version 2 RTK0EMA430C00001BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">インバータボード</td>
+          <td colspan="2">
+            <p>
+              <a href="https://www.renesas.com/ja/design-resources/boards-kits/mci-lv-1"
+                target="_blank">
+                MCI-LV-1
+              </a>
+              (*1)
+            </p>
+            <p>RTK0EM0000S04020BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">通信ボード</td>
+          <td colspan="2">
+            <p>
+              <a href="https://www.renesas.com/ja/design-resources/boards-kits/mc-com"
+                target="_blank">
+                MC-COM
+              </a>
+              (*1)
+            </p>
+            <p>RTK0EMXC90S00000BJ</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">永久磁石同期モータ</td>
+          <td colspan="2">
+            <p>
+              R42BLD30L3 (*1)(*2)
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="setuphead">センサ</td>
+          <td>使用しません</td>
+          <td>モータに内蔵</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>*1: MCK-RA4T1 Version 2同梱品</p>
+    <p>*2: R42BLD30L3 は、MOONS’社の製品です。</p>
+    <br>
+  </ul>
+  </p>
+
+  <h4>製品仕様</h4>
+  <p style="font-size:100%;">
+  <ul>
+    <h5>MCK-RA4T1 Version 2</h5>
+    <ul>
+      <li>CPUボードにはモータ制御MCUとしてRA4T1を搭載</li>
+      <li>3相BLDCモータ用インバータボード(定格48V/10A)</li>
+      <li>RA4T1のフラッシュプログラミング用オンボードデバッガ搭載</li>
+      <li>1シャント/3シャント電流検出対応</li>
+      <li>過電流検知機能搭載</li>
+      <li>高電圧インバータボード対応</li>
+      <li>モータ制御開発支援ツールRenesas Motor Workbenchに対応(
+        <a href="https://www.renesas.com/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23t-rx24t-rssk"
+          target="_blank"> Renesas Motor Workbenchの使い方の紹介ページ(ビデオ集を含む)</a>
+        )
+      </li>
+      <li>モータ制御開発支援ツール用の通信ボードを使ってPCと電気的に絶縁し、安全にモータ制御の評価、デバッグを行うことが可能</li>
+      <li>ホールセンサ、エンコーダ、誘導式位置センサ入力対応</li>
+      <li>同梱品</li>
+      <ul>
+        <li>RA4T1 CPUボード
+          <a href="https://www.renesas.com/ja/design-resources/boards-kits/mcb-ra4t1"
+            target="_blank">(MCB-RA4T1)</a>
+        </li>
+        <li>インバータボード
+          <a href="https://www.renesas.com/ja/design-resources/boards-kits/mci-lv-1"
+            target="_blank">(MCI-LV-1)</a>
+        </li>
+        <li>通信ボード
+          <a href="https://www.renesas.com/ja/design-resources/boards-kits/mc-com"
+            target="_blank">(MC-COM)</a>
+        </li>
+        <li>永久磁石同期モータ</li>
+        <li>アクセサリ (ケーブル、スペーサなど)</li>
+      </ul>
+    </ul>
+  </ul>
+  </p>
+
+  <h4>関連情報</h4>
+  <ul>
+    <h5>マイクロコンピュータ</h5>
+    <ul><a
+        href="https://www.renesas.com/ja/products/ra4t1"
+        target="_blank">RA4T1 RA4シリーズ 100MHz Arm® Cortex®-M33 モータ制御用マイクロコントローラ</a></ul>
+    <h5>ボード＆キット</h5>
+    <ul><a
+        href="https://www.renesas.com/ja/design-resources/boards-kits/mck-ra4t1#overview"
+        target="_blank">MCK-RA4T1 Renesas Flexible Motor Control Kit for RA4T1 MCU Group</a></ul>
+    <h5>開発ツール</h5>
+    <ul><a href="https://www.renesas.com/ja/software-tool/renesas-motor-workbench" target="_blank">Renesas Motor
+        Workbench</a></ul>
+    <h5>ソリューション</h5>
+    <ul><a
+        href="https://www.renesas.com/ja/key-technologies/motor-control"
+        target="_blank">ルネサス モータ・インバータ制御ソリューション</a></ul>
+  </ul>
+
+  <h4>ドキュメント</h4>
+  <ul>
+    <h5>マイクロコンピュータ</h5>
+    <ul><a href="https://www.renesas.com/ja/document/dst/ra4t1-group-datasheet" target="_blank">RA4T1 グループ データシート</a>
+    </ul>
+    <ul><a href="https://www.renesas.com/ja/document/mah/ra4t1-group-users-manual-hardware" target="_blank">RA4T1
+        グループ ユーザーズマニュアル ハードウェア編</a></ul>
+    <h5>ボード＆キット</h5>
+    <ul><a href="https://www.renesas.com/ja/document/mat/mck-ra4t1-evaluation-kit-manual" target="_blank">MCK-RA4T1
+        ユーザーズマニュアル</a></ul>
+    <ul><a href="https://www.renesas.com/ja/document/qsg/mck-ra4t1-quick-start-guide" target="_blank">MCK-RA4T1
+        クイックスタートガイド</a></ul>
+    <h5>開発ツール</h5>
+    <ul><a
+        href="https://www.renesas.com/ja/document/qsg/motor-control-development-support-tool-renesas-motor-workbench-332-quick-start-guide"
+        target="_blank">モータ制御開発支援ツール Renesas Motor Workbench クイックスタートガイド</a></ul>
+    <ul><a
+        href="https://www.renesas.com/ja/document/mat/motor-control-development-support-tool-renesas-motor-workbench-332-users-manual"
+        target="_blank">モータ制御開発支援ツール Renesas Motor Workbench ユーザーズマニュアル</a></ul>
+    <h5>ソリューション</h5>
+    <ul><a href="https://www.renesas.com/ja/document/bro/motor-solution-brochure" target="_blank">ルネサス
+        モータソリューションカタログ</a></ul>
+  </ul>
+  <br>
+  <hr>
+  <br>
+</body>
+
+</html>
