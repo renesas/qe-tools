@@ -14,7 +14,7 @@
 			<DeviceSeriesName>RA4</DeviceSeriesName>
 			<Device>
 				<DeviceName>RA4T1</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/RA4T1_MCILV1_RAMP_E2S_V100.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/RA4T1_MCB2_MCILV1_RAMP_E2S_V100.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6466xx0132-ra-hall-foc.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6840xx0122-ra-sensorless-foc-1shunt.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6841xx0123-ra-encoder-foc.xml</ProjectUrl>
@@ -52,7 +52,7 @@
 			</Device>
 			<Device>
 				<DeviceName>RA6T3</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/RA6T3_MCILV1_RAMP_E2S_V100.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/RA6T3_MCB2_MCILV1_RAMP_E2S_V100.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6466xx0132-ra-hall-foc.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6840xx0122-ra-sensorless-foc-1shunt.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6841xx0123-ra-encoder-foc.xml</ProjectUrl>
