@@ -13,7 +13,8 @@
                         "module.middleware.motor_sensor_on_motor_sensor_bemf",
                         "module.middleware.motor_sensor_on_motor_sensor_hall"
                     ],
-                    "url": "https://raw.githubusercontent.com/renesas/qe-tools/refs/heads/main/qe_motor/RampPropertyInfo/rampPropertyInfo_fsp6.6.0_v0.0.2.json"
+                    "propertyInfoUrl": "https://raw.githubusercontent.com/renesas/qe-tools/refs/heads/main/qe_motor/RampPropertyInfo/rampPropertyInfo_fsp6.6.0_v0.0.2.json",
+                    "scriptUrl": "https://raw.githubusercontent.com/renesas/qe-tools/refs/heads/main/qe_motor/RampPythonScript/changeControlMethodRampProject_v0.0.1.py"
                 }
             ]
         }
