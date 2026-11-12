@@ -19,6 +19,19 @@
 		</Project>
 	</Kit>
 	<Kit>
+		<KitName en="MCK-RA4T1 Renesas Flexible Motor Control Kit for RA4T1 MCU Group Version 2" jp="MCK-RA4T1 Renesas Flexible Motor Control Kit for RA4T1 MCU Group Version 2"/>
+		<DeviceName>RA4T1</DeviceName>
+		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCK-RA4T1_V2.png</KitImageUrl>
+		<Keyword>RA4T1</Keyword>
+		<KitDescription en="The MCK-RA4T1 Version 2 is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="MCK-RA4T1 Version 2は、永久磁石同期モータ(ブラシレスDCモータ)を用いたモータ制御を簡単に評価できる開発キットです。"/>
+		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモータ（R42BLD30L3）"/>
+		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/MCK-RA4T1-V2-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/MCK-RA4T1-V2-HardwareInfo.html" />
+		<Project>
+			<ProjectFolderName>RA4T1_MCB2_MCILV1_RAMP_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/RA4T1_MCB2_MCILV1_RAMP_E2S_V100.xml</ProjectUrl>
+		</Project>
+	</Kit>
+	<Kit>
 		<KitName en="MCK-RA4T1 Renesas Flexible Motor Control Kit for RA4T1 MCU Group" jp="MCK-RA4T1 Renesas Flexible Motor Control Kit for RA4T1 MCU Group"/>
 		<DeviceName>RA4T1</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCK-RA4T1.png</KitImageUrl>
@@ -196,6 +209,19 @@
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_120_E2S_V121</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an6844xx0122-ra-sensorless-120.xml</ProjectUrl>
+		</Project>
+	</Kit>
+	<Kit>
+		<KitName en="MCK-RA6T3 Renesas Flexible Motor Control Kit for RA6T3 MCU Group Version 2" jp="MCK-RA6T3 Renesas Flexible Motor Control Kit for RA6T3 MCU Group Version 2"/>
+		<DeviceName>RA6T3</DeviceName>
+		<KitImageUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardPictures/MCK-RA6T3_V2.png</KitImageUrl>
+		<Keyword>RA6T3</Keyword>
+		<KitDescription en="The MCK-RA6T3 Version 2 is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="MCK-RA6T3 Version 2は、永久磁石同期モータ(ブラシレスDCモータ)を用いたモータ制御を簡単に評価できる開発キットです。"/>
+		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモータ（R42BLD30L3）"/>
+		<HardwareInfo en="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/en/MCK-RA6T3-V2-HardwareInfo.html" jp="https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/BoardHardwareInfo/jp/MCK-RA6T3-V2-HardwareInfo.html" />
+		<Project>
+			<ProjectFolderName>RA6T3_MCB2_MCILV1_RAMP_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/RA6T3_MCB2_MCILV1_RAMP_E2S_V100.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
