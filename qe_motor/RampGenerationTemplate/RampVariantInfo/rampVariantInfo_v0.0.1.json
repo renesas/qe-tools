@@ -1,0 +1,11 @@
+{
+  "variantData": [
+    {
+      "variantSchema":  { "major": 1, "minorMin": 0, "minorMax": 0 },
+      "registrySchema": { "major": 1, "minorMin": 0, "minorMax": 0 },
+      "scriptUrl": "https://raw.githubusercontent.com/renesas/qe-tools/refs/heads/main/qe_motor/RampPythonScript/GenerateVariantConfigurationFile_v0.0.1.py",
+      "variantTemplateUrl":  "https://raw.githubusercontent.com/renesas/qe-tools/refs/heads/main/qe_motor/RampGenerationTemplate/ramp_variant_config.h.v1.tmpl",
+      "registryTemplateUrl": "https://raw.githubusercontent.com/renesas/qe-tools/refs/heads/main/qe_motor/RampGenerationTemplate/ramp_instance_registry.c.v1.tmpl"
+    }
+  ]
+}
